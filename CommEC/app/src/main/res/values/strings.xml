@@ -1,5 +1,32 @@
 <resources>
-    <string name="app_name">CommEC</string>
+    <string name="app_name">兜兜平台</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_search">搜寻</string>
+    <string name="tab_cart">购物车</string>
+    <string name="tab_me">个人</string>
+
+    <!-- Sign in -->
+    <string name="signin_enter_account">请输入手机号码</string>
+    <string name="signin_enter_pwd">请输入密码</string>
+    <string name="signin_tv_forget_pwd">忘记密码</string>
+    <string name="signin_btn_signin">登入</string>
+    <string name="signin_btn_signup">我要注册</string>
+
+    <!-- Sign up -->
+    <string name="signup_enter_account">请输入手机号码</string>
+    <string name="signup_btn_send_code">发送验证码</string>
+    <string name="signup_enter_code">请输入验证码</string>
+    <string name="signup_enter_code_confirm">确认验证码</string>
+    <string name="signup_txt_countdown">后可重发验证码</string>
+    <string name="signup_enter_pwd_setting">请设定密码</string>
+    <string name="signup_enter_pwd_setting_confirm">再次确认密码</string>
+    <string name="signup_btn_signup">注册</string>
+    <string name="signup_txt_signup_success">注册成功！</string>
+    <string name="signup_btn_go_shopping">开始购物</string>
+    <string name="iv2">iv1</string>
+
 </resources>

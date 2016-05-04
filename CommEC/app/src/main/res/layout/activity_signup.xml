@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibtn_signup_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_ddou_return_space"
+        android:layout_marginTop="@dimen/common_ddou_return_space"
+        android:background="@drawable/selector_btn_return_signup"
+        android:contentDescription="return"/>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_ddou_icon_bottom_space"
+        android:layout_marginTop="@dimen/common_ddou_icon_top_space"
+        android:src="@mipmap/img_logo"/>
+
+    <LinearLayout
+        android:id="@+id/ll_signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_logo"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_signup_account"
+            android:layout_width="@dimen/signup_item_w"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/img_square"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_signup_account"
+                android:layout_width="@dimen/signup_et_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/signup_txt_left_space"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/signup_enter_account"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/color_9b9b9b"
+                android:textSize="@dimen/signup_txt_sp"/>
+
+            <ImageView
+                android:id="@+id/iv_account_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/signup_iv_check_right_space"
+                android:src="@mipmap/img_confirm"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_signup_code"
+            android:layout_width="@dimen/signup_item_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signup_space_sp"
+            android:background="@mipmap/img_square"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_signup_code"
+                android:layout_width="@dimen/signup_et_w"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/signup_txt_left_space"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/signup_enter_code"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/color_9b9b9b"
+                android:textSize="@dimen/signup_txt_sp"/>
+
+            <ImageView
+                android:id="@+id/iv_code_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/signup_iv_check_right_space"
+                android:src="@mipmap/img_confirm"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_signup_pwd_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_pwd_setting"
+                android:layout_width="@dimen/signup_item_w"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/signup_space_sp"
+                android:background="@mipmap/img_square"
+                android:gravity="center_vertical"
+                >
+
+                <EditText
+                    android:id="@+id/et_signup_pwd_setting"
+                    android:layout_width="@dimen/signup_et_pwd_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/signup_txt_left_space"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/signup_enter_pwd_setting"
+                    android:inputType="textAutoComplete"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/color_9b9b9b"
+                    android:textSize="@dimen/signup_txt_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_pwd_confirm"
+                android:layout_width="@dimen/signup_item_w"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/signup_space_sp"
+                android:background="@mipmap/img_square"
+                android:gravity="center_vertical"
+                >
+
+                <EditText
+                    android:id="@+id/et_signup_pwd_setting_confirm"
+                    android:layout_width="@dimen/signup_et_pwd_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/signup_txt_left_space"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="@string/signup_enter_pwd_setting_confirm"
+                    android:inputType="textAutoComplete"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/color_9b9b9b"
+                    android:textSize="@dimen/signup_txt_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_signup_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/signup_space_sp"
+            android:background="@mipmap/btn_orange"
+            android:text="@string/signup_btn_send_code"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signup_btn_txt_sp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_signup_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signup_space_sp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_signup_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/signup_txt_countdown_sp"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/signup_txt_countdown"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/signup_txt_countdown_sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_signup_success"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_logo"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_signup_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/signup_txt_signup_success"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/signup_txt_signup_success_sp"/>
+
+        <Button
+            android:id="@+id/btn_signup_go_shopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/signup_space_sp"
+            android:background="@mipmap/btn_orange"
+            android:text="@string/signup_btn_go_shopping"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signup_btn_txt_sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
