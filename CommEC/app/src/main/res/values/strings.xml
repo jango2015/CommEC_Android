@@ -25,10 +25,24 @@
     <string name="signup_enter_pwd_setting">请设定密码</string>
     <string name="signup_enter_pwd_setting_confirm">再次确认密码</string>
     <string name="signup_txt_agree">我已阅读并同意</string>
-    <string name="signup_txt_policy">《兜兜社区平台用户注册协议》</string>
+    <string name="signup_txt_policy_left">《</string>
+    <string name="signup_txt_policy">兜兜社区平台用户注册协议</string>
+    <string name="signup_txt_policy_right">》</string>
     <string name="signup_btn_signup">注册</string>
     <string name="signup_txt_signup_success">注册成功！</string>
     <string name="signup_btn_go_shopping">开始体验</string>
     <string name="iv2">iv1</string>
+
+    <!-- Home -->
+    <string name="home_header_location">定位点</string>
+    <string name="home_header_title">QQ社区</string>
+    <string name="home_category">精选分类</string>
+    <string name="home_category_1">生活服务</string>
+    <string name="home_category_2">综合专卖</string>
+    <string name="home_category_3">超商便利</string>
+    <string name="home_category_4">美发丽人</string>
+    <string name="home_category_5">餐饮外卖</string>
+    <string name="home_category_6">生鲜水果</string>
+    <string name="home_community">社区商品</string>
 
 </resources>

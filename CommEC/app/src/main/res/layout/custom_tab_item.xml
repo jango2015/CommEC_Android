@@ -14,7 +14,7 @@
     <TextView
         android:id="@+id/tv_tab_txt"
         android:layout_marginTop="2dp"
-        android:textSize="14sp"
+        android:textSize="@dimen/tab_txt_sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TabTxt"

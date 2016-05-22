@@ -4,11 +4,21 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="color_E3E3E3">#E3E3E3</color>
     <!-- Tab -->
     <color name="color_606469">#606469</color>
     <color name="color_e96d1f">#e96d1f</color>
+    <color name="color_f2f0f0">#f2f0f0</color>
 
     <!-- Sign in -->
     <color name="color_9b9b9b">#9b9b9b</color>
+
+    <!-- Sign up -->
+    <color name="color_4a90e2">#4a90e2</color>
+
+    <!-- Home -->
+    <color name="color_4a4a4a">#4a4a4a</color>
+    <color name="color_191919">#191919</color>
+    <color name="color_ec6c00">#ec6c00</color>
 
 </resources>

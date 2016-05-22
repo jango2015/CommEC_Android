@@ -136,9 +136,9 @@ public class MainActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View view = null;
             if (mPage == 1) {
-                view = inflater.inflate(R.layout.fragment_main, container, false);
-                TextView textView = (TextView) view.findViewById(R.id.section_label);
-                textView.setText("Home");
+                view = inflater.inflate(R.layout.activity_home, container, false);
+//                TextView textView = (TextView) view.findViewById(R.id.section_label);
+//                textView.setText("Home");
 
             } else if (mPage == 2) {
                 view = inflater.inflate(R.layout.fragment_main, container, false);

@@ -181,13 +181,38 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textSize="@dimen/signup_txt_agree_sp"/>
 
-                <TextView
-                    android:id="@+id/txt_signup_policy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/signup_txt_policy"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textSize="@dimen/signup_txt_agree_sp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/signup_txt_policy_left"
+                        android:id="@+id/textView3"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/signup_txt_agree_sp"/>
+
+                    <TextView
+                        android:id="@+id/txt_signup_policy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_txt_policy"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/signup_txt_agree_sp"
+                        android:textColor="@color/color_4a90e2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/signup_txt_policy_right"
+                        android:id="@+id/textView4"
+                        android:textSize="@dimen/signup_txt_agree_sp"/>
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
 

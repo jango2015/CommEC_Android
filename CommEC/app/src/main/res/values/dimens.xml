@@ -10,6 +10,7 @@
     <dimen name="common_ddou_return_top_space">23dp</dimen>
     <dimen name="common_ddou_icon_top_space">40dp</dimen>
     <dimen name="common_ddou_icon_bottom_space">60dp</dimen>
+    <dimen name="tab_txt_sp">10sp</dimen>
 
     <!-- Sign in -->
     <dimen name="signin_et_sp">21.3sp</dimen>
@@ -52,5 +53,30 @@
     <dimen name="signup_txt_signup_success_sp">24sp</dimen>
     <dimen name="signup_space_sp">26.7dp</dimen>
     <dimen name="signup_txt_countdown_sp">16sp</dimen>
+
+    <!-- Home -->
+    <dimen name="home_txt_header_title_sp">21.3sp</dimen>
+    <dimen name="home_txt_header_location_sp">16sp</dimen>
+    <dimen name="home_txt_header_location_left_space">16.7dp</dimen>
+    <dimen name="home_txt_header_location_right_space">5dp</dimen>
+    <dimen name="home_txt_header_message_right_space">16.7dp</dimen>
+
+    <dimen name="home_vp_ad_h">120dp</dimen>
+
+    <dimen name="home_category_line_h1_left_space">120dp</dimen>
+    <dimen name="home_category_line_h2_right_space">120dp</dimen>
+    <dimen name="home_category_title_sp">10.7sp</dimen>
+    <dimen name="home_category_item_sp">16sp</dimen>
+    <dimen name="home_category_top_space">6.7dp</dimen>
+    <dimen name="home_category_bottom_space">6.7dp</dimen>
+    <dimen name="home_category_btn_h">33dp</dimen>
+
+    <dimen name="home_community_iv_photo_w">160dp</dimen>
+    <dimen name="home_community_iv_photo_h">160dp</dimen>
+    <dimen name="home_community_txt_title_sp">12sp</dimen>
+    <dimen name="home_community_txt_title_top_space">10dp</dimen>
+    <dimen name="home_community_txt_left_space">6.7dp</dimen>
+    <dimen name="home_community_txt_price_bottom_space">3.3dp</dimen>
+    <dimen name="home_community_txt_price_sp">12sp</dimen>
 
 </resources>
