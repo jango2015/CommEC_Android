@@ -9,8 +9,8 @@
         android:id="@+id/ibtn_signup_return"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/common_ddou_return_space"
-        android:layout_marginTop="@dimen/common_ddou_return_space"
+        android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+        android:layout_marginTop="@dimen/common_ddou_return_top_space"
         android:background="@drawable/selector_btn_return_signup"
         android:contentDescription="return"/>
 
@@ -29,7 +29,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/iv_logo"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="visible">
 
         <RelativeLayout
             android:id="@+id/rl_signup_account"
@@ -57,7 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/signup_iv_check_right_space"
-                android:src="@mipmap/img_confirm"/>
+                android:src="@mipmap/img_confirm"
+                android:visibility="invisible"/>
 
         </RelativeLayout>
 
@@ -67,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/signup_space_sp"
             android:background="@mipmap/img_square"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:visibility="gone">
 
             <EditText
                 android:id="@+id/et_signup_code"
@@ -88,7 +91,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/signup_iv_check_right_space"
-                android:src="@mipmap/img_confirm"/>
+                android:src="@mipmap/img_confirm"
+                android:visibility="invisible"/>
 
         </RelativeLayout>
 
@@ -97,7 +101,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <LinearLayout
                 android:id="@+id/ll_pwd_setting"
@@ -143,6 +148,46 @@
                     android:textColor="@android:color/black"
                     android:textColorHint="@color/color_9b9b9b"
                     android:textSize="@dimen/signup_txt_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_agree"
+            android:layout_width="@dimen/signup_item_w"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/signin_agree_top_space"
+            android:visibility="gone">
+
+            <CheckBox
+                android:id="@+id/signup_cb_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/signup_cb_right_space"
+                android:button="@drawable/selector_cb_check"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_signup_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_txt_agree"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/signup_txt_agree_sp"/>
+
+                <TextView
+                    android:id="@+id/txt_signup_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_txt_policy"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/signup_txt_agree_sp"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -193,7 +238,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/iv_logo"
-        android:gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal"
         android:orientation="vertical"
         android:visibility="gone">
 
@@ -205,7 +250,8 @@
             android:text="@string/signup_txt_signup_success"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/signup_txt_signup_success_sp"/>
+            android:textSize="@dimen/signup_txt_signup_success_sp"
+            android:layout_marginTop="@dimen/common_ddou_icon_bottom_space"/>
 
         <Button
             android:id="@+id/btn_signup_go_shopping"

@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="@dimen/common_ddou_return_space"
-        android:layout_marginTop="@dimen/common_ddou_return_space"
+        android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+        android:layout_marginTop="@dimen/common_ddou_return_top_space"
         android:background="@drawable/selector_btn_return_signin"
         android:contentDescription="return"/>
 

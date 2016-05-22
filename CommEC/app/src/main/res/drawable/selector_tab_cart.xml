@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:state_selected="false" android:drawable="@mipmap/icon_shoppingcar" />
-    <item android:state_selected="true" android:drawable="@mipmap/icon_shoppingcar_s" />
+    <item android:state_selected="false" android:drawable="@mipmap/tab_btn_shopping_car_default" />
+    <item android:state_selected="true" android:drawable="@mipmap/tab_btn_shopping_car_select" />
 
 </selector>

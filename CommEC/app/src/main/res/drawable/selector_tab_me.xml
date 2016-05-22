@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:state_selected="false" android:drawable="@mipmap/icon_personal" />
-    <item android:state_selected="true" android:drawable="@mipmap/icon_personal_s" />
+    <item android:state_selected="false" android:drawable="@mipmap/tab_btn_personal_default" />
+    <item android:state_selected="true" android:drawable="@mipmap/tab_btn_personal_select" />
 
 </selector>

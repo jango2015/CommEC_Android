@@ -24,9 +24,11 @@
     <string name="signup_txt_countdown">后可重发验证码</string>
     <string name="signup_enter_pwd_setting">请设定密码</string>
     <string name="signup_enter_pwd_setting_confirm">再次确认密码</string>
+    <string name="signup_txt_agree">我已阅读并同意</string>
+    <string name="signup_txt_policy">《兜兜社区平台用户注册协议》</string>
     <string name="signup_btn_signup">注册</string>
     <string name="signup_txt_signup_success">注册成功！</string>
-    <string name="signup_btn_go_shopping">开始购物</string>
+    <string name="signup_btn_go_shopping">开始体验</string>
     <string name="iv2">iv1</string>
 
 </resources>
