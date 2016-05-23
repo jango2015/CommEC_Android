@@ -45,4 +45,19 @@
     <string name="home_category_6">生鲜水果</string>
     <string name="home_community">社区商品</string>
 
+    <!-- Home -->
+    <string name="personal_header_signinup">登入/注册</string>
+
+    <string name="personal_order_my_order">我的订单</string>
+    <string name="personal_order_all_order">查看全部订单</string>
+    <string name="personal_order_waiting_pay">待付款</string>
+    <string name="personal_order_waiting_send">待发货</string>
+    <string name="personal_order_waiting_receive">待收货</string>
+    <string name="personal_order_waiting_rate">待评价</string>
+    <string name="personal_order_waiting_refund">退款/售后</string>
+
+    <string name="personal_wallet">我的钱包</string>
+    <string name="personal_wallet_balance">余额：</string>
+    <string name="personal_wallet_detail">交易明细</string>
+
 </resources>

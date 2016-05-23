@@ -67,10 +67,10 @@
             android:id="@+id/rl_signup_code"
             android:layout_width="@dimen/signup_item_w"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/signup_space_sp"
+            android:layout_marginTop="@dimen/signup_common_space"
             android:background="@mipmap/img_square"
             android:gravity="center_vertical"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <EditText
                 android:id="@+id/et_signup_code"
@@ -102,13 +102,13 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <LinearLayout
                 android:id="@+id/ll_pwd_setting"
                 android:layout_width="@dimen/signup_item_w"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/signup_space_sp"
+                android:layout_marginTop="@dimen/signup_common_space"
                 android:background="@mipmap/img_square"
                 android:gravity="center_vertical"
                 >
@@ -131,7 +131,7 @@
                 android:id="@+id/ll_pwd_confirm"
                 android:layout_width="@dimen/signup_item_w"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/signup_space_sp"
+                android:layout_marginTop="@dimen/signup_common_space"
                 android:background="@mipmap/img_square"
                 android:gravity="center_vertical"
                 >
@@ -158,7 +158,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:orientation="horizontal"
             android:layout_marginTop="@dimen/signin_agree_top_space"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <CheckBox
                 android:id="@+id/signup_cb_agree"
@@ -221,7 +221,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/signup_space_sp"
+            android:layout_marginTop="@dimen/signup_common_space"
             android:background="@mipmap/btn_orange"
             android:text="@string/signup_btn_send_code"
             android:textColor="@android:color/white"
@@ -231,7 +231,7 @@
             android:id="@+id/ll_signup_countdown"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/signup_space_sp"
+            android:layout_marginTop="@dimen/signup_common_space"
             android:gravity="center_horizontal"
             android:orientation="horizontal"
             android:visibility="gone">
@@ -283,7 +283,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/signup_space_sp"
+            android:layout_marginTop="@dimen/signup_common_space"
             android:background="@mipmap/btn_orange"
             android:text="@string/signup_btn_go_shopping"
             android:textColor="@android:color/white"

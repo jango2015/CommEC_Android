@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="color_E3E3E3">#E3E3E3</color>
+    <color name="color_E3E3E3">#e3e3e3</color>
     <!-- Tab -->
     <color name="color_606469">#606469</color>
     <color name="color_e96d1f">#e96d1f</color>
@@ -20,5 +20,8 @@
     <color name="color_4a4a4a">#4a4a4a</color>
     <color name="color_191919">#191919</color>
     <color name="color_ec6c00">#ec6c00</color>
+
+    <!-- Personal -->
+    <color name="color_d8d8d8">#d8d8d8</color>
 
 </resources>

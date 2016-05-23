@@ -141,9 +141,9 @@ public class MainActivity extends AppCompatActivity {
 //                textView.setText("Home");
 
             } else if (mPage == 2) {
-                view = inflater.inflate(R.layout.fragment_main, container, false);
-                TextView textView = (TextView) view.findViewById(R.id.section_label);
-                textView.setText("Search");
+                view = inflater.inflate(R.layout.activity_signin, container, false);
+//                TextView textView = (TextView) view.findViewById(R.id.section_label);
+//                textView.setText("Search");
 
             } else if (mPage == 3) {
                 view = inflater.inflate(R.layout.activity_signup, container, false);
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
 //                textView.setText("Cart");
 
             } else if (mPage == 4) {
-                view = inflater.inflate(R.layout.activity_signin, container, false);
+                view = inflater.inflate(R.layout.activity_personal, container, false);
             }
 
             return view;

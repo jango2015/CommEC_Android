@@ -6,77 +6,101 @@
     <dimen name="appbar_padding_top">8dp</dimen>
 
     <!-- Common -->
-    <dimen name="common_ddou_return_left_space">30dp</dimen>
-    <dimen name="common_ddou_return_top_space">23dp</dimen>
-    <dimen name="common_ddou_icon_top_space">40dp</dimen>
-    <dimen name="common_ddou_icon_bottom_space">60dp</dimen>
-    <dimen name="tab_txt_sp">10sp</dimen>
+    <dimen name="common_ddou_return_left_space">30dp</dimen> <!-- 返回按鈕與左邊的距離 -->
+    <dimen name="common_ddou_return_top_space">23dp</dimen>  <!-- 返回按鈕與頂部的距離 -->
+    <dimen name="common_ddou_icon_top_space">40dp</dimen>    <!-- 兜 icon與頂部的距離 -->
+    <dimen name="common_ddou_icon_bottom_space">60dp</dimen> <!-- 兜 icon與底部的距離 -->
+    <dimen name="tab_txt_sp">10sp</dimen>                    <!-- Tab 頁籤的文字大小 -->
 
     <!-- Sign in -->
-    <dimen name="signin_et_sp">21.3sp</dimen>
-    <dimen name="signin_btn_sp">21.3sp</dimen>
+    <dimen name="signin_et_sp">21.3sp</dimen>                <!-- 編輯框的文字大小 -->
+    <dimen name="signin_btn_sp">21.3sp</dimen>               <!-- 按鈕的文字大小 -->
 
-    <dimen name="signin_et_w">180dp</dimen>
+    <dimen name="signin_et_w">180dp</dimen>                  <!-- 編輯框的整體寬度 -->
 
-    <dimen name="signin_iv_account_top_space">5dp</dimen>
-    <dimen name="signin_iv_account_left_space">7dp</dimen>
-    <dimen name="signin_iv_account_bottom_space">5dp</dimen>
-    <dimen name="signin_iv_account_right_space">15dp</dimen>
+    <dimen name="signin_et_icon_top_space">5dp</dimen>       <!-- 編輯框左側圖示與頂部的距離 -->
+    <dimen name="signin_et_icon_bottom_space">5dp</dimen>    <!-- 編輯框左側圖示與底部的距離 -->
+    <dimen name="signin_et_icon_left_space">7dp</dimen>      <!-- 編輯框左側圖示與左邊的距離 -->
+    <dimen name="signin_et_icon_right_space">15dp</dimen>    <!-- 編輯框左側圖示與右邊的距離 -->
 
-    <dimen name="signin_iv_pwd_top_space">5dp</dimen>
-    <dimen name="signin_iv_pwd_left_space">7dp</dimen>
-    <dimen name="signin_iv_pwd_bottom_space">5dp</dimen>
-    <dimen name="signin_iv_pwd_right_space">15dp</dimen>
+    <dimen name="signin_txt_forget_pwd_w">252dp</dimen>      <!-- 忘記密碼的整體寬度 -->
+    <dimen name="signin_txt_forget_pwd_sp">16sp</dimen>      <!-- 忘記密碼的文字大小 -->
 
-    <dimen name="signin_txt_forget_pwd_w">252dp</dimen>
-    <dimen name="signin_txt_forget_pwd_top_space">19dp</dimen>
-    <dimen name="signin_txt_forget_pwd_sp">16sp</dimen>
-
-    <dimen name="signin_btn_signin_top_space">65dp</dimen>
-    <dimen name="signin_btn_signup_top_space">26.7dp</dimen>
+    <dimen name="signin_btn_signin_top_space">65dp</dimen>   <!-- 登入按鈕與頂部的距離 -->
+    <dimen name="signin_btn_signup_top_space">26.7dp</dimen> <!-- 我要註冊按鈕與頂部的距離 -->
 
     <!-- Sign up -->
-    <dimen name="signup_txt_sp">21.3sp</dimen>
-    <dimen name="signup_et_sp">21.3sp</dimen>
-    <dimen name="signup_et_w">160dp</dimen>
-    <dimen name="signup_et_pwd_w">200dp</dimen>
-    <dimen name="signup_iv_check_right_space">10dp</dimen>
-    <dimen name="signup_txt_left_space">16.7dp</dimen>
-    <dimen name="signup_item_w">240dp</dimen>
+    <dimen name="signup_common_space">26.7dp</dimen>         <!-- 編輯框之間的距離 -->
 
-    <dimen name="signup_agree_h">24dp</dimen>
-    <dimen name="signin_agree_top_space">26.7dp</dimen>
-    <dimen name="signup_txt_agree_sp">12sp</dimen>
-    <dimen name="signup_cb_right_space">6.7dp</dimen>
+    <dimen name="signup_item_w">240dp</dimen>                <!-- 輸入框整體寬度 -->
+    <dimen name="signup_txt_sp">21.3sp</dimen>               <!-- 輸入框的文字大小 -->
+    <dimen name="signup_et_w">160dp</dimen>                  <!-- 輸入框(手機號碼跟驗證碼)的寬度 -->
+    <dimen name="signup_et_pwd_w">200dp</dimen>              <!-- 輸入框(設定密碼跟確認密碼)的寬度 -->
+    <dimen name="signup_iv_check_right_space">10dp</dimen>   <!-- 輸入框確認圖示與右邊的距離 -->
+    <dimen name="signup_txt_left_space">16.7dp</dimen>       <!-- 輸入框文字與左邊的距離 -->
 
-    <dimen name="signup_btn_txt_sp">20sp</dimen>
-    <dimen name="signup_txt_signup_success_sp">24sp</dimen>
-    <dimen name="signup_space_sp">26.7dp</dimen>
-    <dimen name="signup_txt_countdown_sp">16sp</dimen>
+    <dimen name="signup_agree_h">24dp</dimen>                <!-- 我已閱讀並同意區塊的高度 -->
+    <dimen name="signin_agree_top_space">26.7dp</dimen>      <!-- 我已閱讀並同意區塊與頂部的距離 -->
+    <dimen name="signup_txt_agree_sp">12sp</dimen>           <!-- 我已閱讀並同意的文字大小 -->
+    <dimen name="signup_cb_right_space">6.7dp</dimen>        <!-- 我已閱讀並同意左側圖示與右邊文字區的距離 -->
+
+    <dimen name="signup_btn_txt_sp">20sp</dimen>             <!-- 按鈕的文字大小 -->
+    <dimen name="signup_txt_signup_success_sp">24sp</dimen>  <!-- 註冊成功的文字大小 -->
+    <dimen name="signup_txt_countdown_sp">16sp</dimen>       <!-- 幾秒後重發驗證碼的文字大小 -->
 
     <!-- Home -->
-    <dimen name="home_txt_header_title_sp">21.3sp</dimen>
-    <dimen name="home_txt_header_location_sp">16sp</dimen>
-    <dimen name="home_txt_header_location_left_space">16.7dp</dimen>
-    <dimen name="home_txt_header_location_right_space">5dp</dimen>
-    <dimen name="home_txt_header_message_right_space">16.7dp</dimen>
+    <dimen name="home_txt_header_title_sp">21.3sp</dimen>             <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="home_txt_header_location_sp">16sp</dimen>            <!-- 抬頭區塊左側定位點文字大小 -->
+    <dimen name="home_txt_header_location_space">15dp</dimen>         <!-- 抬頭區塊左側定位點與圖示距離 -->
+    <dimen name="home_txt_header_msg_right_space">16.7dp</dimen>      <!-- 抬頭區塊右側訊息圖示與右側的距離 -->
 
-    <dimen name="home_vp_ad_h">120dp</dimen>
+    <dimen name="home_vp_ad_h">120dp</dimen>                          <!-- 廣告輪播區塊高度 -->
 
-    <dimen name="home_category_line_h1_left_space">120dp</dimen>
-    <dimen name="home_category_line_h2_right_space">120dp</dimen>
-    <dimen name="home_category_title_sp">10.7sp</dimen>
-    <dimen name="home_category_item_sp">16sp</dimen>
-    <dimen name="home_category_top_space">6.7dp</dimen>
-    <dimen name="home_category_bottom_space">6.7dp</dimen>
-    <dimen name="home_category_btn_h">33dp</dimen>
+    <dimen name="home_category_top_space">6.7dp</dimen>               <!-- 精選分類抬頭與上方 ad距離 -->
+    <dimen name="home_category_bottom_space">6.7dp</dimen>            <!-- 精選分類抬頭與下方六項分類按鈕距離 -->
+    <dimen name="home_category_title_sp">10.7sp</dimen>               <!-- 精選分類抬頭文字大小 -->
+    <dimen name="home_category_line_h1_left_space">120dp</dimen>      <!-- 精選分類六項分類縱線1與左邊距離 -->
+    <dimen name="home_category_line_h2_right_space">120dp</dimen>     <!-- 精選分類六項分類縱線2與右邊距離 -->
+    <dimen name="home_category_item_sp">16sp</dimen>                  <!-- 精選分類六項分類按鈕文字大小 -->
+    <dimen name="home_category_btn_h">33dp</dimen>                    <!-- 精選分類六項分類按鈕高度 -->
 
-    <dimen name="home_community_iv_photo_w">160dp</dimen>
-    <dimen name="home_community_iv_photo_h">160dp</dimen>
-    <dimen name="home_community_txt_title_sp">12sp</dimen>
-    <dimen name="home_community_txt_title_top_space">10dp</dimen>
-    <dimen name="home_community_txt_left_space">6.7dp</dimen>
-    <dimen name="home_community_txt_price_bottom_space">3.3dp</dimen>
-    <dimen name="home_community_txt_price_sp">12sp</dimen>
+    <dimen name="home_community_iv_photo_w">160dp</dimen>             <!-- 社區商品圖片項目寬度 -->
+    <dimen name="home_community_iv_photo_h">160dp</dimen>             <!-- 社區商品圖片項目高度 -->
+    <dimen name="home_community_txt_item_left_space">6.7dp</dimen>    <!-- 社區商品項目與左側距離 -->
+    <dimen name="home_community_txt_title_sp">12sp</dimen>            <!-- 社區商品品名文字大小 -->
+    <dimen name="home_community_txt_title_top_space">5dp</dimen>      <!-- 社區商品品名與上方圖片距離 -->
+    <dimen name="home_community_txt_price_sp">12sp</dimen>            <!-- 社區商品品名文字大小 -->
+    <dimen name="home_community_txt_price_top_space">10dp</dimen>     <!-- 社區商品價錢與上方品名距離 -->
+    <dimen name="home_community_txt_price_bottom_space">3.3dp</dimen> <!-- 社區商品價錢與底部距離 -->
+
+    <!-- Personal -->
+    <dimen name="personal_block_space">8dp</dimen>                    <!-- 各區塊共用間距 -->
+    <dimen name="personal_header_h">200dp</dimen>                     <!-- 頂部橘色區塊高度 -->
+    <dimen name="personal_header_left_space">40dp</dimen>             <!-- 頂部橘色區塊左側圖示與左邊距離 -->
+    <dimen name="personal_header_right_space">14dp</dimen>            <!-- 頂部橘色區塊左側圖示與右邊登入註冊按鈕距離 -->
+    <dimen name="personal_header_sp">21.3sp</dimen>                   <!-- 頂部橘色區塊中間登入註冊按鈕文字大小 -->
+    <dimen name="personal_header_message_top_space">20dp</dimen>      <!-- 頂部橘色區塊右側訊息圖示與頂部距離 -->
+    <dimen name="personal_header_message_left_space">94.7dp</dimen>   <!-- 頂部橘色區塊右側訊息圖示與左側距離 -->
+
+    <dimen name="personal_title_sp">16sp</dimen>                      <!-- 我的訂單與我的錢包區塊抬頭文字大小 -->
+
+    <dimen name="personal_order_h">120dp</dimen>                      <!-- 我的訂單區塊高度 -->
+    <dimen name="personal_order_title_h">45.3dp</dimen>               <!-- 我的訂單區塊上方抬頭區塊高度 -->
+    <dimen name="personal_order_title_left_space">16.7dp</dimen>      <!-- 我的訂單區塊上方抬頭文字與左側距離 -->
+    <dimen name="personal_order_title_top_space">17.3dp</dimen>       <!-- 我的訂單區塊上方抬頭文字與頂部距離 -->
+    <dimen name="personal_order_title_bottom_space">12dp</dimen>      <!-- 我的訂單區塊上方抬頭文字與底部距離 -->
+    <dimen name="personal_order_all_left_space">178dp</dimen>         <!-- 我的訂單區塊上方右側查看全部訂單按鈕與左側的距離 -->
+    <dimen name="personal_order_all_right_space">10.7dp</dimen>       <!-- 我的訂單區塊上方右側查看全部訂單按鈕與右側的距離 -->
+    <dimen name="personal_order_item_space">10dp</dimen>              <!-- 我的訂單區塊下方項目圖示與文字距離 -->
+    <dimen name="personal_order_space">10dp</dimen>                   <!-- 我的訂單區塊下方項目左右間距 -->
+    <dimen name="personal_order_txt_sp">12sp</dimen>                  <!-- 我的訂單區塊下方項目文字大小 -->
+
+    <dimen name="personal_wallet_h">100dp</dimen>                     <!-- 我的錢包區塊高度 -->
+    <dimen name="personal_wallet_txt_sp">12sp</dimen>                 <!-- 我的錢包區塊項目文字大小 -->
+    <dimen name="personal_wallet_balance_left_space">16.7dp</dimen>   <!-- 我的錢包區塊下方錢包圖示與左側距離 -->
+    <dimen name="personal_wallet_balance_right_space">10dp</dimen>    <!-- 我的錢包區塊下方錢包圖示與右側距離 -->
+    <dimen name="personal_wallet_question_left_space">10dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
+    <dimen name="personal_wallet_question_right_space">35.3dp</dimen> <!-- 我的錢包區塊下方問號圖示與左側距離 -->
+    <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>   <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
 </resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/home_community_iv_photo_w"
+        android:layout_height="@dimen/home_community_iv_photo_h"
+        android:id="@+id/iv_community_photo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tv_community_title"
+        android:textColor="@color/color_191919"
+        android:textSize="@dimen/home_community_txt_title_sp"
+        android:layout_marginLeft="@dimen/home_community_txt_item_left_space"
+        android:layout_marginTop="@dimen/home_community_txt_title_top_space"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tv_community_price"
+        android:textColor="@color/color_ec6c00"
+        android:textSize="@dimen/home_community_txt_price_sp"
+        android:layout_marginLeft="@dimen/home_community_txt_item_left_space"
+        android:layout_marginTop="@dimen/home_community_txt_price_top_space"
+        android:layout_marginRight="@dimen/home_community_txt_price_bottom_space"/>
+</LinearLayout>
