@@ -17,32 +17,32 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ViewPager viewPager;
-    private TabLayout tabLayout;
+    private ViewPager mViewPager;
+    private TabLayout mTabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        viewPager = (ViewPager)findViewById(R.id.viewPager);
-        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        mViewPager = (ViewPager) findViewById(R.id.main_viewpager);
+        mTabLayout = (TabLayout) findViewById(R.id.main_tablayout);
 
         SampleFragmentPagerAdapter pagerAdapter =
                 new SampleFragmentPagerAdapter(getSupportFragmentManager(), this);
 
-        viewPager.setAdapter(pagerAdapter);
+        mViewPager.setAdapter(pagerAdapter);
 
-        tabLayout.setupWithViewPager(viewPager);
+        mTabLayout.setupWithViewPager(mViewPager);
 
-        for (int i = 0; i < tabLayout.getTabCount(); i++) {
-            TabLayout.Tab tab = tabLayout.getTabAt(i);
+        for (int i = 0; i < mTabLayout.getTabCount(); i++) {
+            TabLayout.Tab tab = mTabLayout.getTabAt(i);
             if (tab != null) {
                 tab.setCustomView(pagerAdapter.getTabView(i));
             }
         }
 
-        viewPager.setCurrentItem(3);
+        mViewPager.setCurrentItem(3);
 
     }
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         public View getTabView(int position) {
-            View v = LayoutInflater.from(context).inflate(R.layout.custom_tab_item, null);
+            View v = LayoutInflater.from(context).inflate(R.layout.custom_main_tab_item, null);
 
             // Tab icon setting
             ImageView img = (ImageView) v.findViewById(R.id.iv_tab_icon);
@@ -141,12 +141,12 @@ public class MainActivity extends AppCompatActivity {
 //                textView.setText("Home");
 
             } else if (mPage == 2) {
-                view = inflater.inflate(R.layout.activity_signin, container, false);
+                view = inflater.inflate(R.layout.activity_search, container, false);
 //                TextView textView = (TextView) view.findViewById(R.id.section_label);
 //                textView.setText("Search");
 
             } else if (mPage == 3) {
-                view = inflater.inflate(R.layout.activity_signup, container, false);
+                view = inflater.inflate(R.layout.activity_cart, container, false);
 //                TextView textView = (TextView) view.findViewById(R.id.section_label);
 //                textView.setText("Cart");
 

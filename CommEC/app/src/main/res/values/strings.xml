@@ -60,4 +60,20 @@
     <string name="personal_wallet_balance">余额：</string>
     <string name="personal_wallet_detail">交易明细</string>
 
+    <!-- 搜索 -->
+    <string name="search_header_title">搜索</string>
+    <string name="search_babe">宝贝</string>
+    <string name="search_shop">店铺</string>
+
+    <!-- 购物车 -->
+    <string name="cart_header_title">购物车</string>
+
+    <string name="cart_item_category">分类：</string>
+    <string name="cart_item_reserve">库存：</string>
+    <string name="cart_item_off_shelf">商品已下架</string>
+
+    <string name="cart_select_all">全选</string>
+    <string name="cart_total">合计：</string>
+    <string name="cart_count">结算</string>
+
 </resources>

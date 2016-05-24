@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_cart_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/img_navi_background"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_cart_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/cart_header_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/cart_txt_header_title_sp"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_cart_header_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
+            android:background="@mipmap/navi_btn_message"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_cart_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="false"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_cart_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/btn_count"
+            android:text="@string/cart_count"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/cart_bottom_txt_count_sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_cart_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/cart_bottom_cb_select_all_left_space"
+            android:layout_marginRight="@dimen/signup_cb_right_space"
+            android:button="@drawable/selector_cb_check"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/cart_bottom_cb_select_all_right_space"
+            android:text="@string/cart_select_all"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/cart_bottom_txt_select_all_sp"/>
+        <TextView
+            android:id="@+id/tv_cart_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/tv_cart_total_num"
+            android:text="@string/cart_total"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/cart_bottom_txt_total_sp"/>
+        <TextView
+            android:id="@+id/tv_cart_total_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/cart_bottom_txt_total_num_right_space"
+            android:layout_toStartOf="@+id/btn_cart_count"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_ec6c00"
+            android:textSize="@dimen/cart_bottom_txt_total_sp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_cart_bottom"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rl_cart_header"
+        android:background="@color/color_E3E3E3"/>
+
+</RelativeLayout>

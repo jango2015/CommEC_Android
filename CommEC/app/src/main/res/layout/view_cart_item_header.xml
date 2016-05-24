@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cart_item_shop_h"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <CheckBox
+            android:id="@+id/cb_cart_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/selector_cb_check"
+            android:gravity="center_vertical"
+            android:text="店名"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/cart_bottom_txt_select_all_sp"
+            android:layout_marginLeft="@dimen/cart_item_title_cb_left_space"
+            android:paddingLeft="@dimen/cart_item_title_cb_right_space"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibtn_go_shop"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/bn_go_gray"
+            android:layout_marginRight="@dimen/cart_item_title_arrow_right_space"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

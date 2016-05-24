@@ -103,4 +103,43 @@
     <dimen name="personal_wallet_question_right_space">35.3dp</dimen> <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>   <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
+    <!-- Search -->
+    <dimen name="search_txt_header_title_sp">21.3sp</dimen>           <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="search_txt_tab_sp">16sp</dimen>                      <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_w">166.7dp</dimen>                        <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_top_space">10.2dp</dimen>                 <!-- 頁籤與底線間距 -->
+
+    <!-- Cart -->
+    <dimen name="cart_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="cart_item_shop_h">40dp</dimen>                        <!-- 列表項目商店名稱的高度 -->
+    <dimen name="cart_item_title_sp">16sp</dimen>                      <!-- 列表項目商店名稱的文字大小 -->
+    <dimen name="cart_item_title_cb_left_space">16.7dp</dimen>         <!-- 列表項目商店確認框與左邊距離 -->
+    <dimen name="cart_item_title_cb_right_space">16.7dp</dimen>        <!-- 列表項目商店確認框與右邊文字距離 -->
+    <dimen name="cart_item_title_arrow_right_space">16.7dp</dimen>     <!-- 列表項目商店右邊灰箭頭與右邊文字距離 -->
+
+    <dimen name="cart_item_h">87.7dp</dimen>                           <!-- 列表項目高度 -->
+    <dimen name="cart_item_photo_wh">66.7dp</dimen>                    <!-- 列表項目圖片寬高 -->
+    <dimen name="cart_item_cb_left_space">16.7dp</dimen>               <!-- 列表項目確認框與左邊距離 -->
+    <dimen name="cart_item_cb_right_space">16.7dp</dimen>              <!-- 列表項目確認框與右邊商品圖片距離 -->
+    <dimen name="cart_item_photo_right_space">16.7dp</dimen>           <!-- 列表項目商品圖片與右邊文字區塊距離 -->
+    <dimen name="cart_item_middle_top_space">6.7dp</dimen>             <!-- 列表項目中間分類庫存區塊與上方商品名稱距離 -->
+    <dimen name="cart_item_good_name_sp">12sp</dimen>                  <!-- 列表項目商品名稱的文字大小 -->
+    <dimen name="cart_item_good_name_right_space">2dp</dimen>          <!-- 列表項目商品名稱與右側的距離 -->
+    <dimen name="cart_item_good_category_sp">8.3sp</dimen>             <!-- 列表項目商品分類的文字大小 -->
+    <dimen name="cart_item_good_reserve_sp">8.3sp</dimen>              <!-- 列表項目商品庫存的文字大小 -->
+    <dimen name="cart_item_good_reserve_right_space">18dp</dimen>      <!-- 列表項目商品庫存數量與右側距離 -->
+    <dimen name="cart_item_good_price_sp">21.3sp</dimen>               <!-- 列表項目商品金額的文字大小 -->
+    <dimen name="cart_item_good_reserve_num_sp">12sp</dimen>           <!-- 列表項目商品庫存數量的文字大小 -->
+    <dimen name="cart_item_bottom_top_space">6.7dp</dimen>             <!-- 列表項目底部金額庫存區塊與上方分類庫存區塊距離 -->
+    <dimen name="cart_item_bottom_reserve_w">100dp</dimen>             <!-- 列表項目底部區塊加減區塊寬度 -->
+    <dimen name="cart_item_bottom_reserve_right_space">10dp</dimen>    <!-- 列表項目商品庫存數量加減按鈕與左右側距離 -->
+    <dimen name="cart_item_bottom_reserve_num_space">12dp</dimen>      <!-- 列表項目商品庫存數量與右側距離 -->
+
+    <dimen name="cart_bottom_txt_select_all_sp">16sp</dimen>           <!-- 底部區塊全選的文字大小 -->
+    <dimen name="cart_bottom_cb_select_all_left_space">16.7dp</dimen>  <!-- 底部區塊全選確認框與左邊距離 -->
+    <dimen name="cart_bottom_cb_select_all_right_space">10dp</dimen>   <!-- 底部區塊全選確認框與右邊文字距離 -->
+    <dimen name="cart_bottom_txt_total_num_right_space">16.7dp</dimen> <!-- 底部區塊合計金額與右邊結算按鈕距離 -->
+    <dimen name="cart_bottom_txt_total_sp">12sp</dimen>                <!-- 底部區塊合計的文字大小 -->
+    <dimen name="cart_bottom_txt_count_sp">16sp</dimen>                <!-- 底部區塊結算的文字大小 -->
+
 </resources>

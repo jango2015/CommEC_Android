@@ -11,7 +11,6 @@
         android:background="@mipmap/img_navi_background"
         android:gravity="center_vertical">
 
-
         <TextView
             android:id="@+id/tv_home_header_title"
             android:layout_width="match_parent"
@@ -23,25 +22,25 @@
             android:textSize="@dimen/home_txt_header_title_sp"/>
 
         <ImageButton
-            android:id="@+id/ibtn_home_header_message"
+            android:id="@+id/ibtn_search_header_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:background="@mipmap/navi_btn_message"
-            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"/>
+            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
+            android:background="@mipmap/navi_btn_message"/>
 
         <Button
             android:id="@+id/btn_home_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/ibtn_home_header_message"
+            android:layout_alignBottom="@+id/ibtn_search_header_message"
             android:layout_alignParentStart="true"
             android:background="@android:color/transparent"
             android:drawableRight="@mipmap/btn_down"
-            android:text="@string/home_header_location"
-            android:textColor="@android:color/white"
             android:paddingLeft="@dimen/home_txt_header_location_space"
-            android:paddingRight="@dimen/home_txt_header_location_space"/>
+            android:paddingRight="@dimen/home_txt_header_location_space"
+            android:text="@string/home_header_location"
+            android:textColor="@android:color/white"/>
 
     </RelativeLayout>
 
