@@ -25,7 +25,7 @@
             android:textSize="@dimen/search_txt_header_title_sp"/>
 
         <ImageButton
-            android:id="@+id/ibtn_search_header_message"
+            android:id="@+id/ibtn_header_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"

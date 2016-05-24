@@ -76,4 +76,16 @@
     <string name="cart_total">合计：</string>
     <string name="cart_count">结算</string>
 
+    <!-- 个人信息 -->
+    <string name="profile_header_title">个人信息</string>
+    <string name="profile_photo">头像</string>
+    <string name="profile_id">会员帐号</string>
+    <string name="profile_name">用户名</string>
+    <string name="profile_phone">联络电话</string>
+    <string name="profile_cellphone">绑定手机号</string>
+    <string name="profile_address">收货地址</string>
+    <string name="profile_change_pwd">修改登录密码</string>
+    <string name="profile_signout">登出</string>
+
+
 </resources>

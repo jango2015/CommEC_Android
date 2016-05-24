@@ -22,7 +22,7 @@
             android:textSize="@dimen/home_txt_header_title_sp"/>
 
         <ImageButton
-            android:id="@+id/ibtn_search_header_message"
+            android:id="@+id/ibtn_header_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -33,7 +33,7 @@
             android:id="@+id/btn_home_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/ibtn_search_header_message"
+            android:layout_alignBottom="@+id/ibtn_header_message"
             android:layout_alignParentStart="true"
             android:background="@android:color/transparent"
             android:drawableRight="@mipmap/btn_down"

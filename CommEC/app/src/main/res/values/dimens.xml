@@ -150,4 +150,21 @@
     <dimen name="cart_bottom_txt_total_sp">12sp</dimen>                <!-- 底部區塊合計的文字大小 -->
     <dimen name="cart_bottom_txt_count_sp">16sp</dimen>                <!-- 底部區塊結算的文字大小 -->
 
+    <!-- Profile -->
+    <dimen name="profile_txt_header_title_sp">21.3sp</dimen>           <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="profile_row_h">45dp</dimen>                           <!-- Content row 的高度 -->
+    <dimen name="profile_row_top_space">1dp</dimen>                    <!-- Content row 頂部距離 -->
+    <dimen name="profile_row_bottom_space">1dp</dimen>                 <!-- Content row 底部距離 -->
+    <dimen name="profile_line_top_space">14.7dp</dimen>                <!-- Content 分隔線與上方距離 -->
+    <dimen name="profile_line_bottom_space">1.7dp</dimen>              <!-- Content 分隔線與下方距離 -->
+    <dimen name="profile_txt_title_sp">21.3sp</dimen>                  <!-- Content 標頭的文字大小 -->
+    <dimen name="profile_txt_content_sp">21.3sp</dimen>                <!-- Content 內容的文字大小 -->
+    <dimen name="profile_txt_left_space">16.7dp</dimen>                <!-- Content 與左側距離 -->
+    <dimen name="profile_txt_right_space">16.7dp</dimen>               <!-- Content 與右側距離 -->
+    <dimen name="profile_photo_top_space">6.7dp</dimen>                <!-- Content 頭像區塊與頂部距離 -->
+    <dimen name="profile_photo_bottom_space">6.7dp</dimen>             <!-- Content 頭像區塊與底部距離 -->
+    <dimen name="profile_photo_right_space">16.7dp</dimen>             <!-- Content 頭像區塊圖片與右邊箭頭距離 -->
+    <dimen name="profile_gray_right_space">22dp</dimen>                <!-- Content item 與右邊箭頭距離 -->
+    <dimen name="profile_signout_top_space">53.7dp</dimen>             <!-- Content 登出按鈕與上方距離 -->
+
 </resources>
