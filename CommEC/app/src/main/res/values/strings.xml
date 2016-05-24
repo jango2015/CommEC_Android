@@ -77,6 +77,10 @@
     <string name="cart_total">合计：</string>
     <string name="cart_count">结算</string>
 
+    <string name="cart_confirm_receiver">收货人:</string>
+    <string name="cart_confirm_address">收货地址:</string>
+
+
     <!-- 个人信息 -->
     <string name="profile_header_title">个人信息</string>
     <string name="profile_photo">头像</string>
