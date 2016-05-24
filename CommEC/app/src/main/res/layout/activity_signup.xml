@@ -72,7 +72,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginRight="@dimen/signup_iv_check_right_space"
                         android:src="@mipmap/img_confirm"
-                        android:visibility="invisible"/>
+                        android:visibility="visible"/>
 
                 </RelativeLayout>
 
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/signup_common_space"
                     android:background="@mipmap/img_square"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <EditText
                         android:id="@+id/et_signup_code"
@@ -106,7 +106,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginRight="@dimen/signup_iv_check_right_space"
                         android:src="@mipmap/img_confirm"
-                        android:visibility="invisible"/>
+                        android:visibility="visible"/>
 
                 </RelativeLayout>
 
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:orientation="vertical"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <LinearLayout
                         android:id="@+id/ll_pwd_setting"
@@ -172,7 +172,7 @@
                     android:layout_marginTop="@dimen/signin_agree_top_space"
                     android:gravity="center_vertical|center_horizontal"
                     android:orientation="horizontal"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <CheckBox
                         android:id="@+id/signup_cb_agree"

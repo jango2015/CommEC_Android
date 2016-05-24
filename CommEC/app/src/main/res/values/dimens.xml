@@ -55,6 +55,7 @@
     <dimen name="home_txt_header_msg_right_space">16.7dp</dimen>      <!-- 抬頭區塊右側訊息圖示與右側的距離 -->
 
     <dimen name="home_vp_ad_h">120dp</dimen>                          <!-- 廣告輪播區塊高度 -->
+    <dimen name="home_vp_ad2_h">90dp</dimen>                          <!-- 廣告雙區塊高度 -->
 
     <dimen name="home_category_top_space">6.7dp</dimen>               <!-- 精選分類抬頭與上方 ad距離 -->
     <dimen name="home_category_bottom_space">6.7dp</dimen>            <!-- 精選分類抬頭與下方六項分類按鈕距離 -->
@@ -131,13 +132,14 @@
     <dimen name="cart_item_cb_right_space">16.7dp</dimen>              <!-- 列表項目確認框與右邊商品圖片距離 -->
     <dimen name="cart_item_photo_right_space">16.7dp</dimen>           <!-- 列表項目商品圖片與右邊文字區塊距離 -->
     <dimen name="cart_item_middle_top_space">6.7dp</dimen>             <!-- 列表項目中間分類庫存區塊與上方商品名稱距離 -->
-    <dimen name="cart_item_good_name_sp">12sp</dimen>                  <!-- 列表項目商品名稱的文字大小 -->
-    <dimen name="cart_item_good_name_right_space">2dp</dimen>          <!-- 列表項目商品名稱與右側的距離 -->
-    <dimen name="cart_item_good_category_sp">8.3sp</dimen>             <!-- 列表項目商品分類的文字大小 -->
-    <dimen name="cart_item_good_reserve_sp">8.3sp</dimen>              <!-- 列表項目商品庫存的文字大小 -->
-    <dimen name="cart_item_good_reserve_right_space">18dp</dimen>      <!-- 列表項目商品庫存數量與右側距離 -->
-    <dimen name="cart_item_good_price_sp">21.3sp</dimen>               <!-- 列表項目商品金額的文字大小 -->
-    <dimen name="cart_item_good_reserve_num_sp">12sp</dimen>           <!-- 列表項目商品庫存數量的文字大小 -->
+    <dimen name="cart_item_goods_name_sp">12sp</dimen>                  <!-- 列表項目商品名稱的文字大小 -->
+    <dimen name="cart_item_goods_name_right_space">2dp</dimen>          <!-- 列表項目商品名稱與右側的距離 -->
+    <dimen name="cart_item_goods_category_sp">8.3sp</dimen>             <!-- 列表項目商品分類的文字大小 -->
+    <dimen name="cart_item_goods_reserve_sp">8.3sp</dimen>              <!-- 列表項目商品庫存的文字大小 -->
+    <dimen name="cart_item_goods_reserve_right_space">18dp</dimen>      <!-- 列表項目商品庫存數量與右側距離 -->
+    <dimen name="cart_item_goods_price_sp">21.3sp</dimen>               <!-- 列表項目商品金額的文字大小 -->
+    <dimen name="cart_item_goods_reserve_num_sp">12sp</dimen>           <!-- 列表項目商品庫存數量的文字大小 -->
+    <dimen name="cart_item_goods_off_shelve_sp">10sp</dimen>            <!-- 列表項目商品已下架的文字大小 -->
     <dimen name="cart_item_bottom_top_space">6.7dp</dimen>             <!-- 列表項目底部金額庫存區塊與上方分類庫存區塊距離 -->
     <dimen name="cart_item_bottom_reserve_w">100dp</dimen>             <!-- 列表項目底部區塊加減區塊寬度 -->
     <dimen name="cart_item_bottom_reserve_right_space">10dp</dimen>    <!-- 列表項目商品庫存數量加減按鈕與左右側距離 -->

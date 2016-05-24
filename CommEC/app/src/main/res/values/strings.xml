@@ -67,6 +67,7 @@
 
     <!-- 购物车 -->
     <string name="cart_header_title">购物车</string>
+    <string name="cart_header_confirm_title">确认订单</string>
 
     <string name="cart_item_category">分类：</string>
     <string name="cart_item_reserve">库存：</string>

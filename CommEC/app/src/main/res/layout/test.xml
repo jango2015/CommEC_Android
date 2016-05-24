@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textSize="@dimen/cart_item_good_reserve_num_sp"
+            android:textSize="@dimen/cart_item_goods_reserve_num_sp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
 
