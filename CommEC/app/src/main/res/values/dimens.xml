@@ -104,10 +104,18 @@
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>   <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
     <!-- Search -->
-    <dimen name="search_txt_header_title_sp">21.3sp</dimen>           <!-- 抬頭區塊中間抬頭的文字大小 -->
-    <dimen name="search_txt_tab_sp">16sp</dimen>                      <!-- 頁籤文字大小 -->
-    <dimen name="search_tab_w">166.7dp</dimen>                        <!-- 頁籤文字大小 -->
-    <dimen name="search_tab_top_space">10.2dp</dimen>                 <!-- 頁籤與底線間距 -->
+    <dimen name="search_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="search_txt_tab_sp">16sp</dimen>                         <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_w">166.7dp</dimen>                           <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_top_space">10.2dp</dimen>                    <!-- 頁籤與底線間距 -->
+    <dimen name="search_searchview_top_space">13.5dp</dimen>             <!-- 搜尋框與上方頁籤間距 -->
+    <dimen name="search_searchview_bottom_space">13.3dp</dimen>          <!-- 搜尋框與下方分隔線間距 -->
+    <dimen name="search_searchview_w">333.3dp</dimen>                    <!-- 搜尋框寬度 -->
+    <dimen name="search_searchview_h">33.3dp</dimen>                     <!-- 搜尋框高度 -->
+    <dimen name="search_searchview_edit_w">280dp</dimen>                 <!-- 搜尋框輸入區寬度 -->
+    <dimen name="search_searchview_edit_left_space">16.3dp</dimen>       <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="search_searchview_edit_sp">16sp</dimen>                 <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="search_searchview_magnifier_right_space">16.7dp</dimen> <!-- 搜尋框放大鏡按鈕與右邊距離 -->
 
     <!-- Cart -->
     <dimen name="cart_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->

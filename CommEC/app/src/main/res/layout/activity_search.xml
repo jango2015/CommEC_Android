@@ -3,6 +3,7 @@
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:gravity="center_horizontal"
               android:orientation="vertical">
 
     <RelativeLayout
@@ -10,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@mipmap/img_navi_background"
-        android:gravity="center_vertical">
+        >
 
         <TextView
             android:id="@+id/tv_search_header_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
             android:gravity="center_horizontal"
             android:text="@string/search_header_title"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -27,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
             android:background="@mipmap/navi_btn_message"/>
 
@@ -38,18 +41,39 @@
         android:layout_height="wrap_content"
         app:tabIndicatorColor="@null"/>
 
-    <SearchView
-        android:id="@+id/sv_search"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="@dimen/search_searchview_w"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/search_searchview_bottom_space"
+        android:layout_marginTop="@dimen/search_searchview_top_space"
+        android:background="@mipmap/search_text_box">
+
+        <EditText
+            android:id="@+id/et_search_search"
+            android:layout_width="@dimen/search_searchview_edit_w"
+            android:layout_height="@dimen/search_searchview_h"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/search_searchview_edit_left_space"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/search_searchview_edit_sp"
+            android:textColor="@color/color_191919"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_search_maganifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/search_searchview_magnifier_right_space"
+            android:background="@mipmap/img_icon_search"/>
+    </RelativeLayout>
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:src="@mipmap/img_line_1080"
-        android:layout_marginBottom="10dp"/>
+        android:src="@mipmap/img_line_1080"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/search_viewpager"
