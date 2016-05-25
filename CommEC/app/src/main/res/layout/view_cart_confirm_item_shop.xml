@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cart_item_shop_h"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_cart_confirm_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:background="@mipmap/btn_confirm_order"
+            android:layout_marginLeft="@dimen/cart_confirm_shop_icon_left_space"
+            android:paddingLeft="@dimen/cart_item_title_cb_right_space"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/cart_confirm_shop_icon_right_space"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cart_confirm_shop_community"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/cart_confirm_shop_community_right_space"
+            android:layout_centerVertical="true"
+            android:text="Community"
+            android:textColor="@color/color_4a4a4a"
+            android:textSize="@dimen/cart_confirm_shop_community_sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Shop name"
+            android:id="@+id/textView14"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_cart_confirm_shop"
+            android:textSize="@dimen/cart_confirm_shop_size"
+            android:textColor="@color/color_191919"/>
+
+    </RelativeLayout>
+</LinearLayout>

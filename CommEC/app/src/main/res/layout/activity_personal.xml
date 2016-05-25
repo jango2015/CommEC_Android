@@ -202,19 +202,10 @@
                 android:src="@mipmap/img_icon_balance"/>
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:id="@+id/tv_personal_money"
+                android:layout_width="@dimen/personal_wallet_balance_w"
                 android:layout_height="wrap_content"
                 android:text="@string/personal_wallet_balance"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/color_191919"
-                android:textSize="@dimen/personal_wallet_txt_sp"/>
-
-            <TextView
-                android:id="@+id/tv_personal_money"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Medium Text"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/color_191919"
                 android:textSize="@dimen/personal_wallet_txt_sp"/>

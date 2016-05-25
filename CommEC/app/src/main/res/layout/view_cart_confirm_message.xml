@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cart_confirm_total_h"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cart_confirm_message_left_space"
+            android:layout_marginRight="@dimen/cart_confirm_message_right_space">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/cart_confirm_buyer_message"
+                android:id="@+id/textView2"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/cart_confirm_total_sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/cart_confirm_buyer_message_hint"
+                android:id="@+id/tv_cart_confirm_buyer_message"
+                android:textSize="@dimen/cart_confirm_total_sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:background="@mipmap/img_line_1000"
+            android:layout_marginTop="@dimen/cart_confirm_total_line_top_space"
+            android:layout_marginBottom="@dimen/cart_confirm_total_line_bottom_space"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cart_confirm_message_left_space"
+            android:layout_marginRight="@dimen/cart_confirm_message_right_space"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tv_cart_confirm_total_amount"
+                android:textColor="@color/color_191919"
+                android:text="@string/cart_confirm_buyer_message_goods_num"
+                android:textSize="@dimen/cart_confirm_total_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView15"
+                android:textColor="@color/color_9b9b9b"
+                android:text="@string/cart_confirm_buyer_message_goods_total"
+                android:layout_marginLeft="@dimen/cart_confirm_total_left_space"
+                android:textSize="@dimen/cart_confirm_total_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/cart_confirm_buyer_message_goods_total_num"
+                android:id="@+id/tv_cart_confirm_total_price"
+                android:textColor="@color/color_ec6c00"
+                android:textSize="@dimen/cart_confirm_total_sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

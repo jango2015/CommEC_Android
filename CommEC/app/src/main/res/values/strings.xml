@@ -31,7 +31,6 @@
     <string name="signup_btn_signup">注册</string>
     <string name="signup_txt_signup_success">注册成功！</string>
     <string name="signup_btn_go_shopping">开始体验</string>
-    <string name="iv2">iv1</string>
 
     <!-- Home -->
     <string name="home_header_location">定位点</string>
@@ -57,7 +56,7 @@
     <string name="personal_order_waiting_refund">退款/售后</string>
 
     <string name="personal_wallet">我的钱包</string>
-    <string name="personal_wallet_balance">余额：</string>
+    <string name="personal_wallet_balance">余额：%1$d</string>
     <string name="personal_wallet_detail">交易明细</string>
 
     <!-- 搜索 -->
@@ -69,17 +68,25 @@
     <string name="cart_header_title">购物车</string>
     <string name="cart_header_confirm_title">确认订单</string>
 
-    <string name="cart_item_category">分类：</string>
-    <string name="cart_item_reserve">库存：</string>
+    <string name="cart_item_category">分类：%1$s</string>
+    <string name="cart_item_reserve">库存：%1$d</string>
+    <string name="cart_item_price">￥%1$d</string>
     <string name="cart_item_off_shelf">商品已下架</string>
 
     <string name="cart_select_all">全选</string>
     <string name="cart_total">合计：</string>
-    <string name="cart_count">结算</string>
+    <string name="cart_total_num">￥%1$d</string>
+    <string name="cart_count">结算(%1$d)</string>
 
-    <string name="cart_confirm_receiver">收货人:</string>
-    <string name="cart_confirm_address">收货地址:</string>
-
+    <string name="cart_confirm_receiver">收货人:%1$s</string>
+    <string name="cart_confirm_address">收货地址:%1$s</string>
+    <string name="cart_confirm_buyer_message">买家留言:</string>
+    <string name="cart_confirm_buyer_message_hint">选填要求</string>
+    <string name="cart_confirm_buyer_message_goods_num">共%1$d件商品</string>
+    <string name="cart_confirm_buyer_message_goods_total">合计：</string>
+    <string name="cart_confirm_buyer_message_goods_total_num">￥%1$d</string>
+    <string name="cart_confirm_out_of_service">以下店铺不再服务区域内</string>
+    <string name="cart_confirm_submit">提交订单</string>
 
     <!-- 个人信息 -->
     <string name="profile_header_title">个人信息</string>

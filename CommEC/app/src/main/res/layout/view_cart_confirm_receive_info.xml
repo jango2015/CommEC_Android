@@ -36,19 +36,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/cart_confirm_receiver"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="@color/color_191919"
-                        android:textSize="@dimen/cart_confirm_receiver_size"/>
-
-                    <TextView
                         android:id="@+id/tv_cart_confirm_receiver"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Receiver"
+                        android:text="@string/cart_confirm_receiver"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="@color/color_191919"
                         android:textSize="@dimen/cart_confirm_receiver_size"/>
@@ -71,21 +62,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cart_confirm_address"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="@color/color_191919"
-                    android:textSize="@dimen/cart_confirm_receiver_size"/>
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/color_191919"
                     android:id="@+id/tv_cart_confirm_address"
-                    android:text="Address"
+                    android:text="@string/cart_confirm_address"
                     android:textSize="@dimen/cart_confirm_receiver_size"/>
             </LinearLayout>
         </LinearLayout>

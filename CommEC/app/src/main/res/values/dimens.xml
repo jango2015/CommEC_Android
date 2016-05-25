@@ -100,6 +100,7 @@
     <dimen name="personal_wallet_txt_sp">12sp</dimen>                 <!-- 我的錢包區塊項目文字大小 -->
     <dimen name="personal_wallet_balance_left_space">16.7dp</dimen>   <!-- 我的錢包區塊下方錢包圖示與左側距離 -->
     <dimen name="personal_wallet_balance_right_space">10dp</dimen>    <!-- 我的錢包區塊下方錢包圖示與右側距離 -->
+    <dimen name="personal_wallet_balance_w">110dp</dimen>              <!-- 我的錢包區塊餘額寬度 -->
     <dimen name="personal_wallet_question_left_space">10dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_question_right_space">35.3dp</dimen> <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>   <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
@@ -158,6 +159,29 @@
     <dimen name="cart_confirm_receiver_location_right_space">9.7dp</dimen> <!-- 確認訂單項目收貨人圖示與右側文字距離 -->
     <dimen name="cart_confirm_receiver_txt_block_w">305dp</dimen>          <!-- 確認訂單項目收貨人區塊文字區寬度 -->
     <dimen name="cart_confirm_receiver_txt_block_space">10dp</dimen>       <!-- 確認訂單項目收貨人區塊文字區上下距離 -->
+    <dimen name="cart_confirm_shop_size">14.7sp</dimen>                    <!-- 確認訂單項目店家名稱的文字大小 -->
+    <dimen name="cart_confirm_shop_icon_left_space">16.7dp</dimen>         <!-- 確認訂單項目店家圖示與左側距離 -->
+    <dimen name="cart_confirm_shop_icon_right_space">10dp</dimen>          <!-- 確認訂單項目店家圖示與右側店家名稱距離 -->
+    <dimen name="cart_confirm_shop_community_sp">10sp</dimen>              <!-- 確認訂單項目店家社區文字大小 -->
+    <dimen name="cart_confirm_shop_community_right_space">13.3dp</dimen>   <!-- 確認訂單項目店家社區文字與右側距離 -->
+
+    <dimen name="cart_confirm_goods_photo_left_space">26.7dp</dimen>       <!-- 確認訂單項目商品圖片與左側距離 -->
+    <dimen name="cart_confirm_goods_photo_right_space">16.7dp</dimen>      <!-- 確認訂單項目商品圖片與右側距離 -->
+    <dimen name="cart_confirm_goods_photo_top_space">6.7dp</dimen>         <!-- 確認訂單項目商品圖片與上方距離 -->
+    <dimen name="cart_confirm_goods_photo_bottom_space">7dp</dimen>        <!-- 確認訂單項目商品圖片與下方距離 -->
+    <dimen name="cart_confirm_goods_line_bottom_space">6dp</dimen>         <!-- 確認訂單項目商品分隔線與下方距離 -->
+    <dimen name="cart_confirm_goods_middle_top_space">6.7dp</dimen>        <!-- 確認訂單項目商品分類與上方距離 -->
+    <dimen name="cart_confirm_goods_middle_bottom_space">6.7dp</dimen>     <!-- 確認訂單項目商品分類與下方距離 -->
+    <dimen name="cart_confirm_goods_amount_sp">12sp</dimen>                <!-- 確認訂單項目商品數量文字大小 -->
+    <dimen name="cart_confirm_goods_amount_right">13.3dp</dimen>           <!-- 確認訂單項目商品數量與右側距離 -->
+
+    <dimen name="cart_confirm_total_h">66.7dp</dimen>                      <!-- 確認訂單項目下方資訊區塊高度 -->
+    <dimen name="cart_confirm_total_sp">12sp</dimen>                       <!-- 確認訂單項目下方資訊區塊文字大小 -->
+    <dimen name="cart_confirm_message_left_space">16.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊買家留言與左側距離 -->
+    <dimen name="cart_confirm_message_right_space">6.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊合計金額與右側距離 -->
+    <dimen name="cart_confirm_total_line_top_space">10.7dp</dimen>         <!-- 確認訂單項目下方資訊區塊分隔線與上方距離 -->
+    <dimen name="cart_confirm_total_line_bottom_space">10.3dp</dimen>      <!-- 確認訂單項目下方資訊區塊分隔線與下方距離 -->
+    <dimen name="cart_confirm_total_left_space">16.7dp</dimen>             <!-- 確認訂單項目下方資訊區塊合計金額與左側距離 -->
 
     <!-- Profile -->
     <dimen name="profile_txt_header_title_sp">21.3sp</dimen>           <!-- 抬頭區塊中間抬頭的文字大小 -->

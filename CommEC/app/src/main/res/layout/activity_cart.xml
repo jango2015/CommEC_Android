@@ -104,7 +104,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/cart_bottom_txt_total_num_right_space"
-                android:text="Medium Text"
+                android:text="@string/cart_total_num"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/color_ec6c00"
                 android:textSize="@dimen/cart_bottom_txt_total_sp"/>
