@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sub"
+        android:id="@+id/tv_locate_lv_sub"
+        android:textSize="@dimen/locate_current_locate_item_sub_sp"
+        android:textColor="@color/color_9b9b9b"/>
+</LinearLayout>

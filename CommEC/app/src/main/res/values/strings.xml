@@ -106,5 +106,13 @@
     <string name="profile_change_pwd">修改登录密码</string>
     <string name="profile_signout">登出</string>
 
+    <!-- 定位点 -->
+    <string name="locate_header_title">定位点</string>
+    <string name="locate_header_title_select_community">定位点-选择社区</string>
+    <string name="locate_current_position_txt">定位点-</string>
+    <string name="locate_current_position_">%1$s/%2$s</string>
+    <string name="locate_notice">(若选择不到小区,回到定位点)</string>
+
+    <string name="locate_content2_txt">请选择小区</string>
 
 </resources>

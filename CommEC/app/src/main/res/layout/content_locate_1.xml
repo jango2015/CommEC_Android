@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/locate_current_locate_block_h"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/locate_current_locate_block_middle_space"
+            android:paddingTop="@dimen/locate_current_locate_block_top_space">
+
+            <ImageButton
+                android:id="@+id/ibtn_locate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/locate_current_locate_icon_left_space"
+                android:layout_marginRight="@dimen/locate_current_locate_icon_right_space"
+                android:background="@mipmap/img_location"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/locate_current_position_txt"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_191919"/>
+
+                    <TextView
+                        android:id="@+id/tv_locate_current_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/locate_current_position_"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_E3E3E3"
+                        android:textSize="@dimen/locate_current_locate_sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/locate_current_locate_block_notice_top_space"
+                    android:text="@string/locate_notice"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_d0021b"
+                    android:textSize="@dimen/locate_current_locate_back_sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner1_locate_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner2_locate_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/spinner3_locate_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandlv_content1_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_E3E3E3"/>
+</LinearLayout>

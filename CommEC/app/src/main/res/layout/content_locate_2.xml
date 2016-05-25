@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/locate_content2_padding_space">
+
+    <TextView
+        android:id="@+id/tv_locate_lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locate_content2_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color_191919"
+        android:textSize="@dimen/locate_current_locate_item_title_sp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_locate_zone"/>
+</LinearLayout>

@@ -211,4 +211,27 @@
     <dimen name="profile_gray_right_space">22dp</dimen>                <!-- Content item 與右邊箭頭距離 -->
     <dimen name="profile_signout_top_space">53.7dp</dimen>             <!-- Content 登出按鈕與上方距離 -->
 
+    <!-- Locate -->
+    <dimen name="locate_txt_header_title_sp">21.3sp</dimen>                     <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="locate_current_locate_block_h">100dp</dimen>                   <!-- 定位點區塊的高度 -->
+    <dimen name="locate_current_locate_block_above_h">50dp</dimen>              <!-- 定位點區塊上部的高度 -->
+    <dimen name="locate_current_locate_block_below_h">50dp</dimen>              <!-- 定位點區塊下部的高度 -->
+    <dimen name="locate_current_locate_sp">16sp</dimen>                         <!-- 定位點區塊目前定位點的文字大小 -->
+    <dimen name="locate_current_locate_back_sp">8.3sp</dimen>                   <!-- 定位點區塊目前定位點的提示文字大小 -->
+    <dimen name="locate_current_locate_icon_left_space">20dp</dimen>            <!-- 定位點區塊目前定位點圖示與左邊距 -->
+    <dimen name="locate_current_locate_icon_right_space">10dp</dimen>           <!-- 定位點區塊目前定位點圖示與右邊距 -->
+    <dimen name="locate_current_locate_block_top_space">10dp</dimen>            <!-- 定位點區塊目前定位點與上邊距 -->
+    <dimen name="locate_current_locate_block_notice_top_space">9dp</dimen>      <!-- 定位點區塊目前提示字與上邊距 -->
+    <dimen name="locate_current_locate_block_middle_space">10dp</dimen>         <!-- 定位點區塊目前定位點與下邊距 -->
+    <dimen name="locate_current_locate_spinner_sp">16sp</dimen>                 <!-- 定位點區塊下拉選單文字大小 -->
+    <dimen name="locate_current_locate_spinner_txt_right_space">6.7dp</dimen>   <!-- 定位點區塊下拉選單與右邊箭頭距離 -->
+
+    <dimen name="locate_current_locate_item_title_sp">20sp</dimen>              <!-- 列表區塊抬頭文字大小 -->
+    <dimen name="locate_current_locate_item_sub_sp">16sp</dimen>                <!-- 列表區塊子項目列表文字大小 -->
+
+    <dimen name="locate_content2_padding_space">13.3dp</dimen>                  <!-- 請選擇小區頁面 padding -->
+
+    <dimen name="locate_content3_above_h">50dp</dimen>                          <!-- 選擇社區-上方區塊高度 -->
+    <dimen name="locate_content3_above_txt_sp">16sp</dimen>                     <!-- 選擇社區-上方區塊文字大小 -->
+
 </resources>
