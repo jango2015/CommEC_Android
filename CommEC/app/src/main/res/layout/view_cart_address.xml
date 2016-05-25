@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cart_confirm_receive_place_block_item_h"
+        android:paddingLeft="@dimen/cart_confirm_receive_item_left_space"
+        android:paddingRight="@dimen/cart_confirm_receive_item_right_space"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Receiver"
+            android:id="@+id/tv_cart_receiver"
+            android:textSize="@dimen/cart_confirm_receive_place_item_receiver_sp"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:textColor="@color/color_191919"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cart_confirm_receive_place_item_content_top_space"
+            android:layout_marginBottom="@dimen/cart_confirm_receive_place_item_content_bottom_space">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/cart_receive_receive_place_address_default"
+                android:id="@+id/tv_cart_receiver_address_default"
+                android:textColor="@color/color_ec6c00"
+                android:textSize="@dimen/cart_confirm_receive_place_item_content_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Address"
+                android:id="@+id/tv_cart_receiver_address"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/cart_confirm_receive_place_item_content_sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/cart_receive_receive_phone"
+            android:id="@+id/tv_cart_receiver_phone"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/cart_confirm_receive_place_item_content_sp"/>
+    </LinearLayout>
+</LinearLayout>

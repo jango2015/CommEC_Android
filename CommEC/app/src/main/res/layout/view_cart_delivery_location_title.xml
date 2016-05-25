@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cart_confirm_receive_place_block_title_h"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/cart_receive_place_title_delivery"
+        android:id="@+id/tv_cart_delivery_location"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_ec6c00"
+        android:paddingLeft="@dimen/cart_confirm_receive_block_title_left_space"
+        android:textSize="@dimen/cart_confirm_receive_place_block_title_sp"
+        android:background="@android:color/white"/>
+</LinearLayout>

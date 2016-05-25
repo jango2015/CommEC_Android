@@ -67,6 +67,8 @@
     <!-- 购物车 -->
     <string name="cart_header_title">购物车</string>
     <string name="cart_header_confirm_title">确认订单</string>
+    <string name="cart_header_receive_place_title">选择收货地点</string>
+    <string name="cart_header_receive_place_manage">管理</string>
 
     <string name="cart_item_category">分类：%1$s</string>
     <string name="cart_item_reserve">库存：%1$d</string>
@@ -87,6 +89,11 @@
     <string name="cart_confirm_buyer_message_goods_total_num">￥%1$d</string>
     <string name="cart_confirm_out_of_service">以下店铺不再服务区域内</string>
     <string name="cart_confirm_submit">提交订单</string>
+
+    <string name="cart_receive_place_title_receive">收货地址</string>
+    <string name="cart_receive_place_title_delivery">提货点-%1$s/%2$s</string>
+    <string name="cart_receive_receive_place_address_default">[默认地址]</string>
+    <string name="cart_receive_receive_phone">电话：%1$s</string>
 
     <!-- 个人信息 -->
     <string name="profile_header_title">个人信息</string>

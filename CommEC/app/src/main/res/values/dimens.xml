@@ -183,6 +183,17 @@
     <dimen name="cart_confirm_total_line_bottom_space">10.3dp</dimen>      <!-- 確認訂單項目下方資訊區塊分隔線與下方距離 -->
     <dimen name="cart_confirm_total_left_space">16.7dp</dimen>             <!-- 確認訂單項目下方資訊區塊合計金額與左側距離 -->
 
+    <dimen name="cart_confirm_receive_place_block_title_h">40dp</dimen>      <!-- 選擇收貨地點子區塊高度 -->
+    <dimen name="cart_confirm_receive_place_block_title_sp">16sp</dimen>     <!-- 選擇收貨地點子區塊抬頭文字大小 -->
+    <dimen name="cart_confirm_receive_block_title_left_space">16.7dp</dimen> <!-- 選擇收貨地點子區塊抬頭文字與左側距離 -->
+    <dimen name="cart_confirm_receive_place_block_item_h">60dp</dimen>       <!-- 選擇收貨地點子區塊 item 高度 -->
+    <dimen name="cart_confirm_receive_item_left_space">16.7dp</dimen>        <!-- 選擇收貨地點子區塊 item 與左側距離 -->
+    <dimen name="cart_confirm_receive_item_right_space">16.7dp</dimen>       <!-- 選擇收貨地點子區塊 item 與右側距離 -->
+    <dimen name="cart_confirm_receive_place_item_receiver_sp">12sp</dimen>   <!-- 選擇收貨地點子區塊 item 收件人文字大小 -->
+    <dimen name="cart_confirm_receive_place_item_content_sp">10sp</dimen>    <!-- 選擇收貨地點子區塊 item 地址與電話文字大小 -->
+    <dimen name="cart_confirm_receive_place_item_content_top_space">8dp</dimen>      <!-- 選擇收貨地點子區塊 item 地址與上方距離 -->
+    <dimen name="cart_confirm_receive_place_item_content_bottom_space">6.7dp</dimen> <!-- 選擇收貨地點子區塊 item 地址與下方距離 -->
+
     <!-- Profile -->
     <dimen name="profile_txt_header_title_sp">21.3sp</dimen>           <!-- 抬頭區塊中間抬頭的文字大小 -->
     <dimen name="profile_row_h">45dp</dimen>                           <!-- Content row 的高度 -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_cart_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/img_navi_background"
+        >
+
+        <ImageButton
+            android:id="@+id/ibtn_header_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+            android:layout_marginTop="@dimen/common_ddou_return_top_space"
+            android:background="@drawable/selector_btn_return_signin"
+            android:contentDescription="return"/>
+
+        <TextView
+            android:id="@+id/tv_cart_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/cart_header_receive_place_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/cart_txt_header_title_sp"/>
+
+        <Button
+            android:id="@+id/btn_cart_header_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:text="@string/cart_header_receive_place_manage"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/cart_txt_header_title_sp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_cart_receive_place"/>
+
+</LinearLayout>
