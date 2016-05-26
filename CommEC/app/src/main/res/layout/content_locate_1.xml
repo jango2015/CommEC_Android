@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/locate_current_position_"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="@color/color_E3E3E3"
+                        android:textColor="@color/color_e3e3e3"
                         android:textSize="@dimen/locate_current_locate_sp"/>
 
                 </LinearLayout>
@@ -97,5 +97,5 @@
         android:id="@+id/expandlv_content1_locate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/color_E3E3E3"/>
+        android:background="@color/color_e3e3e3"/>
 </LinearLayout>

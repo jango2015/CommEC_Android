@@ -49,5 +49,5 @@
         android:id="@+id/expandlv_content3_locate"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@color/color_E3E3E3"/>
+        android:background="@color/color_e3e3e3"/>
 </LinearLayout>

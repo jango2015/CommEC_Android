@@ -115,7 +115,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/search_shop_item_goods_total_right_space"
             android:gravity="bottom|right"
-            android:text="@string/search_shop_total"
+            android:text="@string/search_shop_item_goods_total"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
     </RelativeLayout>
 </LinearLayout>

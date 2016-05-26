@@ -119,6 +119,6 @@
         android:layout_above="@+id/rl_cart_bottom"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/rl_cart_header"
-        android:background="@color/color_E3E3E3"/>
+        android:background="@color/color_e3e3e3"/>
 
 </RelativeLayout>
