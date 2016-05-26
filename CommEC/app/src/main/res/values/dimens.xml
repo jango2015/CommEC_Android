@@ -119,6 +119,17 @@
     <dimen name="search_searchview_edit_sp">16sp</dimen>                 <!-- 搜尋框輸入框與左側距離 -->
     <dimen name="search_searchview_magnifier_right_space">16.7dp</dimen> <!-- 搜尋框放大鏡按鈕與右邊距離 -->
 
+    <dimen name="search_shop_item_h">120dp</dimen>                        <!-- 店鋪 item 高度 -->
+    <dimen name="search_shop_item_photo_wh">83.3dp</dimen>                <!-- 店鋪 item 商品寬高 -->
+    <dimen name="search_shop_item_name_sp">16sp</dimen>                   <!-- 店鋪 item 店名文字大小 -->
+    <dimen name="search_shop_item_goods_sp">12sp</dimen>                  <!-- 店鋪 item 品名文字大小 -->
+    <dimen name="search_shop_item_goods_photo_left_space">20dp</dimen>    <!-- 店鋪 item 圖片與左側距離 -->
+    <dimen name="search_shop_item_goods_photo_right_space">16.7dp</dimen> <!-- 店鋪 item 圖片與左側距離 -->
+    <dimen name="search_shop_item_goods_rating_top_space">5dp</dimen>     <!-- 店鋪 item 評分星星與上方距離 -->
+    <dimen name="search_shop_item_goods_like_right_space">6.7dp</dimen>   <!-- 店鋪 item 讚圖示與右側距離 -->
+    <dimen name="search_shop_item_goods_total_right_space">12dp</dimen>   <!-- 店鋪 item 總計件數與右側距離 -->
+
+
     <!-- Cart -->
     <dimen name="cart_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->
     <dimen name="cart_item_shop_h">40dp</dimen>                        <!-- 列表項目商店名稱的高度 -->

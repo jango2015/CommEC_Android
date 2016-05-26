@@ -115,4 +115,7 @@
 
     <string name="locate_content2_txt">请选择小区</string>
 
+    <!-- Search shop -->
+    <string name="search_shop_total">共有1$d样商品</string>
+
 </resources>
