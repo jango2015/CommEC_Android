@@ -43,12 +43,25 @@
             android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
             android:background="@mipmap/navibtn_dots"/>
 
+        <Button
+            android:id="@+id/btn_header_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
+            android:background="@android:color/transparent"
+            android:text="確認"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/profile_header_right_txt_sp"
+            android:gravity="center_vertical|right"/>
+
     </RelativeLayout>
 
     <include
+        layout="@layout/content_profile"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        layout="@layout/content_profile"/>
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>

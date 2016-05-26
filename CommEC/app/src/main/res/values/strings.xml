@@ -66,6 +66,7 @@
     <string name="personal_trade_detail">交易明细</string>
     <string name="personal_trade_price">￥ %1$d</string>
 
+
     <!-- 搜索 -->
     <string name="search_header_title">搜索</string>
     <string name="search_babe">宝贝</string>
@@ -119,6 +120,7 @@
 
     <!-- 个人信息 -->
     <string name="profile_header_title">个人信息</string>
+    <string name="profile_header_submit">确认</string>
     <string name="profile_photo">头像</string>
     <string name="profile_id">会员帐号</string>
     <string name="profile_name">用户名</string>
@@ -127,6 +129,26 @@
     <string name="profile_address">收货地址</string>
     <string name="profile_change_pwd">修改登录密码</string>
     <string name="profile_signout">登出</string>
+
+    <string name="profile_change_username">修改用户名</string>
+    <string name="profile_change_username_hint">请输入新用户名</string>
+    <string name="profile_change_phone">修改联络电话</string>
+    <string name="profile_change_phone_hint">请输入联络电话</string>
+    <string name="profile_manage_address">管理收货地址</string>
+    <string name="profile_manage_address_default">默认地址</string>
+    <string name="profile_manage_address_edit">编辑</string>
+    <string name="profile_manage_address_del">删除</string>
+    <string name="profile_manage_address_add">添加新地址</string>
+    <string name="profile_manage_address_add_receive">新增收货地址</string>
+    <string name="profile_manage_address_receiver">收货人</string>
+    <string name="profile_manage_address_phone">联络电话</string>
+    <string name="profile_manage_address_area">所在地区</string>
+    <string name="profile_manage_address_street">街道地址</string>
+    <string name="profile_manage_address_add_phone">联络电话</string>
+    <string name="profile_edit_hint">请输入</string>
+    <string name="profile_select_hint">请输入</string>
+    <string name="profile_set_to_default">设为默认</string>
+    <string name="profile_delete_address">删除地址</string>
 
 
     <!-- 定位点 -->
