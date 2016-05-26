@@ -12,6 +12,9 @@
     <dimen name="common_ddou_icon_bottom_space">60dp</dimen> <!-- 兜 icon與底部的距離 -->
     <dimen name="tab_txt_sp">10sp</dimen>                    <!-- Tab 頁籤的文字大小 -->
 
+    <dimen name="header_txt_sp">21.3sp</dimen>               <!-- Header title 文字大小 -->
+
+
     <!-- Sign in -->
     <dimen name="signin_et_sp">21.3sp</dimen>                <!-- 編輯框的文字大小 -->
     <dimen name="signin_btn_sp">21.3sp</dimen>               <!-- 按鈕的文字大小 -->
@@ -96,14 +99,23 @@
     <dimen name="personal_order_space">10dp</dimen>                   <!-- 我的訂單區塊下方項目左右間距 -->
     <dimen name="personal_order_txt_sp">12sp</dimen>                  <!-- 我的訂單區塊下方項目文字大小 -->
 
-    <dimen name="personal_wallet_h">100dp</dimen>                     <!-- 我的錢包區塊高度 -->
-    <dimen name="personal_wallet_txt_sp">12sp</dimen>                 <!-- 我的錢包區塊項目文字大小 -->
-    <dimen name="personal_wallet_balance_left_space">16.7dp</dimen>   <!-- 我的錢包區塊下方錢包圖示與左側距離 -->
-    <dimen name="personal_wallet_balance_right_space">10dp</dimen>    <!-- 我的錢包區塊下方錢包圖示與右側距離 -->
-    <dimen name="personal_wallet_balance_w">110dp</dimen>              <!-- 我的錢包區塊餘額寬度 -->
-    <dimen name="personal_wallet_question_left_space">10dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
-    <dimen name="personal_wallet_question_right_space">35.3dp</dimen> <!-- 我的錢包區塊下方問號圖示與左側距離 -->
-    <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>   <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
+    <dimen name="personal_wallet_h">100dp</dimen>                        <!-- 我的錢包區塊高度 -->
+    <dimen name="personal_wallet_txt_sp">12sp</dimen>                    <!-- 我的錢包區塊項目文字大小 -->
+    <dimen name="personal_wallet_balance_left_space">16.7dp</dimen>      <!-- 我的錢包區塊下方錢包圖示與左側距離 -->
+    <dimen name="personal_wallet_balance_right_space">10dp</dimen>       <!-- 我的錢包區塊下方錢包圖示與右側距離 -->
+    <dimen name="personal_wallet_balance_w">110dp</dimen>                <!-- 我的錢包區塊餘額寬度 -->
+    <dimen name="personal_wallet_question_left_space">10dp</dimen>       <!-- 我的錢包區塊下方問號圖示與左側距離 -->
+    <dimen name="personal_wallet_question_right_space">35.3dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
+    <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>      <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
+
+    <dimen name="personal_trade_detail_item_h">60dp</dimen>              <!-- 交易明細 item 高度 -->
+    <dimen name="personal_trade_detail_item_left_space">16.7dp</dimen>   <!-- 交易明細 item 與左側距離 -->
+    <dimen name="personal_trade_detail_item_right_space">66.7dp</dimen>  <!-- 交易明細 item 金額與右側距離 -->
+    <dimen name="personal_trade_detail_item_bottom_space">8.3dp</dimen>  <!-- 交易明細 item 與下方日期距離 -->
+    <dimen name="personal_trade_detail_item_sp">16sp</dimen>             <!-- 交易明細 item 內容文字大小 -->
+    <dimen name="personal_trade_detail_date_sp">12sp</dimen>             <!-- 交易明細 item 日期文字大小 -->
+    <dimen name="personal_trade_detail_price_sp">21.3sp</dimen>          <!-- 交易明細 item 金額文字大小 -->
+
 
     <!-- Search -->
     <dimen name="search_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->

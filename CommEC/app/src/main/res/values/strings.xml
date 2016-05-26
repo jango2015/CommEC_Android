@@ -9,12 +9,14 @@
     <string name="tab_cart">购物车</string>
     <string name="tab_me">个人</string>
 
+
     <!-- Sign in -->
     <string name="signin_enter_account">请输入手机号码</string>
     <string name="signin_enter_pwd">请输入密码</string>
     <string name="signin_tv_forget_pwd">忘记密码</string>
     <string name="signin_btn_signin">登入</string>
     <string name="signin_btn_signup">我要注册</string>
+
 
     <!-- Sign up -->
     <string name="signup_enter_account">请输入手机号码</string>
@@ -32,6 +34,7 @@
     <string name="signup_txt_signup_success">注册成功！</string>
     <string name="signup_btn_go_shopping">开始体验</string>
 
+
     <!-- Home -->
     <string name="home_header_location">定位点</string>
     <string name="home_header_title">QQ社区</string>
@@ -44,7 +47,8 @@
     <string name="home_category_6">生鲜水果</string>
     <string name="home_community">社区商品</string>
 
-    <!-- Home -->
+
+    <!-- Personal -->
     <string name="personal_header_signinup">登入/注册</string>
 
     <string name="personal_order_my_order">我的订单</string>
@@ -58,6 +62,9 @@
     <string name="personal_wallet">我的钱包</string>
     <string name="personal_wallet_balance">余额：%1$d</string>
     <string name="personal_wallet_detail">交易明细</string>
+
+    <string name="personal_trade_detail">交易明细</string>
+    <string name="personal_trade_price">￥ %1$d</string>
 
     <!-- 搜索 -->
     <string name="search_header_title">搜索</string>
@@ -109,6 +116,7 @@
     <string name="cart_receive_receive_place_address_default">[默认地址]</string>
     <string name="cart_receive_receive_phone">电话：%1$s</string>
 
+
     <!-- 个人信息 -->
     <string name="profile_header_title">个人信息</string>
     <string name="profile_photo">头像</string>
@@ -119,6 +127,7 @@
     <string name="profile_address">收货地址</string>
     <string name="profile_change_pwd">修改登录密码</string>
     <string name="profile_signout">登出</string>
+
 
     <!-- 定位点 -->
     <string name="locate_header_title">定位点</string>
