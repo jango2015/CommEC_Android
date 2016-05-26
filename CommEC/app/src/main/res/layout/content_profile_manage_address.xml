@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lv_profile_receive_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_profile_manage_add_address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_manage_address_add"
+        android:id="@+id/btn_profile_manage_add_address"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/btn_orange_add"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/profile_manage_address_btn_add_sp"/>
+
+</RelativeLayout>

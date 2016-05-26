@@ -259,6 +259,33 @@
     <dimen name="profile_line_w">333.3dp</dimen>                       <!-- 修改區塊 編輯框底線寬度 -->
     <dimen name="profile_line_h">0.3dp</dimen>                         <!-- 修改區塊 編輯框底線高度 -->
 
+    <dimen name="profile_manage_address_btn_add_sp">21.3sp</dimen>        <!-- 管理收貨地址 添加新地址文字大小 -->
+    <dimen name="profile_manage_list_item_h">120dp</dimen>                <!-- 管理收貨地址 item 高度 -->
+    <dimen name="profile_manage_item_receiver_sp">21.3sp</dimen>          <!-- 管理收貨地址 item 收件人文字大小 -->
+    <dimen name="profile_manage_item_sp">16sp</dimen>                     <!-- 管理收貨地址 item 內容文字大小 -->
+    <dimen name="profile_manage_receiver_top_space">10dp</dimen>          <!-- 管理收貨地址 item 收件人與頂端距離 -->
+    <dimen name="profile_manage_item_left_space">16.7dp</dimen>           <!-- 管理收貨地址 item 左側距離 -->
+    <dimen name="profile_manage_item_right_space">14.3dp</dimen>          <!-- 管理收貨地址 item 右側距離 -->
+    <dimen name="profile_manage_item_bottom_h">25dp</dimen>               <!-- 管理收貨地址 item 下區高度 -->
+    <dimen name="profile_manage_item_cb_right_space">3.3dp</dimen>        <!-- 管理收貨地址 item 設為預設確認框與文字距離 -->
+    <dimen name="profile_manage_item_address_top_space">9dp</dimen>       <!-- 管理收貨地址 item 地址與上區距離 -->
+    <dimen name="profile_manage_item_address_bottom_space">9dp</dimen>    <!-- 管理收貨地址 item 地址與下區距離 -->
+    <dimen name="profile_manage_item_bottom_top_space">9dp</dimen>        <!-- 管理收貨地址 item 底區與上方地址文字距離 -->
+    <dimen name="profile_manage_item_bottom_bottom_space">8dp</dimen>     <!-- 管理收貨地址 item 底區與與下緣距離 -->
+    <dimen name="profile_manage_item_bottom_btn_w">70dp</dimen>           <!-- 管理收貨地址 item 編輯與刪除按鈕寬度 -->
+    <dimen name="profile_manage_item_bottom_btn_space">5dp</dimen>        <!-- 管理收貨地址 item 編輯與刪除按鈕間距 -->
+    <dimen name="profile_manage_item_btn_del_right_space">5dp</dimen>     <!-- 管理收貨地址 item 刪除按鈕與右緣距離 -->
+
+    <dimen name="profile_add_address_top_block_h">162dp</dimen>             <!-- 新增收貨地址 item 上區高度 -->
+    <dimen name="profile_add_address_block_space">8dp</dimen>               <!-- 新增收貨地址 item 上下區間距 -->
+    <dimen name="profile_add_address_bottom_block_h">46.7dp</dimen>         <!-- 新增收貨地址 item 下區高度 -->
+    <dimen name="profile_add_address_txt_sp">21.3dp</dimen>                 <!-- 新增收貨地址 item 項目文字大小 -->
+    <dimen name="profile_add_address_et_sp">16sp</dimen>                    <!-- 新增收貨地址 item 輸入文字大小 -->
+    <dimen name="profile_add_address_item_h">40dp</dimen>                   <!-- 新增收貨地址 item 項目高度 -->
+    <dimen name="profile_add_address_item_left_space">13.3dp</dimen>        <!-- 新增收貨地址 item 項目與左緣距離 -->
+    <dimen name="profile_add_address_item_right_space">29.3dp</dimen>       <!-- 新增收貨地址 item 項目與右緣距離 -->
+    <dimen name="profile_add_address_item_arrow_right_space">12dp</dimen>   <!-- 新增收貨地址 item 項目箭頭與右緣距離 -->
+
 
     <!-- Locate -->
     <dimen name="locate_txt_header_title_sp">21.3sp</dimen>                     <!-- 抬頭區塊中間抬頭的文字大小 -->

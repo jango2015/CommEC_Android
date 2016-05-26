@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_manage_list_item_h"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/profile_manage_receiver_top_space"
+            android:layout_marginLeft="@dimen/profile_manage_item_left_space"
+            android:layout_marginRight="@dimen/profile_manage_item_right_space">
+
+            <TextView
+                android:id="@+id/tv_item_receiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Receiver"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/profile_manage_item_receiver_sp"
+                android:textColor="@color/color_191919"/>
+
+            <TextView
+                android:id="@+id/tv_item_receiver_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Phone"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="@dimen/profile_manage_item_sp"
+                android:textColor="@color/color_191919"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_item_receiver_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/profile_manage_item_address_bottom_space"
+            android:layout_marginTop="@dimen/profile_manage_item_address_top_space"
+            android:text="Address"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="@dimen/profile_manage_item_sp"
+            android:textColor="@color/color_191919"
+            android:layout_marginLeft="@dimen/profile_manage_item_left_space"
+            android:layout_marginRight="@dimen/profile_manage_item_right_space"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/img_line_1000"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_manage_item_bottom_h"
+            android:layout_marginBottom="@dimen/profile_manage_item_bottom_bottom_space"
+            android:layout_marginTop="@dimen/profile_manage_item_bottom_top_space">
+
+            <CheckBox
+                android:id="@+id/ibtn_set_default_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/selector_cb_default"
+                android:text="@string/profile_set_to_default"
+                android:textSize="@dimen/profile_manage_item_sp"
+                android:textColor="@color/color_9b9b9b"
+                android:paddingLeft="@dimen/profile_manage_item_cb_right_space"
+                android:layout_marginLeft="@dimen/profile_manage_item_left_space"/>
+
+            <Button
+                android:id="@+id/ibtn_profile_edit"
+                android:layout_width="@dimen/profile_manage_item_bottom_btn_w"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ibtn_profile_del"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/btn_edit"
+                android:text="@string/profile_manage_address_edit"
+                android:textSize="@dimen/profile_manage_item_sp"
+                android:paddingLeft="5dp"/>
+
+            <Button
+                android:id="@+id/ibtn_profile_del"
+                android:layout_width="@dimen/profile_manage_item_bottom_btn_w"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@mipmap/btn_delete"
+                android:paddingLeft="5dp"
+                android:text="@string/profile_manage_address_del"
+                android:textSize="@dimen/profile_manage_item_sp"
+                android:layout_marginLeft="@dimen/profile_manage_item_bottom_btn_space"
+                android:layout_marginRight="@dimen/profile_manage_item_btn_del_right_space"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
