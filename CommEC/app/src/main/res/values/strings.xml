@@ -167,7 +167,12 @@
     <string name="search_babe">宝贝</string>
     <string name="search_shop">店铺</string>
 
-        <!-- 店鋪 M3.2.1 -->
+        <!-- 搜索-寶貝 M3.1.1 -->
+        <string name="search_babe_shows">显示方式：</string>
+        <string name="search_babe_shows_price">价格优先</string>
+        <string name="search_babe_shows_sales">销量优先</string>
+
+        <!-- 搜索-店舖 M3.2.1 -->
         <string name="search_shop_item_goods_total">共有1$d样商品</string>
         <string name="search_shop_detail_phone">店铺电话：%1$s</string>
         <string name="search_shop_detail_address">店铺地址：%1$s</string>
