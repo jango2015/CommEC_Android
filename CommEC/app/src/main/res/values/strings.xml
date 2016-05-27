@@ -20,12 +20,27 @@
     <string name="locate_content2_txt">请选择小区</string>
 
 
-    <!-- 登入 M2.1.0 -->
+    <!-- 登入 M2.1 -->
     <string name="signin_enter_account">请输入手机号码</string>
     <string name="signin_enter_pwd">请输入密码</string>
     <string name="signin_tv_forget_pwd">忘记密码</string>
     <string name="signin_btn_signin">登入</string>
     <string name="signin_btn_signup">我要注册</string>
+
+        <!-- 登入 M2.1.3 -->
+            <!-- 忘记密码 -->
+            <string name="forgot_pwd_tv1">忘记密码</string>
+            <string name="forgot_pwd_et_cellphone">手机号码</string>
+            <string name="forgot_pwd_btn_get_code">取得验证码</string>
+            <string name="forgot_pwd_et_enter_code">请输入验证码</string>
+            <string name="forgot_pwd_btn_confirm_code">确认验证码</string>
+            <string name="forgot_pwd_tv_countdown">%1$s后可重发验证码</string>
+
+            <!-- 设定新密码 -->
+            <string name="forgot_pwd_tv2">设定新密码</string>
+            <string name="forgot_pwd2_et_enter_new_pwd">新密码</string>
+            <string name="forgot_pwd2_et_confirm_new_pwd">确认新密码</string>
+            <string name="forgot_pwd2_btn_confirm">确定</string>
 
 
     <!-- 注册 M2.1.1 -->

@@ -135,6 +135,17 @@
     <dimen name="personal_wallet_question_right_space">35.3dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>      <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
+        <!-- 登入 M2.1.3 -->
+            <!-- 忘记密码 -->
+            <dimen name="forgot_pwd_subject_top_space">12dp</dimen>        <!-- 標頭與上方 icon 距離 -->
+            <dimen name="forgot_pwd_subject_bottom_space">26.7dp</dimen>   <!-- 標頭與下方輸入框距離 -->
+            <dimen name="forgot_pwd_et_bg_w">240dp</dimen>                 <!-- 輸入框整體寬度 -->
+            <dimen name="forgot_pwd_subject_sp">21.3sp</dimen>             <!-- 標頭文字大小 -->
+            <dimen name="forgot_pwd_et_sp">21.3sp</dimen>                  <!-- 輸入框大小 -->
+            <dimen name="forgot_pwd_btn_sp">21.3sp</dimen>                 <!-- 按鈕文字大小 -->
+            <dimen name="forgot_pwd_et_w">160dp</dimen>                    <!-- 輸入框 寬度 -->
+            <dimen name="forgot_pwd_et_lr_space">16.7dp</dimen>            <!-- 輸入登入密碼 輸入框左右距離 -->
+
         <!-- 消息中心 M2.3.0 -->
         <dimen name="message_item_h">70dp</dimen>                          <!-- item 高度 -->
         <dimen name="message_item_icon_left_space">13.3dp</dimen>          <!-- item icon 與左緣距離 -->
