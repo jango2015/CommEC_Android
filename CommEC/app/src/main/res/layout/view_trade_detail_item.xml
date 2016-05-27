@@ -2,9 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="horizontal"
-    >
-
+              android:orientation="horizontal">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,19 +13,19 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true">
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv_trade_detail_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/personal_trade_detail_item_bottom_space"
                 android:text="Content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/color_191919"
-                android:textSize="@dimen/personal_trade_detail_item_sp"
-                android:layout_marginBottom="@dimen/personal_trade_detail_item_bottom_space"/>
+                android:textSize="@dimen/personal_trade_detail_item_sp"/>
 
             <TextView
                 android:id="@+id/tv_trade_detail_date"
@@ -35,19 +33,19 @@
                 android:layout_height="wrap_content"
                 android:text="2016/04/23 10:32"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textSize="@dimen/personal_trade_detail_date_sp"
-                android:textColor="@color/color_a3a3a3"/>
+                android:textColor="@color/color_a3a3a3"
+                android:textSize="@dimen/personal_trade_detail_date_sp"/>
         </LinearLayout>
 
         <TextView
             android:id="@+id/tv_trade_detail_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:text="@string/personal_trade_price"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_alignParentRight="true"
-            android:textColor="@android:color/black"
-            android:layout_centerVertical="true"/>
+            android:textColor="@android:color/black"/>
     </RelativeLayout>
 
 </LinearLayout>

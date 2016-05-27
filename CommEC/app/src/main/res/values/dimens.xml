@@ -135,6 +135,17 @@
     <dimen name="personal_wallet_question_right_space">35.3dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>      <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
+        <!-- 消息中心 M2.3.0 -->
+        <dimen name="message_item_h">70dp</dimen>                          <!-- item 高度 -->
+        <dimen name="message_item_icon_left_space">13.3dp</dimen>          <!-- item icon 與左緣距離 -->
+        <dimen name="message_item_icon_right_space">16.7dp</dimen>         <!-- item icon 與右邊文字距離 -->
+        <dimen name="message_item_subject_w">177.3dp</dimen>               <!-- item 主旨寬度 -->
+        <dimen name="message_item_subject_sp">16sp</dimen>                 <!-- item 訊息主旨文字大小 -->
+        <dimen name="message_item_txt_sp">12sp</dimen>                     <!-- item 訊息日期及描述文字大小 -->
+        <dimen name="message_item_desc_w">238.7dp</dimen>                  <!-- item 描述寬度 -->
+        <dimen name="message_item_middle_space">10dp</dimen>               <!-- item 文字與描述間距 -->
+        <dimen name="message_item_right_space">13.3dp</dimen>              <!-- item date 與右緣距離 -->
+
         <!-- 个人信息 M2.4.0 -->
         <dimen name="profile_row_h">45dp</dimen>                           <!-- Content row 的高度 -->
         <dimen name="profile_row_top_space">1dp</dimen>                    <!-- Content row 頂部距離 -->

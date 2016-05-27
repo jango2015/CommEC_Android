@@ -73,6 +73,9 @@
     <string name="personal_wallet_balance">余额：%1$d</string>
     <string name="personal_wallet_detail">交易明细</string>
 
+        <!-- 消息中心 M2.3.0 -->
+        <string name="message_header_title">消息</string>
+
         <!-- 个人信息 M2.4.0 -->
         <string name="profile_header_title">个人信息</string>
         <string name="profile_header_submit">确认</string>
