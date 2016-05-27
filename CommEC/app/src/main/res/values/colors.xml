@@ -6,33 +6,23 @@
 
     <color name="black_half">#50000000</color>
 
-    <color name="color_e3e3e3">#e3e3e3</color>
-    <!-- Tab -->
-    <color name="color_606469">#606469</color>
-    <color name="color_e96d1f">#e96d1f</color>
     <color name="color_f2f0f0">#f2f0f0</color>
-
-    <!-- Sign in -->
+    <color name="color_ececec">#ececec</color>
+    <color name="color_e3e3e3">#e3e3e3</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_cecece">#cecece</color>
+    <color name="color_a3a3a3">#a3a3a3</color>
     <color name="color_9b9b9b">#9b9b9b</color>
-
-    <!-- Sign up -->
-    <color name="color_4a90e2">#4a90e2</color>
-
-    <!-- Home -->
+    <color name="color_606469">#606469</color>
     <color name="color_4a4a4a">#4a4a4a</color>
     <color name="color_191919">#191919</color>
+    <color name="color_4a90e2">#4a90e2</color>
+    <color name="color_094af2">#094af2</color>
+    <color name="color_e96d1f">#e96d1f</color>
     <color name="color_ec6c00">#ec6c00</color>
-
-    <!-- Personal -->
-    <color name="color_d8d8d8">#d8d8d8</color>
-    <color name="color_ececec">#ececec</color>
-    <color name="color_cecece">#cecece</color>
-
-    <!-- Search -->
-    <color name="color_a3a3a3">#a3a3a3</color>
-
-    <!-- Cart -->
-    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_f33d26">#f33d26</color>
+    <color name="color_c82915">#c82915</color>
     <color name="color_d0021b">#d0021b</color>
 
 </resources>

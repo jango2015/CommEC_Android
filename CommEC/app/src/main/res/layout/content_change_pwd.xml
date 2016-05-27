@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_change_bundle_pwd_item_h"
+        android:layout_marginLeft="@dimen/profile_change_bundle_pwd_item_lr"
+        android:layout_marginRight="@dimen/profile_change_bundle_pwd_item_lr"
+        android:background="@null"
+        android:drawableBottom="@drawable/custom_edittext"
+        android:ems="16"
+        android:hint="@string/profile_change_pwd_enter_old_pwd"
+        android:inputType="textPassword"
+        android:textColor="@color/color_191919"
+        android:textColorHint="@color/color_9b9b9b"
+        android:textSize="@dimen/profile_change_bundle_pwd_hint_sp"/>
+
+    <EditText
+        android:id="@+id/et_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_change_bundle_pwd_item_h"
+        android:layout_marginLeft="@dimen/profile_change_bundle_pwd_item_lr"
+        android:layout_marginRight="@dimen/profile_change_bundle_pwd_item_lr"
+        android:background="@null"
+        android:drawableBottom="@drawable/custom_edittext"
+        android:ems="16"
+        android:hint="@string/profile_change_pwd_enter_new_pwd"
+        android:inputType="textPassword"
+        android:textColor="@color/color_191919"
+        android:textColorHint="@color/color_9b9b9b"
+        android:textSize="@dimen/profile_change_bundle_pwd_hint_sp"/>
+
+    <EditText
+        android:id="@+id/et_new_pwd_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_change_bundle_pwd_item_h"
+        android:layout_marginLeft="@dimen/profile_change_bundle_pwd_item_lr"
+        android:layout_marginRight="@dimen/profile_change_bundle_pwd_item_lr"
+        android:background="@null"
+        android:drawableBottom="@drawable/custom_edittext"
+        android:ems="16"
+        android:hint="@string/profile_change_pwd_enter_new_pwd_confirm"
+        android:inputType="textPassword"
+        android:textColor="@color/color_191919"
+        android:textColorHint="@color/color_9b9b9b"
+        android:textSize="@dimen/profile_change_bundle_pwd_hint_sp"/>
+</LinearLayout>

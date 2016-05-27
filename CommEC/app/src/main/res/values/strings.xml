@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
+
     <!-- Tab -->
     <string name="tab_home">首页</string>
     <string name="tab_search">搜寻</string>
@@ -10,7 +11,16 @@
     <string name="tab_me">个人</string>
 
 
-    <!-- Sign in -->
+    <!-- 定位点 M0.1 -->
+    <string name="locate_header_title">定位点</string>
+    <string name="locate_header_title_select_community">定位点-选择社区</string>
+    <string name="locate_current_position_txt">定位点-</string>
+    <string name="locate_current_position_">%1$s/%2$s</string>
+    <string name="locate_notice">(若选择不到小区,回到定位点)</string>
+    <string name="locate_content2_txt">请选择小区</string>
+
+
+    <!-- 登入 M2.1.0 -->
     <string name="signin_enter_account">请输入手机号码</string>
     <string name="signin_enter_pwd">请输入密码</string>
     <string name="signin_tv_forget_pwd">忘记密码</string>
@@ -18,7 +28,7 @@
     <string name="signin_btn_signup">我要注册</string>
 
 
-    <!-- Sign up -->
+    <!-- 注册 M2.1.1 -->
     <string name="signup_enter_account">请输入手机号码</string>
     <string name="signup_btn_send_code">发送验证码</string>
     <string name="signup_enter_code">请输入验证码</string>
@@ -35,7 +45,7 @@
     <string name="signup_btn_go_shopping">开始体验</string>
 
 
-    <!-- Home -->
+    <!-- 首页 M1 -->
     <string name="home_header_location">定位点</string>
     <string name="home_header_title">QQ社区</string>
     <string name="home_category">精选分类</string>
@@ -48,7 +58,7 @@
     <string name="home_community">社区商品</string>
 
 
-    <!-- Personal -->
+    <!-- 个人 M2 -->
     <string name="personal_header_signinup">登入/注册</string>
 
     <string name="personal_order_my_order">我的订单</string>
@@ -63,35 +73,98 @@
     <string name="personal_wallet_balance">余额：%1$d</string>
     <string name="personal_wallet_detail">交易明细</string>
 
-    <string name="personal_trade_detail">交易明细</string>
-    <string name="personal_trade_price">￥ %1$d</string>
+        <!-- 个人信息 M2.4.0 -->
+        <string name="profile_header_title">个人信息</string>
+        <string name="profile_header_submit">确认</string>
+        <string name="profile_photo">头像</string>
+        <string name="profile_id">会员帐号</string>
+        <string name="profile_name">用户名</string>
+        <string name="profile_phone">联络电话</string>
+        <string name="profile_cellphone">绑定手机号</string>
+        <string name="profile_address">收货地址</string>
+        <string name="profile_change_pwd">修改登录密码</string>
+        <string name="profile_signout">登出</string>
+
+        <!-- 修改用户名 M2.4.1 -->
+        <string name="profile_change_username">修改用户名</string>
+        <string name="profile_change_username_hint">请输入新用户名</string>
+
+        <!-- 修改联络电话 M2.4.2 -->
+        <string name="profile_change_phone">修改联络电话</string>
+        <string name="profile_change_phone_hint">请输入联络电话</string>
+
+        <!-- 管理收货地址 M2.4.2 -->
+        <string name="profile_manage_address">管理收货地址</string>
+        <string name="profile_manage_address_default">默认地址</string>
+        <string name="profile_manage_address_edit">编辑</string>
+        <string name="profile_manage_address_del">删除</string>
+        <string name="profile_manage_address_add">添加新地址</string>
+
+        <!-- 新增收货地址 M2.4.2 -->
+        <string name="profile_manage_address_add_receive">新增收货地址</string>
+        <string name="profile_add_address_receiver">收货人</string>
+        <string name="profile_add_address_phone">联络电话</string>
+        <string name="profile_add_address_area">所在地区</string>
+        <string name="profile_add_address_street">街道地址</string>
+        <string name="profile_manage_address_add_phone">联络电话</string>
+        <string name="profile_edit_hint">请输入</string>
+        <string name="profile_select_hint">请选择</string>
+        <string name="profile_set_to_default">设为默认</string>
+
+        <!-- 编辑收货地址 M2.4.2 -->
+        <string name="profile_delete_address">删除地址</string>
+
+        <!-- 变更绑定手机号 M2.4.3 -->
+        <string name="profile_change_bundle_cellphone_title">变更绑定手机号</string>
+        <string name="profile_change_bundle_cellphone_attention">注意!</string>
+        <string name="profile_change_bundle_cellphone_attention_content">改变绑定手机号同时也会改变会员登入帐号\n若同时为商家也会改变商家登入帐号</string>
+        <string name="profile_change_bundle_cellphone_enter_pwd">请输入登入密码</string>
+        <string name="profile_change_bundle_cellphone_btn_submit">确认变更</string>
+        <string name="profile_change_bundle_cellphone_enter_code">请输入收到的验证码</string>
+        <string name="profile_change_bundle_cellphone_btn_submit_code">确认验证码</string>
+        <string name="profile_change_bundle_cellphone_countdown">%1$s后可重发验证码</string>
+        <string name="profile_change_bundle_cellphone_attention_cannot_receive">若原手机号无法收取验证码</string>
+        <string name="profile_change_bundle_cellphone_attention_connect">请联系客服</string>
+        <string name="profile_change_bundle_cellphone_attention_mail">12344@qq.com</string>
+        <string name="profile_change_bundle_cellphone_enter_new_cellphone">请输入新手机号码</string>
+        <string name="profile_change_bundle_cellphone_btn_send_code">发送验证码</string>
+        <string name="profile_change_bundle_cellphone_enter_code2">请输入验证码</string>
+        <string name="profile_change_bundle_cellphone_change_success">变更成功!</string>
+        <string name="profile_change_bundle_cellphone_go_shopping">开 始 体 验</string>
+
+        <!-- 修改登入密码 M2.4.4 -->
+        <string name="profile_change_pwd_title">修改登入密码</string>
+        <string name="profile_change_pwd_title_confirm">确认</string>
+        <string name="profile_change_pwd_enter_old_pwd">请输入旧密码</string>
+        <string name="profile_change_pwd_enter_new_pwd">请输入新密码</string>
+        <string name="profile_change_pwd_enter_new_pwd_confirm">请确认新密码</string>
+
+        <!-- 交易明细 M2.5.1 -->
+        <string name="personal_trade_detail">交易明细</string>
+        <string name="personal_trade_price">￥ %1$d</string>
 
 
-    <!-- 搜索 -->
+    <!-- 搜索 M3 -->
     <string name="search_header_title">搜索</string>
     <string name="search_babe">宝贝</string>
     <string name="search_shop">店铺</string>
 
-    <!-- 搜索_店鋪 -->
-    <string name="search_shop_item_goods_total">共有1$d样商品</string>
-    <string name="search_shop_detail_phone">店铺电话：%1$s</string>
-    <string name="search_shop_detail_address">店铺地址：%1$s</string>
-    <string name="search_shop_detail">店铺简介</string>
-    <string name="search_shop_all_category">全部</string>
-    <string name="search_shop_order_title">排序方式：</string>
-    <string name="search_shop_order_time">上架时间</string>
-    <string name="search_shop_order_sales">销量</string>
-    <string name="search_shop_goods_price">￥ %1$d</string>
-    <string name="search_shop_goods_reserve_amount">库存量：%1$d</string>
-    <string name="search_shop_goods_sales_amount">销售量：%1$d</string>
+        <!-- 店鋪 M3.2.1 -->
+        <string name="search_shop_item_goods_total">共有1$d样商品</string>
+        <string name="search_shop_detail_phone">店铺电话：%1$s</string>
+        <string name="search_shop_detail_address">店铺地址：%1$s</string>
+        <string name="search_shop_detail">店铺简介</string>
+        <string name="search_shop_all_category">全部</string>
+        <string name="search_shop_order_title">排序方式：</string>
+        <string name="search_shop_order_time">上架时间</string>
+        <string name="search_shop_order_sales">销量</string>
+        <string name="search_shop_goods_price">￥ %1$d</string>
+        <string name="search_shop_goods_reserve_amount">库存量：%1$d</string>
+        <string name="search_shop_goods_sales_amount">销售量：%1$d</string>
 
 
-    <!-- 购物车 -->
+    <!-- 购物车 M4 -->
     <string name="cart_header_title">购物车</string>
-    <string name="cart_header_confirm_title">确认订单</string>
-    <string name="cart_header_receive_place_title">选择收货地点</string>
-    <string name="cart_header_receive_place_manage">管理</string>
-
     <string name="cart_item_category">分类：%1$s</string>
     <string name="cart_item_reserve">库存：%1$d</string>
     <string name="cart_item_price">￥%1$d</string>
@@ -102,66 +175,26 @@
     <string name="cart_total_num">￥%1$d</string>
     <string name="cart_count">结算(%1$d)</string>
 
-    <string name="cart_confirm_receiver">收货人:%1$s</string>
-    <string name="cart_confirm_address">收货地址:%1$s</string>
-    <string name="cart_confirm_buyer_message">买家留言:</string>
-    <string name="cart_confirm_buyer_message_hint">选填要求</string>
-    <string name="cart_confirm_buyer_message_goods_num">共%1$d件商品</string>
-    <string name="cart_confirm_buyer_message_goods_total">合计：</string>
-    <string name="cart_confirm_buyer_message_goods_total_num">￥%1$d</string>
-    <string name="cart_confirm_out_of_service">以下店铺不再服务区域内</string>
-    <string name="cart_confirm_submit">提交订单</string>
+        <!-- 确认订单 M4.2.0 -->
+        <string name="cart_header_confirm_title">确认订单</string>
+        <string name="cart_confirm_receiver">收货人:%1$s</string>
+        <string name="cart_confirm_buyer_message">买家留言:</string>
+        <string name="cart_confirm_buyer_message_hint">选填要求</string>
+        <string name="cart_confirm_buyer_message_goods_num">共%1$d件商品</string>
+        <string name="cart_confirm_buyer_message_goods_total">合计：</string>
+        <string name="cart_confirm_buyer_message_goods_total_num">￥%1$d</string>
+        <string name="cart_confirm_out_of_service">以下店铺不再服务区域内</string>
+        <string name="cart_confirm_submit">提交订单</string>
 
-    <string name="cart_receive_place_title_receive">收货地址</string>
-    <string name="cart_receive_place_title_delivery">提货点-%1$s/%2$s</string>
-    <string name="cart_receive_receive_place_address_default">[默认地址]</string>
-    <string name="cart_receive_receive_phone">电话：%1$s</string>
+        <!-- 选择收货地点 M4.2.1 -->
+        <string name="cart_header_receive_place_title">选择收货地点</string>
+        <string name="cart_header_receive_place_manage">管理</string>
+        <string name="cart_confirm_address">收货地址:%1$s</string>
+        <string name="cart_receive_place_title_receive">收货地址</string>
+        <string name="cart_receive_place_title_delivery">提货点-%1$s/%2$s</string>
+        <string name="cart_receive_receive_place_address_default">[默认地址]</string>
+        <string name="cart_receive_receive_phone">电话：%1$s</string>
 
-
-    <!-- 个人信息 -->
-    <string name="profile_header_title">个人信息</string>
-    <string name="profile_header_submit">确认</string>
-    <string name="profile_photo">头像</string>
-    <string name="profile_id">会员帐号</string>
-    <string name="profile_name">用户名</string>
-    <string name="profile_phone">联络电话</string>
-    <string name="profile_cellphone">绑定手机号</string>
-    <string name="profile_address">收货地址</string>
-    <string name="profile_change_pwd">修改登录密码</string>
-    <string name="profile_signout">登出</string>
-
-    <string name="profile_change_username">修改用户名</string>
-    <string name="profile_change_username_hint">请输入新用户名</string>
-    <string name="profile_change_phone">修改联络电话</string>
-    <string name="profile_change_phone_hint">请输入联络电话</string>
-
-    <string name="profile_manage_address">管理收货地址</string>
-    <string name="profile_manage_address_default">默认地址</string>
-    <string name="profile_manage_address_edit">编辑</string>
-    <string name="profile_manage_address_del">删除</string>
-    <string name="profile_manage_address_add">添加新地址</string>
-    <string name="profile_manage_address_add_receive">新增收货地址</string>
-
-    <string name="profile_add_address_receiver">收货人</string>
-    <string name="profile_add_address_phone">联络电话</string>
-    <string name="profile_add_address_area">所在地区</string>
-    <string name="profile_add_address_street">街道地址</string>
-
-    <string name="profile_manage_address_add_phone">联络电话</string>
-    <string name="profile_edit_hint">请输入</string>
-    <string name="profile_select_hint">请选择</string>
-    <string name="profile_set_to_default">设为默认</string>
-    <string name="profile_delete_address">删除地址</string>
-
-
-    <!-- 定位点 -->
-    <string name="locate_header_title">定位点</string>
-    <string name="locate_header_title_select_community">定位点-选择社区</string>
-    <string name="locate_current_position_txt">定位点-</string>
-    <string name="locate_current_position_">%1$s/%2$s</string>
-    <string name="locate_notice">(若选择不到小区,回到定位点)</string>
-
-    <string name="locate_content2_txt">请选择小区</string>
 
 
 </resources>

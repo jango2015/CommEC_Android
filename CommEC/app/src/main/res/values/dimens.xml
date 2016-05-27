@@ -15,7 +15,31 @@
     <dimen name="header_txt_sp">21.3sp</dimen>               <!-- Header title 文字大小 -->
 
 
-    <!-- Sign in -->
+    <!-- 定位点 M0.1 -->
+    <dimen name="locate_txt_header_title_sp">21.3sp</dimen>                     <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="locate_current_locate_block_h">100dp</dimen>                   <!-- 定位點區塊的高度 -->
+    <dimen name="locate_current_locate_block_above_h">50dp</dimen>              <!-- 定位點區塊上部的高度 -->
+    <dimen name="locate_current_locate_block_below_h">50dp</dimen>              <!-- 定位點區塊下部的高度 -->
+    <dimen name="locate_current_locate_sp">16sp</dimen>                         <!-- 定位點區塊目前定位點的文字大小 -->
+    <dimen name="locate_current_locate_back_sp">8.3sp</dimen>                   <!-- 定位點區塊目前定位點的提示文字大小 -->
+    <dimen name="locate_current_locate_icon_left_space">20dp</dimen>            <!-- 定位點區塊目前定位點圖示與左邊距 -->
+    <dimen name="locate_current_locate_icon_right_space">10dp</dimen>           <!-- 定位點區塊目前定位點圖示與右邊距 -->
+    <dimen name="locate_current_locate_block_top_space">10dp</dimen>            <!-- 定位點區塊目前定位點與上邊距 -->
+    <dimen name="locate_current_locate_block_notice_top_space">9dp</dimen>      <!-- 定位點區塊目前提示字與上邊距 -->
+    <dimen name="locate_current_locate_block_middle_space">10dp</dimen>         <!-- 定位點區塊目前定位點與下邊距 -->
+    <dimen name="locate_current_locate_spinner_sp">16sp</dimen>                 <!-- 定位點區塊下拉選單文字大小 -->
+    <dimen name="locate_current_locate_spinner_txt_right_space">6.7dp</dimen>   <!-- 定位點區塊下拉選單與右邊箭頭距離 -->
+
+    <dimen name="locate_current_locate_item_title_sp">20sp</dimen>              <!-- 列表區塊抬頭文字大小 -->
+    <dimen name="locate_current_locate_item_sub_sp">16sp</dimen>                <!-- 列表區塊子項目列表文字大小 -->
+
+    <dimen name="locate_content2_padding_space">13.3dp</dimen>                  <!-- 請選擇小區頁面 padding -->
+
+    <dimen name="locate_content3_above_h">50dp</dimen>                          <!-- 選擇社區-上方區塊高度 -->
+    <dimen name="locate_content3_above_txt_sp">16sp</dimen>                     <!-- 選擇社區-上方區塊文字大小 -->
+
+
+    <!-- 登入 M2.1.0 -->
     <dimen name="signin_et_sp">21.3sp</dimen>                <!-- 編輯框的文字大小 -->
     <dimen name="signin_btn_sp">21.3sp</dimen>               <!-- 按鈕的文字大小 -->
 
@@ -32,7 +56,8 @@
     <dimen name="signin_btn_signin_top_space">65dp</dimen>   <!-- 登入按鈕與頂部的距離 -->
     <dimen name="signin_btn_signup_top_space">26.7dp</dimen> <!-- 我要註冊按鈕與頂部的距離 -->
 
-    <!-- Sign up -->
+
+    <!-- 注册 M2.1.1 -->
     <dimen name="signup_common_space">26.7dp</dimen>         <!-- 編輯框之間的距離 -->
 
     <dimen name="signup_item_w">240dp</dimen>                <!-- 輸入框整體寬度 -->
@@ -51,7 +76,8 @@
     <dimen name="signup_txt_signup_success_sp">24sp</dimen>  <!-- 註冊成功的文字大小 -->
     <dimen name="signup_txt_countdown_sp">16sp</dimen>       <!-- 幾秒後重發驗證碼的文字大小 -->
 
-    <!-- Home -->
+
+    <!-- 首页 M1 -->
     <dimen name="home_txt_header_title_sp">21.3sp</dimen>             <!-- 抬頭區塊中間抬頭的文字大小 -->
     <dimen name="home_txt_header_location_sp">16sp</dimen>            <!-- 抬頭區塊左側定位點文字大小 -->
     <dimen name="home_txt_header_location_space">15dp</dimen>         <!-- 抬頭區塊左側定位點與圖示距離 -->
@@ -77,7 +103,8 @@
     <dimen name="home_community_txt_price_top_space">10dp</dimen>     <!-- 社區商品價錢與上方品名距離 -->
     <dimen name="home_community_txt_price_bottom_space">3.3dp</dimen> <!-- 社區商品價錢與底部距離 -->
 
-    <!-- Personal -->
+
+    <!-- 个人 M2 -->
     <dimen name="personal_block_space">8dp</dimen>                    <!-- 各區塊共用間距 -->
     <dimen name="personal_header_h">200dp</dimen>                     <!-- 頂部橘色區塊高度 -->
     <dimen name="personal_header_left_space">40dp</dimen>             <!-- 頂部橘色區塊左側圖示與左邊距離 -->
@@ -108,59 +135,142 @@
     <dimen name="personal_wallet_question_right_space">35.3dp</dimen>    <!-- 我的錢包區塊下方問號圖示與左側距離 -->
     <dimen name="personal_wallet_detail_right_space">23.3dp</dimen>      <!-- 我的錢包區塊下方交易明細圖示與右方文字距離 -->
 
-    <dimen name="personal_trade_detail_item_h">60dp</dimen>              <!-- 交易明細 item 高度 -->
-    <dimen name="personal_trade_detail_item_left_space">16.7dp</dimen>   <!-- 交易明細 item 與左側距離 -->
-    <dimen name="personal_trade_detail_item_right_space">66.7dp</dimen>  <!-- 交易明細 item 金額與右側距離 -->
-    <dimen name="personal_trade_detail_item_bottom_space">8.3dp</dimen>  <!-- 交易明細 item 與下方日期距離 -->
-    <dimen name="personal_trade_detail_item_sp">16sp</dimen>             <!-- 交易明細 item 內容文字大小 -->
-    <dimen name="personal_trade_detail_date_sp">12sp</dimen>             <!-- 交易明細 item 日期文字大小 -->
-    <dimen name="personal_trade_detail_price_sp">21.3sp</dimen>          <!-- 交易明細 item 金額文字大小 -->
+        <!-- 个人信息 M2.4.0 -->
+        <dimen name="profile_row_h">45dp</dimen>                           <!-- Content row 的高度 -->
+        <dimen name="profile_row_top_space">1dp</dimen>                    <!-- Content row 頂部距離 -->
+        <dimen name="profile_row_bottom_space">1dp</dimen>                 <!-- Content row 底部距離 -->
+        <dimen name="profile_line_top_space">14.7dp</dimen>                <!-- Content 分隔線與上方距離 -->
+        <dimen name="profile_line_bottom_space">1.7dp</dimen>              <!-- Content 分隔線與下方距離 -->
+        <dimen name="profile_txt_title_sp">21.3sp</dimen>                  <!-- Content 標頭的文字大小 -->
+        <dimen name="profile_txt_content_sp">21.3sp</dimen>                <!-- Content 內容的文字大小 -->
+        <dimen name="profile_txt_left_space">16.7dp</dimen>                <!-- Content 與左側距離 -->
+        <dimen name="profile_txt_right_space">16.7dp</dimen>               <!-- Content 與右側距離 -->
+        <dimen name="profile_photo_top_space">6.7dp</dimen>                <!-- Content 頭像區塊與頂部距離 -->
+        <dimen name="profile_photo_bottom_space">6.7dp</dimen>             <!-- Content 頭像區塊與底部距離 -->
+        <dimen name="profile_photo_right_space">16.7dp</dimen>             <!-- Content 頭像區塊圖片與右邊箭頭距離 -->
+        <dimen name="profile_gray_right_space">22dp</dimen>                <!-- Content item 與右邊箭頭距離 -->
+        <dimen name="profile_signout_top_space">53.7dp</dimen>             <!-- Content 登出按鈕與上方距離 -->
+
+        <!-- 管理收货地址 M2.4.2 -->
+        <dimen name="profile_header_right_txt_sp">21.3sp</dimen>           <!-- 抬頭區塊右方確認文字大小 -->
+        <dimen name="profile_change_item_h">50dp</dimen>                   <!-- 修改區塊高度 -->
+        <dimen name="profile_change_item_lr">16.7dp</dimen>                <!-- 修改區塊左右側距離 -->
+        <dimen name="profile_change_hint_sp">21.3sp</dimen>                <!-- 修改區塊 提示文字大小 -->
+        <dimen name="profile_change_item_rl">16.7dp</dimen>                <!-- 修改區塊左右側距離 -->
+        <dimen name="profile_line_w">333.3dp</dimen>                       <!-- 修改區塊 編輯框底線寬度 -->
+        <dimen name="profile_line_h">0.3dp</dimen>                         <!-- 修改區塊 編輯框底線高度 -->
+
+        <!-- 新增收货地址 M2.4.2 -->
+        <dimen name="profile_manage_address_btn_add_sp">21.3sp</dimen>        <!-- 管理收貨地址 添加新地址文字大小 -->
+        <dimen name="profile_manage_list_item_h">120dp</dimen>                <!-- 管理收貨地址 item 高度 -->
+        <dimen name="profile_manage_item_receiver_sp">21.3sp</dimen>          <!-- 管理收貨地址 item 收件人文字大小 -->
+        <dimen name="profile_manage_item_sp">16sp</dimen>                     <!-- 管理收貨地址 item 內容文字大小 -->
+        <dimen name="profile_manage_receiver_top_space">10dp</dimen>          <!-- 管理收貨地址 item 收件人與頂端距離 -->
+        <dimen name="profile_manage_item_left_space">16.7dp</dimen>           <!-- 管理收貨地址 item 左側距離 -->
+        <dimen name="profile_manage_item_right_space">14.3dp</dimen>          <!-- 管理收貨地址 item 右側距離 -->
+        <dimen name="profile_manage_item_bottom_h">25dp</dimen>               <!-- 管理收貨地址 item 下區高度 -->
+        <dimen name="profile_manage_item_cb_right_space">3.3dp</dimen>        <!-- 管理收貨地址 item 設為預設確認框與文字距離 -->
+        <dimen name="profile_manage_item_address_top_space">9dp</dimen>       <!-- 管理收貨地址 item 地址與上區距離 -->
+        <dimen name="profile_manage_item_address_bottom_space">9dp</dimen>    <!-- 管理收貨地址 item 地址與下區距離 -->
+        <dimen name="profile_manage_item_bottom_top_space">9dp</dimen>        <!-- 管理收貨地址 item 底區與上方地址文字距離 -->
+        <dimen name="profile_manage_item_bottom_bottom_space">8dp</dimen>     <!-- 管理收貨地址 item 底區與與下緣距離 -->
+        <dimen name="profile_manage_item_bottom_btn_w">70dp</dimen>           <!-- 管理收貨地址 item 編輯與刪除按鈕寬度 -->
+        <dimen name="profile_manage_item_bottom_btn_space">5dp</dimen>        <!-- 管理收貨地址 item 編輯與刪除按鈕間距 -->
+        <dimen name="profile_manage_item_btn_del_right_space">5dp</dimen>     <!-- 管理收貨地址 item 刪除按鈕與右緣距離 -->
+
+        <!-- 编辑收货地址 M2.4.2 -->
+        <dimen name="profile_add_address_top_block_h">162dp</dimen>             <!-- 新增收貨地址 item 上區高度 -->
+        <dimen name="profile_add_address_block_space">8dp</dimen>               <!-- 新增收貨地址 item 上下區間距 -->
+        <dimen name="profile_add_address_bottom_block_h">46.7dp</dimen>         <!-- 新增收貨地址 item 下區高度 -->
+        <dimen name="profile_add_address_txt_sp">21.3dp</dimen>                 <!-- 新增收貨地址 item 項目文字大小 -->
+        <dimen name="profile_add_address_et_sp">16sp</dimen>                    <!-- 新增收貨地址 item 輸入文字大小 -->
+        <dimen name="profile_add_address_item_h">40dp</dimen>                   <!-- 新增收貨地址 item 項目高度 -->
+        <dimen name="profile_add_address_item_left_space">13.3dp</dimen>        <!-- 新增收貨地址 item 項目與左緣距離 -->
+        <dimen name="profile_add_address_item_right_space">29.3dp</dimen>       <!-- 新增收貨地址 item 項目與右緣距離 -->
+        <dimen name="profile_add_address_item_arrow_right_space">12dp</dimen>   <!-- 新增收貨地址 item 項目箭頭與右緣距離 -->
+
+        <!-- 变更绑定手机号 M2.4.3 -->
+        <dimen name="profile_change_bundle_cellphone_et_sp">21.3sp</dimen>        <!-- 輸入框 文字大小 -->
+        <dimen name="profile_change_bundle_cellphone_et_w">240dp</dimen>          <!-- 輸入框 寬度 -->
+        <dimen name="profile_change_bundle_cellphone_et_space">26.7dp</dimen>     <!-- 輸入框 距離 -->
+        <dimen name="profile_change_bundle_cellphone_btn_sp">21.3sp</dimen>       <!-- 確認變更按鈕 文字大小 -->
+        <dimen name="profile_change_bundle_cellphone_countdown_sp">16sp</dimen>   <!-- 倒數重發驗證碼 文字大小 -->
+
+        <dimen name="profile_change_bundle_cellphone1_attention_sp">21.3sp</dimen>           <!-- 輸入登入密碼 注意 文字大小 -->
+        <dimen name="profile_change_bundle_cellphone1_attention_top_space">80dp</dimen>      <!-- 輸入登入密碼 注意 與頂端距離 -->
+        <dimen name="profile_change_bundle_cellphone1_attention_bottom_space">10dp</dimen>   <!-- 輸入登入密碼 注意 與內容距離 -->
+        <dimen name="profile_change_bundle_cellphone1_attention_content_sp">18sp</dimen>     <!-- 輸入登入密碼 注意 內容文字大小 -->
+        <dimen name="profile_change_bundle_cellphone1_btn_top_space">100dp</dimen>           <!-- 輸入登入密碼 輸入框 與上方文字距離 -->
+        <dimen name="profile_change_bundle_cellphone1_enter_pwd_lr_space">16.7dp</dimen>     <!-- 輸入登入密碼 輸入框左右距離 -->
+
+        <dimen name="profile_change_bundle_cellphone2_et_top_space">80dp</dimen>                         <!-- 輸入驗證碼 與上緣距離 -->
+        <dimen name="profile_change_bundle_cellphone2_connect_sp">12sp</dimen>                           <!-- 輸入驗證碼 聯繫客服 文字大小 -->
+        <dimen name="profile_change_bundle_cellphone2_enter_code_countdown_top_space">26.7dp</dimen>     <!-- 輸入驗證碼 倒數與上方按鈕距離 -->
+        <dimen name="profile_change_bundle_cellphone2_enter_code_countdown_bottom_space">213.3dp</dimen> <!-- 輸入驗證碼 倒數與下方文字距離 -->
+
+        <dimen name="profile_change_bundle_cellphone3_success_sp">21.3sp</dimen>  <!-- 變更成功 文字大小 -->
+
+        <!-- 修改登入密码 M2.4.3 -->
+        <dimen name="profile_change_bundle_pwd_item_h">50dp</dimen>               <!-- 修改區塊高度 -->
+        <dimen name="profile_change_bundle_pwd_item_lr">16.7dp</dimen>            <!-- 修改區塊左右側距離 -->
+        <dimen name="profile_change_bundle_pwd_hint_sp">21.3sp</dimen>            <!-- 修改區塊 提示文字大小 -->
+
+        <!-- 交易明细 M2.5.1 -->
+        <dimen name="personal_trade_detail_item_h">60dp</dimen>              <!-- 交易明細 item 高度 -->
+        <dimen name="personal_trade_detail_item_left_space">16.7dp</dimen>   <!-- 交易明細 item 與左側距離 -->
+        <dimen name="personal_trade_detail_item_right_space">66.7dp</dimen>  <!-- 交易明細 item 金額與右側距離 -->
+        <dimen name="personal_trade_detail_item_bottom_space">8.3dp</dimen>  <!-- 交易明細 item 與下方日期距離 -->
+        <dimen name="personal_trade_detail_item_sp">16sp</dimen>             <!-- 交易明細 item 內容文字大小 -->
+        <dimen name="personal_trade_detail_date_sp">12sp</dimen>             <!-- 交易明細 item 日期文字大小 -->
+        <dimen name="personal_trade_detail_price_sp">21.3sp</dimen>          <!-- 交易明細 item 金額文字大小 -->
 
 
-    <!-- Search -->
-    <dimen name="search_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->
-    <dimen name="search_txt_tab_sp">16sp</dimen>                         <!-- 頁籤文字大小 -->
-    <dimen name="search_tab_w">166.7dp</dimen>                           <!-- 頁籤文字大小 -->
-    <dimen name="search_tab_top_space">10.2dp</dimen>                    <!-- 頁籤與底線間距 -->
-    <dimen name="search_searchview_top_space">13.5dp</dimen>             <!-- 搜尋框與上方頁籤間距 -->
-    <dimen name="search_searchview_bottom_space">13.3dp</dimen>          <!-- 搜尋框與下方分隔線間距 -->
-    <dimen name="search_searchview_w">333.3dp</dimen>                    <!-- 搜尋框寬度 -->
-    <dimen name="search_searchview_h">33.3dp</dimen>                     <!-- 搜尋框高度 -->
-    <dimen name="search_searchview_edit_w">280dp</dimen>                 <!-- 搜尋框輸入區寬度 -->
-    <dimen name="search_searchview_edit_left_space">16.3dp</dimen>       <!-- 搜尋框輸入框與左側距離 -->
-    <dimen name="search_searchview_edit_sp">16sp</dimen>                 <!-- 搜尋框輸入框與左側距離 -->
-    <dimen name="search_searchview_magnifier_right_space">16.7dp</dimen> <!-- 搜尋框放大鏡按鈕與右邊距離 -->
+    <!--  搜索 M3 -->
+    <dimen name="search_txt_header_title_sp">21.3sp</dimen>                  <!-- 抬頭區塊中間抬頭的文字大小 -->
+    <dimen name="search_txt_tab_sp">16sp</dimen>                             <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_w">166.7dp</dimen>                               <!-- 頁籤文字大小 -->
+    <dimen name="search_tab_top_space">10.2dp</dimen>                        <!-- 頁籤與底線間距 -->
+    <dimen name="search_searchview_top_space">13.5dp</dimen>                 <!-- 搜尋框與上方頁籤間距 -->
+    <dimen name="search_searchview_bottom_space">13.3dp</dimen>              <!-- 搜尋框與下方分隔線間距 -->
+    <dimen name="search_searchview_w">333.3dp</dimen>                        <!-- 搜尋框寬度 -->
+    <dimen name="search_searchview_h">33.3dp</dimen>                         <!-- 搜尋框高度 -->
+    <dimen name="search_searchview_edit_w">280dp</dimen>                     <!-- 搜尋框輸入區寬度 -->
+    <dimen name="search_searchview_edit_left_space">16.3dp</dimen>           <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="search_searchview_edit_sp">16sp</dimen>                     <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="search_searchview_magnifier_right_space">16.7dp</dimen>     <!-- 搜尋框放大鏡按鈕與右邊距離 -->
 
-    <dimen name="search_shop_item_h">120dp</dimen>                        <!-- 店鋪 item 高度 -->
-    <dimen name="search_shop_item_photo_wh">83.3dp</dimen>                <!-- 店鋪 item 商品寬高 -->
-    <dimen name="search_shop_item_name_sp">16sp</dimen>                   <!-- 店鋪 item 店名文字大小 -->
-    <dimen name="search_shop_item_goods_sp">12sp</dimen>                  <!-- 店鋪 item 品名文字大小 -->
-    <dimen name="search_shop_item_goods_photo_left_space">20dp</dimen>    <!-- 店鋪 item 圖片與左側距離 -->
-    <dimen name="search_shop_item_goods_photo_right_space">16.7dp</dimen> <!-- 店鋪 item 圖片與左側距離 -->
-    <dimen name="search_shop_item_goods_rating_top_space">5dp</dimen>     <!-- 店鋪 item 評分星星與上方距離 -->
-    <dimen name="search_shop_item_goods_like_right_space">6.7dp</dimen>   <!-- 店鋪 item 讚圖示與右側距離 -->
-    <dimen name="search_shop_item_goods_total_right_space">12dp</dimen>   <!-- 店鋪 item 總計件數與右側距離 -->
+        <!-- 店鋪 M3.2.1 -->
+        <dimen name="search_shop_item_h">120dp</dimen>                               <!-- 店鋪 item 高度 -->
+        <dimen name="search_shop_item_photo_wh">83.3dp</dimen>                       <!-- 店鋪 item 商品寬高 -->
+        <dimen name="search_shop_item_name_sp">16sp</dimen>                          <!-- 店鋪 item 店名文字大小 -->
+        <dimen name="search_shop_item_goods_sp">12sp</dimen>                         <!-- 店鋪 item 品名文字大小 -->
+        <dimen name="search_shop_item_goods_photo_left_space">20dp</dimen>           <!-- 店鋪 item 圖片與左側距離 -->
+        <dimen name="search_shop_item_goods_photo_right_space">16.7dp</dimen>        <!-- 店鋪 item 圖片與左側距離 -->
+        <dimen name="search_shop_item_goods_rating_top_space">5dp</dimen>            <!-- 店鋪 item 評分星星與上方距離 -->
+        <dimen name="search_shop_item_goods_like_right_space">6.7dp</dimen>          <!-- 店鋪 item 讚圖示與右側距離 -->
+        <dimen name="search_shop_item_goods_total_right_space">12dp</dimen>          <!-- 店鋪 item 總計件數與右側距離 -->
 
-    <dimen name="search_shop_detail_banner_h">159.3dp</dimen>                    <!-- 店鋪 Banner 高度 -->
-    <dimen name="search_shop_detail_banner_icon_tl">13.3dp</dimen>               <!-- 店鋪 Banner 左右 icon 上方及左右側距離 -->
-    <dimen name="search_shop_detail_banner_bottom_h">50dp</dimen>                <!-- 店鋪 Banner 店鋪資訊區塊高度 -->
-    <dimen name="search_shop_detail_category_h">50dp</dimen>                     <!-- 店鋪 Banner 類別區塊高度 -->
-    <dimen name="search_shop_detail_category_sp">12sp</dimen>                       <!-- 店鋪 Banner 類別區塊 分類區塊 文字大小 -->
-    <dimen name="search_shop_detail_shop_name_sp">16sp</dimen>                   <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家名稱文字大小 -->
-    <dimen name="search_shop_detail_shop_detail_sp">10sp</dimen>                 <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家資訊文字大小 -->
-    <dimen name="search_shop_detail_bottom_left_block_left_space">6.7dp</dimen>  <!-- 店鋪 Banner 類別區塊 bottom 區塊 左側距離 -->
-    <dimen name="search_shop_detail_bottom_right_block_right_space">10dp</dimen> <!-- 店鋪 Banner 類別區塊 bottom 區塊 右側距離 -->
-    <dimen name="search_shop_detail_order_sp">16sp</dimen>                       <!-- 店鋪 Banner 類別區塊 order 區塊 文字大小 -->
+        <dimen name="search_shop_detail_banner_h">159.3dp</dimen>                    <!-- 店鋪 Banner 高度 -->
+        <dimen name="search_shop_detail_banner_icon_tl">13.3dp</dimen>               <!-- 店鋪 Banner 左右 icon 上方及左右側距離 -->
+        <dimen name="search_shop_detail_banner_bottom_h">50dp</dimen>                <!-- 店鋪 Banner 店鋪資訊區塊高度 -->
+        <dimen name="search_shop_detail_category_h">50dp</dimen>                     <!-- 店鋪 Banner 類別區塊高度 -->
+        <dimen name="search_shop_detail_category_sp">12sp</dimen>                    <!-- 店鋪 Banner 類別區塊 分類區塊 文字大小 -->
+        <dimen name="search_shop_detail_shop_name_sp">16sp</dimen>                   <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家名稱文字大小 -->
+        <dimen name="search_shop_detail_shop_detail_sp">10sp</dimen>                 <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家資訊文字大小 -->
+        <dimen name="search_shop_detail_bottom_left_block_left_space">6.7dp</dimen>  <!-- 店鋪 Banner 類別區塊 bottom 區塊 左側距離 -->
+        <dimen name="search_shop_detail_bottom_right_block_right_space">10dp</dimen> <!-- 店鋪 Banner 類別區塊 bottom 區塊 右側距離 -->
+        <dimen name="search_shop_detail_order_sp">16sp</dimen>                       <!-- 店鋪 Banner 類別區塊 order 區塊 文字大小 -->
 
-    <dimen name="search_shop_goods_item_lr_space">10dp</dimen>                  <!-- 店鋪 商品 左右距離 -->
-    <dimen name="search_shop_goods_name_sp">12sp</dimen>                        <!-- 店鋪 商品 商品名稱文字大小 -->
-    <dimen name="search_shop_goods_price_sp">16sp</dimen>                       <!-- 店鋪 商品 商品價錢文字大小 -->
-    <dimen name="search_shop_goods_info_sp">6.7sp</dimen>                       <!-- 店鋪 商品 商品資訊文字大小 -->
-    <dimen name="search_shop_goods_name_top_space">6.7dp</dimen>                <!-- 店鋪 商品 商品名稱與上方距離 -->
-    <dimen name="search_shop_goods_name_bottom_space">22dp</dimen>              <!-- 店鋪 商品 商品與下方價錢的距離 -->
-    <dimen name="search_shop_goods_price_bottom_space">10dp</dimen>             <!-- 店鋪 商品 價錢與底部的距離 -->
+        <dimen name="search_shop_goods_item_lr_space">10dp</dimen>                   <!-- 店鋪 商品 左右距離 -->
+        <dimen name="search_shop_goods_name_sp">12sp</dimen>                         <!-- 店鋪 商品 商品名稱文字大小 -->
+        <dimen name="search_shop_goods_price_sp">16sp</dimen>                        <!-- 店鋪 商品 商品價錢文字大小 -->
+        <dimen name="search_shop_goods_info_sp">6.7sp</dimen>                        <!-- 店鋪 商品 商品資訊文字大小 -->
+        <dimen name="search_shop_goods_name_top_space">6.7dp</dimen>                 <!-- 店鋪 商品 商品名稱與上方距離 -->
+        <dimen name="search_shop_goods_name_bottom_space">22dp</dimen>               <!-- 店鋪 商品 商品與下方價錢的距離 -->
+        <dimen name="search_shop_goods_price_bottom_space">10dp</dimen>              <!-- 店鋪 商品 價錢與底部的距離 -->
 
-    <!-- Cart -->
+
+    <!-- 购物车 M4 -->
     <dimen name="cart_txt_header_title_sp">21.3sp</dimen>              <!-- 抬頭區塊中間抬頭的文字大小 -->
     <dimen name="cart_item_shop_h">40dp</dimen>                        <!-- 列表項目商店名稱的高度 -->
     <dimen name="cart_item_title_sp">16sp</dimen>                      <!-- 列表項目商店名稱的文字大小 -->
@@ -194,120 +304,49 @@
     <dimen name="cart_bottom_txt_total_sp">12sp</dimen>                <!-- 底部區塊合計的文字大小 -->
     <dimen name="cart_bottom_txt_count_sp">16sp</dimen>                <!-- 底部區塊結算的文字大小 -->
 
-    <dimen name="cart_confirm_h">60dp</dimen>                              <!-- 確認訂單項目收貨人區塊的高度 -->
-    <dimen name="cart_confirm_receiver_size">12sp</dimen>                  <!-- 確認訂單項目收貨人區塊的文字大小 -->
-    <dimen name="cart_confirm_receiver_location_left_space">16.7dp</dimen> <!-- 確認訂單項目收貨人圖示與左側距離 -->
-    <dimen name="cart_confirm_receiver_location_right_space">9.7dp</dimen> <!-- 確認訂單項目收貨人圖示與右側文字距離 -->
-    <dimen name="cart_confirm_receiver_txt_block_w">305dp</dimen>          <!-- 確認訂單項目收貨人區塊文字區寬度 -->
-    <dimen name="cart_confirm_receiver_txt_block_space">10dp</dimen>       <!-- 確認訂單項目收貨人區塊文字區上下距離 -->
-    <dimen name="cart_confirm_shop_size">14.7sp</dimen>                    <!-- 確認訂單項目店家名稱的文字大小 -->
-    <dimen name="cart_confirm_shop_icon_left_space">16.7dp</dimen>         <!-- 確認訂單項目店家圖示與左側距離 -->
-    <dimen name="cart_confirm_shop_icon_right_space">10dp</dimen>          <!-- 確認訂單項目店家圖示與右側店家名稱距離 -->
-    <dimen name="cart_confirm_shop_community_sp">10sp</dimen>              <!-- 確認訂單項目店家社區文字大小 -->
-    <dimen name="cart_confirm_shop_community_right_space">13.3dp</dimen>   <!-- 確認訂單項目店家社區文字與右側距離 -->
+        <!-- 确认订单 M4.2.0 -->
+        <dimen name="cart_confirm_h">60dp</dimen>                              <!-- 確認訂單項目收貨人區塊的高度 -->
+        <dimen name="cart_confirm_receiver_size">12sp</dimen>                  <!-- 確認訂單項目收貨人區塊的文字大小 -->
+        <dimen name="cart_confirm_receiver_location_left_space">16.7dp</dimen> <!-- 確認訂單項目收貨人圖示與左側距離 -->
+        <dimen name="cart_confirm_receiver_location_right_space">9.7dp</dimen> <!-- 確認訂單項目收貨人圖示與右側文字距離 -->
+        <dimen name="cart_confirm_receiver_txt_block_w">305dp</dimen>          <!-- 確認訂單項目收貨人區塊文字區寬度 -->
+        <dimen name="cart_confirm_receiver_txt_block_space">10dp</dimen>       <!-- 確認訂單項目收貨人區塊文字區上下距離 -->
+        <dimen name="cart_confirm_shop_size">14.7sp</dimen>                    <!-- 確認訂單項目店家名稱的文字大小 -->
+        <dimen name="cart_confirm_shop_icon_left_space">16.7dp</dimen>         <!-- 確認訂單項目店家圖示與左側距離 -->
+        <dimen name="cart_confirm_shop_icon_right_space">10dp</dimen>          <!-- 確認訂單項目店家圖示與右側店家名稱距離 -->
+        <dimen name="cart_confirm_shop_community_sp">10sp</dimen>              <!-- 確認訂單項目店家社區文字大小 -->
+        <dimen name="cart_confirm_shop_community_right_space">13.3dp</dimen>   <!-- 確認訂單項目店家社區文字與右側距離 -->
 
-    <dimen name="cart_confirm_goods_photo_left_space">26.7dp</dimen>       <!-- 確認訂單項目商品圖片與左側距離 -->
-    <dimen name="cart_confirm_goods_photo_right_space">16.7dp</dimen>      <!-- 確認訂單項目商品圖片與右側距離 -->
-    <dimen name="cart_confirm_goods_photo_top_space">6.7dp</dimen>         <!-- 確認訂單項目商品圖片與上方距離 -->
-    <dimen name="cart_confirm_goods_photo_bottom_space">7dp</dimen>        <!-- 確認訂單項目商品圖片與下方距離 -->
-    <dimen name="cart_confirm_goods_line_bottom_space">6dp</dimen>         <!-- 確認訂單項目商品分隔線與下方距離 -->
-    <dimen name="cart_confirm_goods_middle_top_space">6.7dp</dimen>        <!-- 確認訂單項目商品分類與上方距離 -->
-    <dimen name="cart_confirm_goods_middle_bottom_space">6.7dp</dimen>     <!-- 確認訂單項目商品分類與下方距離 -->
-    <dimen name="cart_confirm_goods_amount_sp">12sp</dimen>                <!-- 確認訂單項目商品數量文字大小 -->
-    <dimen name="cart_confirm_goods_amount_right">13.3dp</dimen>           <!-- 確認訂單項目商品數量與右側距離 -->
+        <dimen name="cart_confirm_goods_photo_left_space">26.7dp</dimen>       <!-- 確認訂單項目商品圖片與左側距離 -->
+        <dimen name="cart_confirm_goods_photo_right_space">16.7dp</dimen>      <!-- 確認訂單項目商品圖片與右側距離 -->
+        <dimen name="cart_confirm_goods_photo_top_space">6.7dp</dimen>         <!-- 確認訂單項目商品圖片與上方距離 -->
+        <dimen name="cart_confirm_goods_photo_bottom_space">7dp</dimen>        <!-- 確認訂單項目商品圖片與下方距離 -->
+        <dimen name="cart_confirm_goods_line_bottom_space">6dp</dimen>         <!-- 確認訂單項目商品分隔線與下方距離 -->
+        <dimen name="cart_confirm_goods_middle_top_space">6.7dp</dimen>        <!-- 確認訂單項目商品分類與上方距離 -->
+        <dimen name="cart_confirm_goods_middle_bottom_space">6.7dp</dimen>     <!-- 確認訂單項目商品分類與下方距離 -->
+        <dimen name="cart_confirm_goods_amount_sp">12sp</dimen>                <!-- 確認訂單項目商品數量文字大小 -->
+        <dimen name="cart_confirm_goods_amount_right">13.3dp</dimen>           <!-- 確認訂單項目商品數量與右側距離 -->
 
-    <dimen name="cart_confirm_total_h">66.7dp</dimen>                      <!-- 確認訂單項目下方資訊區塊高度 -->
-    <dimen name="cart_confirm_total_sp">12sp</dimen>                       <!-- 確認訂單項目下方資訊區塊文字大小 -->
-    <dimen name="cart_confirm_message_left_space">16.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊買家留言與左側距離 -->
-    <dimen name="cart_confirm_message_right_space">6.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊合計金額與右側距離 -->
-    <dimen name="cart_confirm_total_line_top_space">10.7dp</dimen>         <!-- 確認訂單項目下方資訊區塊分隔線與上方距離 -->
-    <dimen name="cart_confirm_total_line_bottom_space">10.3dp</dimen>      <!-- 確認訂單項目下方資訊區塊分隔線與下方距離 -->
-    <dimen name="cart_confirm_total_left_space">16.7dp</dimen>             <!-- 確認訂單項目下方資訊區塊合計金額與左側距離 -->
+        <dimen name="cart_confirm_total_h">66.7dp</dimen>                      <!-- 確認訂單項目下方資訊區塊高度 -->
+        <dimen name="cart_confirm_total_sp">12sp</dimen>                       <!-- 確認訂單項目下方資訊區塊文字大小 -->
+        <dimen name="cart_confirm_message_left_space">16.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊買家留言與左側距離 -->
+        <dimen name="cart_confirm_message_right_space">6.7dp</dimen>           <!-- 確認訂單項目下方資訊區塊合計金額與右側距離 -->
+        <dimen name="cart_confirm_total_line_top_space">10.7dp</dimen>         <!-- 確認訂單項目下方資訊區塊分隔線與上方距離 -->
+        <dimen name="cart_confirm_total_line_bottom_space">10.3dp</dimen>      <!-- 確認訂單項目下方資訊區塊分隔線與下方距離 -->
+        <dimen name="cart_confirm_total_left_space">16.7dp</dimen>             <!-- 確認訂單項目下方資訊區塊合計金額與左側距離 -->
 
-    <dimen name="cart_confirm_receive_place_block_title_h">40dp</dimen>      <!-- 選擇收貨地點子區塊高度 -->
-    <dimen name="cart_confirm_receive_place_block_title_sp">16sp</dimen>     <!-- 選擇收貨地點子區塊抬頭文字大小 -->
-    <dimen name="cart_confirm_receive_block_title_left_space">16.7dp</dimen> <!-- 選擇收貨地點子區塊抬頭文字與左側距離 -->
-    <dimen name="cart_confirm_receive_place_block_item_h">60dp</dimen>       <!-- 選擇收貨地點子區塊 item 高度 -->
-    <dimen name="cart_confirm_receive_item_left_space">16.7dp</dimen>        <!-- 選擇收貨地點子區塊 item 與左側距離 -->
-    <dimen name="cart_confirm_receive_item_right_space">16.7dp</dimen>       <!-- 選擇收貨地點子區塊 item 與右側距離 -->
-    <dimen name="cart_confirm_receive_place_item_receiver_sp">12sp</dimen>   <!-- 選擇收貨地點子區塊 item 收件人文字大小 -->
-    <dimen name="cart_confirm_receive_place_item_content_sp">10sp</dimen>    <!-- 選擇收貨地點子區塊 item 地址與電話文字大小 -->
-    <dimen name="cart_confirm_receive_place_item_content_top_space">8dp</dimen>      <!-- 選擇收貨地點子區塊 item 地址與上方距離 -->
-    <dimen name="cart_confirm_receive_place_item_content_bottom_space">6.7dp</dimen> <!-- 選擇收貨地點子區塊 item 地址與下方距離 -->
-
-    <!-- Profile -->
-    <dimen name="profile_row_h">45dp</dimen>                           <!-- Content row 的高度 -->
-    <dimen name="profile_row_top_space">1dp</dimen>                    <!-- Content row 頂部距離 -->
-    <dimen name="profile_row_bottom_space">1dp</dimen>                 <!-- Content row 底部距離 -->
-    <dimen name="profile_line_top_space">14.7dp</dimen>                <!-- Content 分隔線與上方距離 -->
-    <dimen name="profile_line_bottom_space">1.7dp</dimen>              <!-- Content 分隔線與下方距離 -->
-    <dimen name="profile_txt_title_sp">21.3sp</dimen>                  <!-- Content 標頭的文字大小 -->
-    <dimen name="profile_txt_content_sp">21.3sp</dimen>                <!-- Content 內容的文字大小 -->
-    <dimen name="profile_txt_left_space">16.7dp</dimen>                <!-- Content 與左側距離 -->
-    <dimen name="profile_txt_right_space">16.7dp</dimen>               <!-- Content 與右側距離 -->
-    <dimen name="profile_photo_top_space">6.7dp</dimen>                <!-- Content 頭像區塊與頂部距離 -->
-    <dimen name="profile_photo_bottom_space">6.7dp</dimen>             <!-- Content 頭像區塊與底部距離 -->
-    <dimen name="profile_photo_right_space">16.7dp</dimen>             <!-- Content 頭像區塊圖片與右邊箭頭距離 -->
-    <dimen name="profile_gray_right_space">22dp</dimen>                <!-- Content item 與右邊箭頭距離 -->
-    <dimen name="profile_signout_top_space">53.7dp</dimen>             <!-- Content 登出按鈕與上方距離 -->
-
-    <dimen name="profile_header_right_txt_sp">21.3sp</dimen>           <!-- 抬頭區塊右方確認文字大小 -->
-    <dimen name="profile_change_item_h">50dp</dimen>                   <!-- 修改區塊高度 -->
-    <dimen name="profile_change_item_lr">16.7dp</dimen>                <!-- 修改區塊左右側距離 -->
-    <dimen name="profile_change_hint_sp">21.3sp</dimen>                <!-- 修改區塊 提示文字大小 -->
-    <dimen name="profile_change_item_rl">16.7dp</dimen>                <!-- 修改區塊左右側距離 -->
-    <dimen name="profile_line_w">333.3dp</dimen>                       <!-- 修改區塊 編輯框底線寬度 -->
-    <dimen name="profile_line_h">0.3dp</dimen>                         <!-- 修改區塊 編輯框底線高度 -->
-
-    <dimen name="profile_manage_address_btn_add_sp">21.3sp</dimen>        <!-- 管理收貨地址 添加新地址文字大小 -->
-    <dimen name="profile_manage_list_item_h">120dp</dimen>                <!-- 管理收貨地址 item 高度 -->
-    <dimen name="profile_manage_item_receiver_sp">21.3sp</dimen>          <!-- 管理收貨地址 item 收件人文字大小 -->
-    <dimen name="profile_manage_item_sp">16sp</dimen>                     <!-- 管理收貨地址 item 內容文字大小 -->
-    <dimen name="profile_manage_receiver_top_space">10dp</dimen>          <!-- 管理收貨地址 item 收件人與頂端距離 -->
-    <dimen name="profile_manage_item_left_space">16.7dp</dimen>           <!-- 管理收貨地址 item 左側距離 -->
-    <dimen name="profile_manage_item_right_space">14.3dp</dimen>          <!-- 管理收貨地址 item 右側距離 -->
-    <dimen name="profile_manage_item_bottom_h">25dp</dimen>               <!-- 管理收貨地址 item 下區高度 -->
-    <dimen name="profile_manage_item_cb_right_space">3.3dp</dimen>        <!-- 管理收貨地址 item 設為預設確認框與文字距離 -->
-    <dimen name="profile_manage_item_address_top_space">9dp</dimen>       <!-- 管理收貨地址 item 地址與上區距離 -->
-    <dimen name="profile_manage_item_address_bottom_space">9dp</dimen>    <!-- 管理收貨地址 item 地址與下區距離 -->
-    <dimen name="profile_manage_item_bottom_top_space">9dp</dimen>        <!-- 管理收貨地址 item 底區與上方地址文字距離 -->
-    <dimen name="profile_manage_item_bottom_bottom_space">8dp</dimen>     <!-- 管理收貨地址 item 底區與與下緣距離 -->
-    <dimen name="profile_manage_item_bottom_btn_w">70dp</dimen>           <!-- 管理收貨地址 item 編輯與刪除按鈕寬度 -->
-    <dimen name="profile_manage_item_bottom_btn_space">5dp</dimen>        <!-- 管理收貨地址 item 編輯與刪除按鈕間距 -->
-    <dimen name="profile_manage_item_btn_del_right_space">5dp</dimen>     <!-- 管理收貨地址 item 刪除按鈕與右緣距離 -->
-
-    <dimen name="profile_add_address_top_block_h">162dp</dimen>             <!-- 新增收貨地址 item 上區高度 -->
-    <dimen name="profile_add_address_block_space">8dp</dimen>               <!-- 新增收貨地址 item 上下區間距 -->
-    <dimen name="profile_add_address_bottom_block_h">46.7dp</dimen>         <!-- 新增收貨地址 item 下區高度 -->
-    <dimen name="profile_add_address_txt_sp">21.3dp</dimen>                 <!-- 新增收貨地址 item 項目文字大小 -->
-    <dimen name="profile_add_address_et_sp">16sp</dimen>                    <!-- 新增收貨地址 item 輸入文字大小 -->
-    <dimen name="profile_add_address_item_h">40dp</dimen>                   <!-- 新增收貨地址 item 項目高度 -->
-    <dimen name="profile_add_address_item_left_space">13.3dp</dimen>        <!-- 新增收貨地址 item 項目與左緣距離 -->
-    <dimen name="profile_add_address_item_right_space">29.3dp</dimen>       <!-- 新增收貨地址 item 項目與右緣距離 -->
-    <dimen name="profile_add_address_item_arrow_right_space">12dp</dimen>   <!-- 新增收貨地址 item 項目箭頭與右緣距離 -->
+        <!-- 选择收货地点 M4.2.1 -->
+        <dimen name="cart_confirm_receive_place_block_title_h">40dp</dimen>              <!-- 選擇收貨地點子區塊高度 -->
+        <dimen name="cart_confirm_receive_place_block_title_sp">16sp</dimen>             <!-- 選擇收貨地點子區塊抬頭文字大小 -->
+        <dimen name="cart_confirm_receive_block_title_left_space">16.7dp</dimen>         <!-- 選擇收貨地點子區塊抬頭文字與左側距離 -->
+        <dimen name="cart_confirm_receive_place_block_item_h">60dp</dimen>               <!-- 選擇收貨地點子區塊 item 高度 -->
+        <dimen name="cart_confirm_receive_item_left_space">16.7dp</dimen>                <!-- 選擇收貨地點子區塊 item 與左側距離 -->
+        <dimen name="cart_confirm_receive_item_right_space">16.7dp</dimen>               <!-- 選擇收貨地點子區塊 item 與右側距離 -->
+        <dimen name="cart_confirm_receive_place_item_receiver_sp">12sp</dimen>           <!-- 選擇收貨地點子區塊 item 收件人文字大小 -->
+        <dimen name="cart_confirm_receive_place_item_content_sp">10sp</dimen>            <!-- 選擇收貨地點子區塊 item 地址與電話文字大小 -->
+        <dimen name="cart_confirm_receive_place_item_content_top_space">8dp</dimen>      <!-- 選擇收貨地點子區塊 item 地址與上方距離 -->
+        <dimen name="cart_confirm_receive_place_item_content_bottom_space">6.7dp</dimen> <!-- 選擇收貨地點子區塊 item 地址與下方距離 -->
 
 
-    <!-- Locate -->
-    <dimen name="locate_txt_header_title_sp">21.3sp</dimen>                     <!-- 抬頭區塊中間抬頭的文字大小 -->
-    <dimen name="locate_current_locate_block_h">100dp</dimen>                   <!-- 定位點區塊的高度 -->
-    <dimen name="locate_current_locate_block_above_h">50dp</dimen>              <!-- 定位點區塊上部的高度 -->
-    <dimen name="locate_current_locate_block_below_h">50dp</dimen>              <!-- 定位點區塊下部的高度 -->
-    <dimen name="locate_current_locate_sp">16sp</dimen>                         <!-- 定位點區塊目前定位點的文字大小 -->
-    <dimen name="locate_current_locate_back_sp">8.3sp</dimen>                   <!-- 定位點區塊目前定位點的提示文字大小 -->
-    <dimen name="locate_current_locate_icon_left_space">20dp</dimen>            <!-- 定位點區塊目前定位點圖示與左邊距 -->
-    <dimen name="locate_current_locate_icon_right_space">10dp</dimen>           <!-- 定位點區塊目前定位點圖示與右邊距 -->
-    <dimen name="locate_current_locate_block_top_space">10dp</dimen>            <!-- 定位點區塊目前定位點與上邊距 -->
-    <dimen name="locate_current_locate_block_notice_top_space">9dp</dimen>      <!-- 定位點區塊目前提示字與上邊距 -->
-    <dimen name="locate_current_locate_block_middle_space">10dp</dimen>         <!-- 定位點區塊目前定位點與下邊距 -->
-    <dimen name="locate_current_locate_spinner_sp">16sp</dimen>                 <!-- 定位點區塊下拉選單文字大小 -->
-    <dimen name="locate_current_locate_spinner_txt_right_space">6.7dp</dimen>   <!-- 定位點區塊下拉選單與右邊箭頭距離 -->
-
-    <dimen name="locate_current_locate_item_title_sp">20sp</dimen>              <!-- 列表區塊抬頭文字大小 -->
-    <dimen name="locate_current_locate_item_sub_sp">16sp</dimen>                <!-- 列表區塊子項目列表文字大小 -->
-
-    <dimen name="locate_content2_padding_space">13.3dp</dimen>                  <!-- 請選擇小區頁面 padding -->
-
-    <dimen name="locate_content3_above_h">50dp</dimen>                          <!-- 選擇社區-上方區塊高度 -->
-    <dimen name="locate_content3_above_txt_sp">16sp</dimen>                     <!-- 選擇社區-上方區塊文字大小 -->
 
 </resources>
