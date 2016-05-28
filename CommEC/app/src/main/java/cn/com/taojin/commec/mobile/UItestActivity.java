@@ -8,8 +8,7 @@ public class UItestActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_search_babe);
-
+        setContentView(R.layout.content_search_goods_detail);
 
     }
 }

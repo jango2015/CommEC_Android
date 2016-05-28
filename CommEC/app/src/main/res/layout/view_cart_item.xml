@@ -128,7 +128,7 @@
                         android:id="@+id/ibtn_cart_reserve_reduce"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/ibtn_cart_reserve_increase"
+                        android:layout_alignBottom="@+id/ibtn_goods_reserve_increase"
                         android:layout_alignParentStart="true"
                         android:layout_marginStart="@dimen/cart_item_bottom_reserve_right_space"
                         android:background="@mipmap/btn_reduce"/>
@@ -144,7 +144,7 @@
                         android:textSize="@dimen/cart_item_goods_reserve_num_sp"/>
 
                     <ImageButton
-                        android:id="@+id/ibtn_cart_reserve_increase"
+                        android:id="@+id/ibtn_goods_reserve_increase"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"

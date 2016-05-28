@@ -261,6 +261,26 @@
     <dimen name="search_searchview_edit_sp">16sp</dimen>                     <!-- 搜尋框輸入框與左側距離 -->
     <dimen name="search_searchview_magnifier_right_space">16.7dp</dimen>     <!-- 搜尋框放大鏡按鈕與右邊距離 -->
 
+        <!-- 商品明細 M3.1.3 -->
+        <dimen name="search_goods_banner_h">126.7dp</dimen>                          <!-- 商品明細 banner 高度 -->
+        <dimen name="search_goods_photo_block_h">170dp</dimen>                       <!-- 商品明細 照片價格區塊 高度 -->
+        <dimen name="search_goods_photo_wh">133.3dp</dimen>                          <!-- 商品明細 照片寬高度 -->
+        <dimen name="search_goods_price_sp">33.3sp</dimen>                           <!-- 商品明細 金額 文字大小-->
+        <dimen name="search_goods_content_sp">16sp</dimen>                           <!-- 商品明細 內容描述 文字大小-->
+        <dimen name="search_goods_amount_sp">12sp</dimen>                            <!-- 商品明細 數量 文字大小-->
+        <dimen name="search_goods_bottom_btn_sp">16sp</dimen>                        <!-- 商品明細 底部按鈕 文字大小-->
+        <dimen name="search_goods_padding_lr_space">16.7dp</dimen>                   <!-- 商品明細 內容左右 padding 距離-->
+        <dimen name="search_goods_btn_close_tr_space">16.7dp</dimen>                 <!-- 商品明細 關閉按鈕 上右距離-->
+        <dimen name="search_goods_price_bottom_space">16.7dp</dimen>                 <!-- 商品明細 價格 與底部分隔線距離-->
+        <dimen name="search_goods_size_block_h">76dp</dimen>                         <!-- 商品明細 尺寸區塊 高度-->
+        <dimen name="search_goods_color_block_h">76dp</dimen>                        <!-- 商品明細 顏色區塊 高度-->
+        <dimen name="search_goods_amount_block_h">53.5dp</dimen>                     <!-- 商品明細 數量區塊 高度-->
+        <dimen name="search_goods_info_subject_top_space">10dp</dimen>               <!-- 商品明細 標頭文字與上方分隔線 距離-->
+        <dimen name="search_goods_info_subject_bottom_space">8.7dp</dimen>           <!-- 商品明細 標頭文字與下方 距離-->
+        <dimen name="search_goods_line_top_space">8dp</dimen>                        <!-- 商品明細 分隔線與上方 距離-->
+        <dimen name="search_goods_category_selector_sp">16sp</dimen>                 <!-- 商品明細 選擇項目 文字大小-->
+    <dimen name="search_goods_">120dp</dimen>                                    <!-- 商品明細 -->
+
         <!-- 店鋪 M3.2.1 -->
         <dimen name="search_shop_item_h">120dp</dimen>                               <!-- 店鋪 item 高度 -->
         <dimen name="search_shop_item_photo_wh">83.3dp</dimen>                       <!-- 店鋪 item 商品寬高 -->

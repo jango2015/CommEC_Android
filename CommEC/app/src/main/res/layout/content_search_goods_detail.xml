@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_goods_banner_h"
+                android:background="@color/black_half"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_goods_photo_block_h"
+                android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                android:paddingRight="@dimen/search_goods_padding_lr_space"
+                android:id="@+id/rl_info_block">
+
+                <ImageView
+                    android:layout_width="@dimen/search_goods_photo_wh"
+                    android:layout_height="@dimen/search_goods_photo_wh"
+                    android:id="@+id/iv_goods_photo"
+                    android:background="@color/color_cecece"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ibtn_close"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/search_goods_btn_close_tr_space"
+                    android:background="@mipmap/btn_cancel"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/search_goods_price"
+                    android:id="@+id/tv_goods_price"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/color_ec6c00"
+                    android:textSize="@dimen/search_goods_price_sp"
+                    android:layout_marginBottom="@dimen/search_goods_price_bottom_space"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="安妮森林文艺宽松七分灯笼袖仙人球印花连衣裙中裙春夏新款"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_4a4a4a"
+                android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                android:paddingRight="@dimen/search_goods_padding_lr_space"
+                android:layout_marginTop="@dimen/search_goods_info_subject_top_space"
+                android:layout_marginBottom="@dimen/search_goods_info_subject_top_space"/>
+
+            <ImageView
+                android:id="@+id/iv_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/img_line_1000"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_size_block"
+                >
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_goods_size"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:textColor="@color/color_4a4a4a"
+                    android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                    android:paddingRight="@dimen/search_goods_padding_lr_space"
+                    android:layout_marginTop="@dimen/search_goods_info_subject_top_space"
+                    android:layout_marginBottom="@dimen/search_goods_info_subject_bottom_space"/>
+
+                <GridView
+                    android:layout_width="wrap_content"
+                    android:layout_height="33.3dp"
+                    android:id="@+id/gv_goods_size"
+                    android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/img_line_1000"
+                android:layout_marginTop="@dimen/search_goods_line_top_space"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_color_block">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_goods_color"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:textColor="@color/color_4a4a4a"
+                    android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                    android:paddingRight="@dimen/search_goods_padding_lr_space"
+                    android:layout_marginTop="@dimen/search_goods_info_subject_top_space"
+                    android:layout_marginBottom="@dimen/search_goods_info_subject_bottom_space"/>
+
+                <GridView
+                    android:layout_width="wrap_content"
+                    android:layout_height="33.3dp"
+                    android:id="@+id/gv_goods_color"
+                    android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/img_line_1000"
+                android:layout_marginTop="@dimen/search_goods_line_top_space"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_amount_block"
+                >
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_goods_amount"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:textColor="@color/color_4a4a4a"
+                    android:paddingLeft="@dimen/search_goods_padding_lr_space"
+                    android:paddingRight="@dimen/search_goods_padding_lr_space"
+                    android:layout_marginTop="@dimen/search_goods_info_subject_top_space"
+                    android:layout_marginBottom="@dimen/search_goods_info_subject_bottom_space"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_goods_reserve"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/search_goods_reserve"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/color_4a4a4a"/>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_cart_reserve"
+                        android:layout_width="@dimen/cart_item_bottom_reserve_w"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/img_btn_backgroung"
+                        android:orientation="horizontal"
+                        android:visibility="visible"
+                        android:layout_marginRight="@dimen/search_goods_padding_lr_space"
+                        android:layout_marginLeft="@dimen/search_goods_padding_lr_space">
+
+                        <ImageButton
+                            android:id="@+id/ibtn_goods_reserve_reduce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/ibtn_goods_reserve_increase"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="@dimen/cart_item_bottom_reserve_right_space"
+                            android:background="@mipmap/btn_reduce"/>
+
+                        <TextView
+                            android:id="@+id/tv_goods_reserve_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="1"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="@dimen/cart_item_goods_reserve_num_sp"
+                            android:textColor="@color/color_191919"/>
+
+                        <ImageButton
+                            android:id="@+id/ibtn_goods_reserve_increase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/cart_item_bottom_reserve_right_space"
+                            android:background="@mipmap/btn_increase"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/img_line_1000"
+                android:layout_marginTop="@dimen/search_goods_line_top_space"
+                android:layout_marginBottom="@dimen/search_goods_line_top_space"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:gravity="center_vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@color/color_ff5102"
+            android:text="@string/search_goods_submit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_goods_bottom_btn_sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/rl_add_or_buy_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            >
+
+            <Button
+                android:id="@+id/btn_add_to_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/search_goods_add_to_cart"
+                android:textColor="@android:color/white"
+                android:background="@color/color_fe9402"
+                android:textSize="@dimen/search_goods_bottom_btn_sp"/>
+
+            <Button
+                android:id="@+id/btn_buy_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/search_goods_buy_now"
+                android:textColor="@android:color/white"
+                android:background="@color/color_ff5102"
+                android:textSize="@dimen/search_goods_bottom_btn_sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -172,6 +172,16 @@
         <string name="search_babe_shows_price">价格优先</string>
         <string name="search_babe_shows_sales">销量优先</string>
 
+        <!-- 商品明細 M3.1.3 -->
+        <string name="search_goods_price">￥ %1$d</string>
+        <string name="search_goods_size">选择尺码</string>
+        <string name="search_goods_color">选择颜色</string>
+        <string name="search_goods_amount">选择数量</string>
+        <string name="search_goods_reserve">库存：%1$d</string>
+        <string name="search_goods_submit">确定</string>
+        <string name="search_goods_add_to_cart">加入购物车</string>
+        <string name="search_goods_buy_now">立即购买</string>
+
         <!-- 搜索-店舖 M3.2.1 -->
         <string name="search_shop_item_goods_total">共有1$d样商品</string>
         <string name="search_shop_detail_phone">店铺电话：%1$s</string>
@@ -190,17 +200,18 @@
     <string name="cart_header_title">购物车</string>
     <string name="cart_item_category">分类：%1$s</string>
     <string name="cart_item_reserve">库存：%1$d</string>
-    <string name="cart_item_price">￥%1$d</string>
+    <string name="cart_item_price">￥ %1$d</string>
     <string name="cart_item_off_shelf">商品已下架</string>
 
     <string name="cart_select_all">全选</string>
     <string name="cart_total">合计：</string>
-    <string name="cart_total_num">￥%1$d</string>
+    <string name="cart_total_num">￥ %1$d</string>
     <string name="cart_count">结算(%1$d)</string>
 
         <!-- 确认订单 M4.2.0 -->
         <string name="cart_header_confirm_title">确认订单</string>
         <string name="cart_confirm_receiver">收货人:%1$s</string>
+        <string name="cart_confirm_goods_amount">x %1$d</string>
         <string name="cart_confirm_buyer_message">买家留言:</string>
         <string name="cart_confirm_buyer_message_hint">选填要求</string>
         <string name="cart_confirm_buyer_message_goods_num">共%1$d件商品</string>

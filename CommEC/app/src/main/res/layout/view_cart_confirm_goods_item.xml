@@ -41,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="@dimen/cart_confirm_goods_middle_top_space"
-                android:layout_marginBottom="@dimen/cart_confirm_goods_middle_bottom_space">
+                android:layout_marginBottom="@dimen/cart_confirm_goods_middle_bottom_space"
+                android:layout_marginRight="@dimen/cart_item_goods_name_right_space">
 
                 <TextView
                     android:id="@+id/tv_cart_goods_category"
@@ -53,15 +54,6 @@
                     android:textColor="@color/color_4a4a4a"
                     android:textSize="@dimen/cart_item_goods_category_sp"/>
 
-                <TextView
-                    android:id="@+id/tv_cart_goods_category_content"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/tv_cart_goods_category"
-                    android:text="分類名稱"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@color/color_4a4a4a"
-                    android:textSize="@dimen/cart_item_goods_category_sp"/>
             </LinearLayout>
 
             <RelativeLayout
@@ -80,7 +72,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="0dp"
                     android:layout_marginTop="0dp"
-                    android:text="Price"
+                    android:text="@string/cart_item_price"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/color_ec6c00"
                     android:textSize="@dimen/cart_item_goods_price_sp"/>
@@ -102,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
-                        android:text="amount"
+                        android:text="@string/cart_confirm_goods_amount"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/color_191919"
                         android:textSize="@dimen/cart_confirm_goods_amount_sp"/>
