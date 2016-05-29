@@ -43,26 +43,27 @@ public class MainActivity extends AppCompatActivity {
         }
 
         mViewPager.setCurrentItem(3);
-
     }
 
 
     public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
         final int PAGE_COUNT = 4;
+
         private String tabTitles[] = new String[] {
                 getString(R.string.tab_home),
                 getString(R.string.tab_search),
                 getString(R.string.tab_cart),
                 getString(R.string.tab_me)
         };
+
         private int imageResId[] = new int[] {
                 R.drawable.selector_tab_home,
                 R.drawable.selector_tab_search,
                 R.drawable.selector_tab_cart,
                 R.drawable.selector_tab_me
         };
-        private Context context;
 
+        private Context context;
 
         public View getTabView(int position) {
             View v = LayoutInflater.from(context).inflate(R.layout.custom_main_tab_item, null);
@@ -86,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             };
             ColorStateList list = new ColorStateList(states, colors);
             tv.setTextColor(list);
-
 
             return v;
         }

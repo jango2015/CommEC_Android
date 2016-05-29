@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/img_navi_background">
+
+        <ImageButton
+            android:id="@+id/ibtn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+            android:layout_marginTop="@dimen/common_ddou_return_top_space"
+            android:background="@drawable/selector_btn_return_signin"
+            android:contentDescription="return"/>
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/search_goods_detail"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_txt_header_title_sp"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_header_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
+            android:background="@mipmap/navibtn_dots"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_header"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_below="@+id/tablayout"
+        android:layout_weight="1.0"
+        android:scrollbars="none"/>
+
+    <TextView
+        android:id="@+id/tv_shop_closing"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_goods_detail_bottom_closing_h"
+        android:layout_above="@+id/rl_bottom"
+        android:alpha="74"
+        android:background="@mipmap/img_over"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/search_shop_closing"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/search_goods_detail_bottom_closing_txt_sp"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_d8d8d8"
+            android:text="@string/search_goods_detail_bottom_shop"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_goods_detail_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_fe9402"
+            android:text="@string/search_goods_detail_bottom_add_to_cart"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_goods_detail_bottom_btn_sp"/>
+
+        <Button
+            android:id="@+id/btn_buy_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/color_ff5102"
+            android:text="@string/search_goods_detail_bottom_buy_now"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_goods_detail_bottom_btn_sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
