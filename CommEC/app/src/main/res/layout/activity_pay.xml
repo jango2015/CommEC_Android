@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/img_navi_background">
+
+        <ImageButton
+            android:id="@+id/ibtn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+            android:layout_marginTop="@dimen/common_ddou_return_top_space"
+            android:background="@drawable/selector_btn_return_signin"
+            android:contentDescription="return"/>
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/pay_header_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/search_txt_header_title_sp"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_header_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
+            android:background="@mipmap/navibtn_dots"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/img_line_1080"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="@dimen/pay_item_bottom_btn_w"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/btn_count"
+            android:text="@string/pay_header_title_btn_pay"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/pay_item_bottom_btn_sp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_cart_bottom_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_submit">
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/tv_total_num"
+                android:text="@string/cart_total"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/pay_item_bottom_txt_total_sp"/>
+
+            <TextView
+                android:id="@+id/tv_total_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/pay_item_bottom_txt_total_num_right_space"
+                android:text="@string/cart_total_num"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_ec6c00"
+                android:textSize="@dimen/pay_item_bottom_txt_total_num_sp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_below="@+id/rl_header"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_ali_pay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pay_item_h"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/ll_icon1"
+                android:layout_width="@dimen/pay_item_icon_w"
+                android:layout_height="@dimen/pay_item_icon_h"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/pay_item_icon_left_space"
+                android:layout_marginRight="@dimen/pay_item_icon_right_space"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_ali_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/img_icon_ali_pay"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ll_icon1"
+                android:text="@string/pay_header_title_ali_pay"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_4a4a4a"
+                android:textSize="@dimen/pay_item_content_sp"/>
+
+            <CheckBox
+                android:id="@+id/cb_ali_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/pay_item_cb_right_space"
+                android:button="@drawable/selector_cb_check"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_ali_pay"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/img_line_1000"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_item_wechat_pay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pay_item_h"
+            android:layout_below="@+id/iv_line1">
+
+            <LinearLayout
+                android:id="@+id/ll_icon2"
+                android:layout_width="@dimen/pay_item_icon_w"
+                android:layout_height="@dimen/pay_item_icon_h"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/pay_item_icon_left_space"
+                android:layout_marginRight="@dimen/pay_item_icon_right_space"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_wechat_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/img_icon_we_chat"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ll_icon2"
+                android:text="@string/pay_header_title_wechat_pay"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_4a4a4a"
+                android:textSize="@dimen/pay_item_content_sp"/>
+
+            <CheckBox
+                android:id="@+id/cb_wechat_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/pay_item_cb_right_space"
+                android:button="@drawable/selector_cb_check"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_item_wechat_pay"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/img_line_1000"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_item_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pay_item_h"
+            android:layout_below="@+id/iv_line2">
+
+            <RelativeLayout
+                android:id="@+id/rl_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pay_item_h"
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_icon3"
+                    android:layout_width="@dimen/pay_item_icon_w"
+                    android:layout_height="@dimen/pay_item_icon_h"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/pay_item_icon_left_space"
+                    android:layout_marginRight="@dimen/pay_item_icon_right_space"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_wallet_pay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/img_icon_wallet"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/ll_icon3"
+                    android:text="@string/pay_header_title_my_wallet"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_191919"
+                    android:textSize="@dimen/pay_item_content_sp"/>
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv2"
+                    android:text="@string/pay_header_title_balance"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_ec6c00"
+                    android:textSize="@dimen/pay_item_content_sp"/>
+
+                <CheckBox
+                    android:id="@+id/cb_wallet_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/pay_item_cb_right_space"
+                    android:button="@drawable/selector_cb_check"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/rl_balance_lock"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pay_item_h"
+                android:background="@color/alpha_b3b3b3"
+                android:visibility="gone">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_balance_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/pay_item_balance_lock_bottom_space"
+                android:layout_marginRight="@dimen/pay_item_balance_lock_right_space"
+                android:text="@string/pay_header_title_balance_lock"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_d0021b"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_item_wallet"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/img_line_1000"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="black_half">#50000000</color>
+    <color name="alpha_b3b3b3">#50b3b3b3</color>
 
     <color name="color_F2F0F0">#F2F0F0</color>
     <color name="color_ececec">#ececec</color>
@@ -12,6 +13,7 @@
     <color name="color_f6f6f6">#f6f6f6</color>
     <color name="color_d8d8d8">#d8d8d8</color>
     <color name="color_cecece">#cecece</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
     <color name="color_a3a3a3">#a3a3a3</color>
     <color name="color_9b9b9b">#9b9b9b</color>
     <color name="color_606469">#606469</color>

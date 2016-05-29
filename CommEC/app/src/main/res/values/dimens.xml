@@ -445,6 +445,21 @@
         <dimen name="cart_confirm_receive_place_item_content_top_space">8dp</dimen>      <!-- 選擇收貨地點子區塊 item 地址與上方距離 -->
         <dimen name="cart_confirm_receive_place_item_content_bottom_space">6.7dp</dimen> <!-- 選擇收貨地點子區塊 item 地址與下方距離 -->
 
-
+        <!-- 支付 M4.3 -->
+        <dimen name="pay_item_h">100dp</dimen>                                 <!-- item 高度 -->
+        <dimen name="pay_item_icon_w">76dp</dimen>                             <!-- item icon 寬度 -->
+        <dimen name="pay_item_icon_h">67dp</dimen>                             <!-- item icon 高度 -->
+        <dimen name="pay_item_icon_left_space">16.7dp</dimen>                  <!-- item icon 與左緣 距離 -->
+        <dimen name="pay_item_icon_right_space">16.7dp</dimen>                 <!-- item icon 與右方文字 距離 -->
+        <dimen name="pay_item_cb_right_space">16.7dp</dimen>                   <!-- item checkbox 與右緣 距離 -->
+        <dimen name="pay_item_content_sp">21.3sp</dimen>                       <!-- item 文字大小 -->
+        <dimen name="pay_item_balance_lock_sp">16sp</dimen>                    <!-- item 餘額不足 文字大小 -->
+        <dimen name="pay_item_balance_lock_right_space">53.7dp</dimen>         <!-- item 餘額不足 與右緣 距離 -->
+        <dimen name="pay_item_balance_lock_bottom_space">10dp</dimen>          <!-- item 餘額不足 與下緣 距離 -->
+        <dimen name="pay_item_bottom_txt_total_sp">16sp</dimen>                <!-- 底部區塊 合計 文字大小 -->
+        <dimen name="pay_item_bottom_txt_total_num_sp">16sp</dimen>            <!-- 底部區塊 合計金額 文字大小 -->
+        <dimen name="pay_item_bottom_txt_total_num_right_space">16.7dp</dimen> <!-- 底部區塊 合計金額與右邊確認支付按鈕 距離 -->
+        <dimen name="pay_item_bottom_btn_sp">21.3sp</dimen>                    <!-- 底部區塊 確認支付 文字大小 -->
+        <dimen name="pay_item_bottom_btn_w">133.3dp</dimen>                    <!-- 底部區塊 確認支付 寬度 -->
 
 </resources>

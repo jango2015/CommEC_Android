@@ -251,6 +251,16 @@
         <string name="cart_receive_receive_place_address_default">[默认地址]</string>
         <string name="cart_receive_receive_phone">电话：%1$s</string>
 
+        <!-- 支付 M4.3 -->
+        <string name="pay_header_title">选择支付方式</string>
+        <string name="pay_header_title_ali_pay">支付宝支付</string>
+        <string name="pay_header_title_wechat_pay">微信支付</string>
+        <string name="pay_header_title_my_wallet">我的钱包 余额:</string>
+        <string name="pay_header_title_balance">￥%1$d</string>
+        <string name="pay_header_title_balance_lock">余额不足</string>
+        <string name="pay_header_title_total">合计：</string>
+        <string name="pay_header_title_money">￥%1$d</string>
+        <string name="pay_header_title_btn_pay">确认支付</string>
 
 
 </resources>
