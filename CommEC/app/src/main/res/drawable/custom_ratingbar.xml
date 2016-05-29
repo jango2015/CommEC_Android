@@ -3,11 +3,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+android:id/background"
-        android:drawable="@mipmap/tab_btn_personal_default"/>
+        android:drawable="@mipmap/img_star_k"/>
     <item
         android:id="@+android:id/secondaryProgress"
-        android:drawable="@mipmap/tab_btn_personal_default"/>
+        android:drawable="@mipmap/img_star_k"/>
     <item
         android:id="@+android:id/progress"
-        android:drawable="@mipmap/tab_btn_personal_select"/>
+        android:drawable="@mipmap/img_star_orange_k"/>
 </layer-list>

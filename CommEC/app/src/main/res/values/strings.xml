@@ -184,6 +184,8 @@
 
         <!-- 搜索-店舖 M3.2.1 -->
         <string name="search_shop_item_goods_total">共有1$d样商品</string>
+
+        <!-- 搜索-店鋪首頁 M3.2.2 -->
         <string name="search_shop_detail_phone">店铺电话：%1$s</string>
         <string name="search_shop_detail_address">店铺地址：%1$s</string>
         <string name="search_shop_detail">店铺简介</string>
@@ -194,6 +196,7 @@
         <string name="search_shop_goods_price">￥ %1$d</string>
         <string name="search_shop_goods_reserve_amount">库存量：%1$d</string>
         <string name="search_shop_goods_sales_amount">销售量：%1$d</string>
+        <string name="search_shop_closing">已超过营业时间</string>
 
 
     <!-- 购物车 M4 -->
