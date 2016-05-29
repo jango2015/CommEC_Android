@@ -84,6 +84,9 @@
     <dimen name="home_txt_header_msg_right_space">16.7dp</dimen>      <!-- 抬頭區塊右側訊息圖示與右側的距離 -->
 
     <dimen name="home_vp_ad_h">120dp</dimen>                          <!-- 廣告輪播區塊高度 -->
+    <dimen name="home_vp_ad_dots_h">7dp</dimen>                       <!-- 廣告輪播區塊 dots 高度 -->
+    <dimen name="home_vp_ad_dots_bottom_space">6.7dp</dimen>          <!-- 廣告輪播區塊 dots 與底部 距離 -->
+    <dimen name="home_vp_ad_dots_right_space">20dp</dimen>            <!-- 廣告輪播區塊 dots 與右緣 距離 -->
     <dimen name="home_vp_ad2_h">90dp</dimen>                          <!-- 廣告雙區塊高度 -->
 
     <dimen name="home_category_top_space">6.7dp</dimen>               <!-- 精選分類抬頭與上方 ad距離 -->
