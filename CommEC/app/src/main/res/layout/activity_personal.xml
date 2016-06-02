@@ -45,7 +45,6 @@
         android:id="@+id/ll_personal_order"
         android:layout_width="match_parent"
         android:layout_height="@dimen/personal_order_h"
-        android:layout_marginBottom="@dimen/personal_block_space"
         android:layout_marginTop="@dimen/personal_block_space"
         android:background="@android:color/white"
         android:orientation="vertical">
@@ -160,7 +159,8 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/personal_wallet_h"
         android:background="#ffffff"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/personal_block_space">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -177,7 +177,6 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/color_191919"
                 android:textSize="@dimen/personal_title_sp"/>
-
 
         </LinearLayout>
 
@@ -226,10 +225,40 @@
                 android:drawableLeft="@mipmap/img_icon_trade_detial"
                 android:drawablePadding="@dimen/personal_wallet_detail_right_space"
                 android:text="@string/personal_wallet_detail"
-                android:textSize="@dimen/personal_wallet_txt_sp"
-                android:textColor="@color/color_191919"/>
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/personal_wallet_txt_sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_row_h"
+        android:layout_marginBottom="@dimen/profile_row_bottom_space"
+        android:layout_marginTop="@dimen/personal_block_space"
+        android:paddingLeft="@dimen/personal_about_us_right_space"
+        android:paddingRight="@dimen/personal_about_us_right_space"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/personal_about_us"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/personal_title_sp"/>
+
+        <ImageView
+            android:id="@+id/iv_about_us_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/bn_go_gray"/>
+
+    </RelativeLayout>
 </LinearLayout>

@@ -88,6 +88,8 @@
     <string name="personal_wallet_balance">余额：%1$d</string>
     <string name="personal_wallet_detail">交易明细</string>
 
+    <string name="personal_about_us">关于我们</string>
+
         <!-- 消息中心 M2.3.0 -->
         <string name="message_header_title">消息</string>
 
