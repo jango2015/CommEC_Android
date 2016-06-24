@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- M2.2.2訂單詳情 -->
+    <dimen name="order_detail_block_h">60dp</dimen>                      <!-- 收貨人資訊區塊 與 店家資訊區塊 高度 -->
+    <dimen name="order_detail_block_space_bottom">4dp</dimen>            <!-- 區塊 間距 -->
+
+    <!-- 收貨人資訊區塊 -->
+    <dimen name="order_detail_receive_size">12sp</dimen>                 <!-- 收件人 文字大小 -->
+    <dimen name="order_detail_receive_icon_left_space">20.5dp</dimen>    <!-- icon 與左緣 距離 -->
+    <dimen name="order_detail_receive_icon_right_space">15dp</dimen>     <!-- icon 與右方 文字 距離 -->
+    <dimen name="order_detail_receive_txt_right_space">6.7dp</dimen>     <!-- 文字區塊與 右緣 距離 -->
+    <dimen name="order_detail_receive_txt_tb_space">10dp</dimen>         <!-- 文字區塊 上下 間距 -->
+
+    <!-- 店家資訊與訂單項目資訊區塊 -->
+    <dimen name="order_detail_shop_name_size">16sp</dimen>               <!-- 店名 文字大小 -->
+    <dimen name="order_detail_trade_status_size">16sp</dimen>            <!-- 交易狀態 文字大小 -->
+    <dimen name="order_detail_shop_phone_size">12sp</dimen>              <!-- 店家電話 文字大小 -->
+    <dimen name="order_detail_shop_community_size">8sp</dimen>           <!-- 店家社區 文字大小 -->
+
+    <dimen name="order_detail_shop_icon_left_space">17.7dp</dimen>       <!-- icon 與左緣 距離 -->
+    <dimen name="order_detail_shop_icon_right_space">9dp</dimen>         <!-- icon 與右方 文字 距離 -->
+    <dimen name="order_detail_shop_txt_right_space">6.7dp</dimen>        <!-- 文字區塊與 右緣 距離 -->
+    <dimen name="order_detail_shop_arrow_left_space">6.7dp</dimen>       <!-- 箭頭與 左方店名 距離 -->
+    <dimen name="order_detail_shop_txt_tb_space">6.7dp</dimen>           <!-- 文字區塊 上下 間距 -->
+
+    <dimen name="order_detail_message_size">11.9sp</dimen>               <!-- 買家訊息及商品總結 文字大小 -->
+    <dimen name="order_detail_buyer_msg_top_space">6.7dp</dimen>         <!-- 買家訊息 與上緣 距離 -->
+    <dimen name="order_detail_buyer_msg_left_space">13.3dp</dimen>       <!-- 買家訊息 與左緣 距離 -->
+    <dimen name="order_detail_buyer_msg_right_space">6.7dp</dimen>       <!-- 買家訊息 與右緣 距離 -->
+    <dimen name="order_detail_buyer_line_tb_space">6.8dp</dimen>         <!-- 分隔線 上下 距離 -->
+
+    <dimen name="order_detail_amount_right_space">6.7dp</dimen>          <!-- 總結資訊 與右緣 距離 -->
+    <dimen name="order_detail_total_price_left_space">16.7dp</dimen>     <!-- 總金額 與左方 總數量 距離 -->
+
+    <dimen name="order_detail_del_right_space">13.3dp</dimen>            <!-- 按鈕刪除訂單 與右緣 距離 -->
+    <dimen name="order_detail_del_top_space">10.7dp</dimen>              <!-- 按鈕刪除訂單 與上方 距離 -->
+    <dimen name="order_detail_del_bottom_space">3.3dp</dimen>            <!-- 按鈕刪除訂單 與下緣 距離 -->
+
+    <!-- 訂單資訊區塊 -->
+    <dimen name="order_detail_order_left_space">13.3dp</dimen>           <!-- 文字與左緣 距離 -->
+    <dimen name="order_detail_order_space">6.7dp</dimen>                 <!-- 文字 間距 -->
+    <dimen name="order_detail_order_info_size">10sp</dimen>              <!-- 按鈕刪除訂單 與下緣 距離 -->
+
+</resources>
