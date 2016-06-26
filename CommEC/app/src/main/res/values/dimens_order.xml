@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- M2.2.2訂單詳情 -->
+    <!-- 商品項目 -->
+    <dimen name="order_detail_goods_photo_left_space">16.7dp</dimen>          <!-- 商品圖片與左緣 距離 -->
+    <dimen name="order_detail_goods_photo_right_space">6.7dp</dimen>          <!-- 商品圖片與右緣 距離 -->
+    <dimen name="order_detail_goods_photo_top_space">8.3dp</dimen>            <!-- 商品圖片與上緣 距離 -->
+    <dimen name="order_detail_goods_photo_bottom_space">6.7dp</dimen>         <!-- 商品圖片與下緣 距離 -->
+
+    <dimen name="order_detail_goods_info_right_space">5dp</dimen>             <!-- 商品資訊與右緣 距離 -->
+    <dimen name="order_detail_goods_info_top_space">8.3dp</dimen>             <!-- 商品資訊與上緣 距離 -->
+    <dimen name="order_detail_goods_info_space">6.7dp</dimen>                 <!-- 商品名稱金額與類別數量 距離 -->
+
+    <dimen name="order_detail_goods_name_size">12sp</dimen>                   <!-- 商品名稱 文字大小 -->
+    <dimen name="order_detail_goods_price_size">12sp</dimen>                  <!-- 商品金額 文字大小 -->
+    <dimen name="order_detail_goods_category_size">8sp</dimen>                <!-- 商品類別 文字大小 -->
+    <dimen name="order_detail_goods_amount_size">8sp</dimen>                  <!-- 商品數量 文字大小 -->
+
+    <!-- M2.2.1我的訂單 -->
+    <dimen name="order_main_space">5dp</dimen>                                <!-- Tab 與 item 間距 -->
+    <!-- 店名區塊 -->
+    <dimen name="order_shop_h">40dp</dimen>                                   <!-- 店家資訊區塊 高度 -->
+    <dimen name="order_shop_icon_bottom_space">12.3dp</dimen>                 <!-- icon 與下緣 距離 -->
+    <dimen name="order_shop_icon_left_space">16dp</dimen>                     <!-- icon 與左緣 距離 -->
+    <dimen name="order_shop_icon_right_space">4dp</dimen>                     <!-- icon 與右緣 距離 -->
+    <dimen name="order_shop_icon_top_space">12.7dp</dimen>                    <!-- icon 與上緣 距離 -->
+    <dimen name="order_shop_info_right_space">6.7dp</dimen>                   <!-- 店名資訊 與右緣 距離 -->
+    <dimen name="order_shop_community_lr_space">3.3dp</dimen>                 <!-- 店社區 與左右 距離 -->
+
+    <dimen name="order_shop_name_size">12sp</dimen>                           <!-- 店名 文字大小 -->
+    <dimen name="order_shop_community_size">8sp</dimen>                       <!-- 店社區 文字大小 -->
+    <dimen name="order_order_status_size">16sp</dimen>                        <!-- 訂單狀態 文字大小 -->
+    <dimen name="order_order_countdown_size">8sp</dimen>                      <!-- 訂單倒數 文字大小 -->
+
+    <dimen name="order_total_size">12sp</dimen>                               <!-- 訂單狀態 文字大小 -->
+    <dimen name="order_total_tr_space">6.7dp</dimen>                          <!-- 訂單總計 與上緣右緣 距離 -->
+    <dimen name="order_total_amount_left_space">16.7dp</dimen>                <!-- 總計 與上緣右緣 距離 -->
+    <dimen name="order_line_bottom_space">6.7dp</dimen>                       <!-- 分隔線 與下緣 距離 -->
+    <dimen name="order_line_top_space">6.7dp</dimen>                          <!-- 分隔線 與上緣 距離 -->
+    <dimen name="order_btn_bottom_space">6.7dp</dimen>                        <!-- 按鈕 與下緣 距離 -->
+    <dimen name="order_btn_right_space">13.3dp</dimen>                        <!-- 按鈕 與右緣 距離 -->
+
+
+</resources>

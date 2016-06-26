@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- M2.2.1我的訂單 -->
+    <string name="order_header_title_uncomment">我的订单-待评价</string>
+    <string name="order_header_title_after_refund_">退款售后</string>
+    <string name="order_header_title_send">请寄货</string>
+    <string name="order_header_title_apply_service">申请售后</string>
+    <string name="order_header_title_order_detail_refund">订单详情-退货</string>
+    <string name="order_header_title_confirm">确认</string>
+
+    <!-- M2.2.2訂單詳情 -->
+    <string name="order_goods_category">分类： %1$s</string>
+    <string name="order_goods_price">￥ %1$d</string>
+    <string name="order_goods_amount">x %1$d</string>
+
+    <string name="order_countdown">剩余 %1$s</string>
+    <string name="order_msg">留言:</string>
+    <string name="order_comment">评价</string>
+    <!-- M2.2.2訂單詳情-请寄货 -->
+    <string name="order_send_require_company">请输入物流公司</string>
+    <string name="order_send_require_id">请输入物流编号</string>
+    <!-- M2.2.2訂單詳情-申請售後原因 -->
+    <string name="order_return_reason">请输入退货原因</string>
+
+
+</resources>

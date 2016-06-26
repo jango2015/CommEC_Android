@@ -20,7 +20,7 @@
             android:layout_marginLeft="@dimen/common_ddou_return_left_space"
             android:layout_marginTop="@dimen/common_ddou_return_top_space"
             android:background="@drawable/selector_btn_return_signin"
-            android:contentDescription="return"/>
+            android:contentDescription="return" />
 
         <TextView
             android:id="@+id/tv_header_title"
@@ -31,7 +31,7 @@
             android:text="Title"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/search_txt_header_title_sp"/>
+            android:textSize="@dimen/search_txt_header_title_sp" />
 
         <ImageButton
             android:id="@+id/ibtn_header_message"
@@ -40,15 +40,26 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/home_txt_header_msg_right_space"
-            android:background="@mipmap/navibtn_dots"/>
+            android:background="@mipmap/navibtn_dots" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:text="@string/order_header_title_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_txt_sp" />
 
     </RelativeLayout>
 
     <include
+        layout="@layout/content_order"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/content_order_detail"
-        android:layout_below="@+id/rl_header"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rl_header" />
 
 </RelativeLayout>
